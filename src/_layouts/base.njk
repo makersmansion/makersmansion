@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if title %}{{ title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
+    {% include 'meta.njk' %}
+    <script>{% include 'initialtheme.njk' %}</script>
+</head>
+<body class="antialiased text-slate-900 dark:text-slate-400 bg-white dark:bg-slate-900">
+    <a href="#main" class="sr-skip-link">skip to main content</a>
+
+    <main id="main" class="main" role="main">
+        {{content | safe }}
+    </main>
+
+    {% include 'footer.njk' %}
+
+    <script src="{{ '/assets/js/main.js' | url }}" defer></script>
+</body>
+</html>
