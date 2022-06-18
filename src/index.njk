@@ -4,6 +4,21 @@ description: A practical guide for running design operations and enabling impact
 date: 2022-06-18
 ---
 
-<section class="container mx-auto text-center">
-    <h1 class="text-3xl font-bold">Makers Mansion</h1>
-</section>
+<div class="space-y-1">
+    {% for i in range(0, 4) %}
+    <article>
+        <a href="#" class="group flex items-center gap-5 p-1 bg-gray-100 rounded-lg hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <h2 class="w-1/6 p-4 rounded-md text-center bg-white dark:bg-gray-900">
+                <span class="block text-sm text-gray-400 dark:text-gray-500">WEEK</span>
+                <b class="block text-lg leading-snug  text-rose-600 dark:text-rose-400">24</b>
+            </h2>
+            <p class="flex-1"><b>This week:</b> remote work, new design tools and why culture matters more than you think.</p>
+            <span class="inline-flex mx-4 text-gray-400 group-hover:text-gray-900 dark:text-gray-500 dark:group-hover:text-gray-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+            </span>
+        </a>
+    </article>
+    {% endfor %}
+</div>

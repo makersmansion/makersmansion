@@ -4,6 +4,9 @@ module.exports = {
     './src/**/*.{njk, md,html}'
   ],
   theme: {
+    container: {
+      padding: '2rem',
+    },
     extend: {},
   },
   plugins: [],

@@ -10,10 +10,21 @@
     {% include 'meta.njk' %}
     <script>{% include 'initialtheme.njk' %}</script>
 </head>
-<body class="antialiased text-slate-900 dark:text-slate-400 bg-white dark:bg-slate-900">
-    <a href="#main" class="sr-skip-link">skip to main content</a>
+<body class="antialiased text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <a href="#main" class="sr-only">skip to main content</a>
+    <header class="container mx-auto max-w-2xl mb-8 py-6">
+        <h1 class="font-extrabold text-center text-rose-600 dark:text-rose-400">MAKERS MANSION</h1>
+    </header>
+    <main id="main" class="container mx-auto max-w-2xl" role="main">
 
-    <main id="main" class="main" role="main">
+        <div class="flex flex-col items-center gap-3 mb-8">
+            <img class="w-14 rounded-full" src="assets/images/raz.jpg">
+            <div class="flex-1 text-center">
+                <h4 class="font-bold text-lg">Welcome to the Mansion!</h4>
+                <p class="text-gray-500">I'm Raz and each week I publish resources for people who build online products.</p>
+            </div>
+        </div>
+
         {{content | safe }}
     </main>
 
