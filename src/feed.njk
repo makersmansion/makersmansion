@@ -1,0 +1,39 @@
+---json
+{
+    "permalink": "feed.xml",
+    "eleventyExcludeFromCollections": true,
+    "metadata": {
+        "title": "Makers Mansion",
+        "subtitle": "Resources and notes for people who build online products and services. Published every Thursday by Raz Tirboaca, the weekly is focused on #tools, #team and #market.",
+        "url": "https://makersmansion.xyz/",
+        "feedUrl": "https://makersmansion.xyz/feed.xml",
+        "author": {
+        "name": "Raz Tirboaca",
+        "email": "razvan.tirboaca@gmail.com"
+        }
+    }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ metadata.title }}</title>
+    <subtitle>{{ metadata.subtitle }}</subtitle>
+    <link href="{{ metadata.feedUrl }}" rel="self"/>
+    <link href="{{ metadata.url }}"/>
+    <updated>{{ collections.weekly | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ metadata.url }}</id>
+    <author>
+        <name>{{ metadata.author.name }}</name>
+        <email>{{ metadata.author.email }}</email>
+    </author>
+    {%- for week in collections.weekly %}
+    {% set absolutePostUrl %}{{ week.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    <entry>
+        <title>{{ week.data.title }}</title>
+        <link href="{{ absolutePostUrl }}"/>
+        <updated>{{ week.date | dateToRfc3339 }}</updated>
+        <id>{{ absolutePostUrl }}</id>
+        <content type="html">{{ week.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    </entry>
+    {%- endfor %}
+</feed>
