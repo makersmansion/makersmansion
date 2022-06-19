@@ -1,0 +1,18 @@
+---
+layout: base
+---
+
+<article class="grid items-center gap-6" style="grid-template-columns: auto 1fr">
+
+    <h2 class="col-start-1 col-end-2 px-8 py-4 rounded-md text-center bg-gray-100 dark:bg-gray-800">
+        <span class="block text-sm text-gray-500">WEEK</span>
+        <b class="block text-lg leading-snug  text-rose-600 dark:text-rose-400">{{ week }} </b>
+    </h2>
+
+    <p class="col-start-2 col-end-3 text-sm md:text-base">{{ summary }}</p>
+
+    <div class="col-start-1 col-end-3 prose prose-h3:text-base prose-h3:uppercase dark:prose-invert md:col-start-2">
+        {{content | safe }}
+    </div>
+
+<article/>
