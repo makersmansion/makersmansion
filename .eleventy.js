@@ -16,11 +16,7 @@ module.exports = function  (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets/images/");
     eleventyConfig.setLibrary("md", markdownLibrary);
     eleventyConfig.setDataDeepMerge(true);
-    eleventyConfig.addPlugin(pluginRss, {
-    posthtmlRenderOptions: {
-        closingSingleTag: "default"
-        }
-    });
+    eleventyConfig.addPlugin(pluginRss);
     
     return {
         dir: {
