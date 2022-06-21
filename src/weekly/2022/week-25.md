@@ -2,7 +2,7 @@
 title: "W25: About Makers Mansion, new tools for frontend dev and how to make money in a recession"
 year: 2022
 week: 25
-linkedinURL: https://www.linkedin.com/
+linkedinURL: https://www.linkedin.com/feed/update/urn:li:activity:6945038851031629824/
 ---
 
 💬 "Choose your tomorrow but start today" 
