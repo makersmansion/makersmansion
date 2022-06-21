@@ -1,5 +1,4 @@
 {
     "layout": "weekly",
-    "tags": "weekly",
-    "permalink": "/{{ title | slug }}/"
+    "tags": "weekly"
 }
