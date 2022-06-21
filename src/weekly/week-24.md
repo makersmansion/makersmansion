@@ -1,7 +1,7 @@
 ---
-title: Week 24
+title: Week 24 2022
 week: 24
-summary: Remote work, new design tools and why culture matters more than you think.
+summary: 'W24: Remote work, new design tools and why culture matters more than you think.'
 linkedinURL: https://www.linkedin.com/post/edit/6944610959906762752/
 ---
 
