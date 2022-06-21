@@ -9,7 +9,7 @@ linkedinURL: https://www.linkedin.com/pulse/w25-makers-mansion-new-tools-fronten
 
 It was 2003 when I built my 1st online product - a music store to sell my beats - right after I figured out that I'm not going to be a great music producer, I was average at best. And it was while designing and coding this website when I discovered that I can actually be great at it! 
 
-See, I always knew I'm a maker, I just needed to find my craft. That's why today, 12 years later, I'm putting together [**MakersMansion.xyz**](https://makersmansion.xyz), a community for tech makers. 
+See, I always knew I'm a maker, I just needed to find my craft. That's why today, 19 years later, I'm putting together [**MakersMansion.xyz**](https://makersmansion.xyz), a community for tech makers. 
 
  **Makers Weekly** is the first brick into the wall, a weekly newsletter that I publish every Thursday morning touching topics like tools, team culture, market and anything that's relevant to build better online products and services. 
  
