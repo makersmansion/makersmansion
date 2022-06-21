@@ -1,5 +1,5 @@
 ---
-title: 'W24: Remote work, new design tools and why culture matters more than you think.'
+title: 'W24: Remote work, new design tools and why culture matters more than you think'
 year: 2022
 week: 24
 linkedinURL: https://www.linkedin.com/post/edit/6944610959906762752/
