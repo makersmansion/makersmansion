@@ -11,7 +11,7 @@ It was 2003 when I built my 1st online product - a music store to sell my beats 
 
 See, I always knew I'm a maker, I just needed to find my craft. That's why today, 12 years later, I'm putting together [**MakersMansion.xyz**](https://makersmansion.xyz), a community for tech makers. 
 
- **Makers Weekly** is the first brick into the wall, a weekly newsletter that I publish every Thursday morning, touching topics like tools, team culture, market and anything that's relevant to build better online products and services. 
+ **Makers Weekly** is the first brick into the wall, a weekly newsletter that I publish every Thursday morning touching topics like tools, team culture, market and anything that's relevant to build better online products and services. 
  
  Consider subscribing if you're a designer, developer, product manager, marketeer, writer or startup founder. Let's dive in, makers!
 
@@ -34,7 +34,7 @@ Why not just do what's best for your size? 🤷‍♂️
 ### MARKET 
 🎙 Insightful podcast from Christopher Lochhead on [how to make money in a recession](https://podcasts.apple.com/es/podcast/lochhead-on-marketing/id1475593214?i=1000565109949) and what's the difference between category vs brand. He then describes 5 steps to create demand for your product, service or platform.
 
-📊 SaaS isn't dead, it hasn't even gone to bed! The SaaS market may look like it's in a bad shape but it's just a perception. [The data shared](https://www.linkedin.com/posts/bradvanleeuwen_saas-saas-activity-6938187261746323456-ym0j/) by Brad van Leeuwen indicates the otherwise. If you're working in SaaS, keep executing!
+📊 SaaS isn't dead, it hasn't even gone to bed! While the SaaS market may look like it's in a bad shape, [the data shared](https://www.linkedin.com/posts/bradvanleeuwen_saas-saas-activity-6938187261746323456-ym0j/) by Brad van Leeuwen indicate the otherwise. If you're working in SaaS, keep executing!
 
 🗓 Steve Blank will have a fireside chat with Alum Maria Rotilu on Wed, 22 Jun. [Book your spot here](https://www.sbs.ox.ac.uk/events/future-entrepreneurship-conversation-steve-blank-0)
 
@@ -43,10 +43,7 @@ He is credited with launching the lean start-up movement and his "[Customer Deve
 🙃 Bonus for FUN
 Bloomberg [asked](https://www.bloomberg.com/news/articles/2022-06-10/goldman-citigroup-nasdaq-leaders-imagine-markets-in-2052) some top executives to tell us which innovations will make a difference in the next 30 years. OK! 
 
-Thanks for reading and would love to hear your thoughts.
-
-Until next Thursday,
-Keep evolving
+Thanks for reading and would love to hear your thoughts. See you again next Thursday!
 
 
 
