@@ -20,14 +20,14 @@ date: 2022-06-18
 </div>
 
 <div class="space-y-2">
-    {% for week in collections.weekly %}
+    {% for week in collections.weekly | reverse %}
     <article>
         <a href="{{ week.url }}" class="group flex items-center gap-5 transition-all">
-            <h2 class="px-8 py-4 rounded-md text-center bg-gray-100 group-hover:bg-gray-200 dark:bg-gray-800 dark:group-hover:bg-gray-700">
+            <div class="px-8 py-4 rounded-md text-center bg-gray-100 dark:bg-gray-800">
                 <span class="block text-sm text-gray-500">WEEK</span>
                 <b class="block text-lg leading-snug  text-rose-600 dark:text-rose-400">{{ week.data.week }}</b>
-            </h2>
-            <p class="flex-1 text-sm md:text-base font-bold">{{ week.data.title }}</p>
+            </div>
+            <h2 class="flex-1 text-sm md:text-base font-bold">{{ week.data.title }}</h2>
         </a>
     </article>
     {% endfor %}
