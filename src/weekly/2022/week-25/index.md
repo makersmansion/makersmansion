@@ -1,6 +1,6 @@
 ---
 title: "W25: About Makers Mansion, new tools for frontend dev and how to make money in a recession"
-year: 2022
+date: 2022-06-21
 week: 25
 linkedinURL: https://www.linkedin.com/pulse/w25-makers-mansion-new-tools-frontend-dev-how-make-money-raz-tirboaca
 ---

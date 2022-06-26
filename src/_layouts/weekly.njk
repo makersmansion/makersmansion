@@ -3,7 +3,7 @@ layout: base
 ---
 
 <div class="md:flex justify-between items-baseline pb-2 mb-9 border-b-2 border-gray-100 dark:border-gray-800">
-    <h1 class="font-extrabold"><a href="{{ site.url }}">Makers Weekly Newsletter</a></h1>
+    <p class="font-extrabold"><a href="{{ site.url }}">Makers Weekly Newsletter</a></p>
     <p class="text-sm text-gray-500">Subscribe on 
         <a href="https://www.linkedin.com/newsletters/makers-weekly-6944580848146903040/" target="_blank" class="text-gray-900 dark:text-gray-100">Linkedin</a> &middot; 
         <!--a href="#" target="_blank" class="text-gray-900 dark:text-gray-100">Email</a> &middot; -->
@@ -11,14 +11,17 @@ layout: base
     </p>
 </div>
 
-<article class="grid items-center gap-5" style="grid-template-columns: auto 1fr">
+<article class="grid items-start gap-5" style="grid-template-columns: auto 1fr">
 
-    <h2 class="col-start-1 col-end-2 px-8 py-4 rounded-md text-center bg-gray-100 dark:bg-gray-800">
+    <div class="col-start-1 col-end-2 px-8 py-4 rounded-md text-center bg-gray-100 dark:bg-gray-800">
         <span class="block text-sm text-gray-500">WEEK</span>
         <b class="block text-lg leading-snug  text-rose-600 dark:text-rose-400">{{ week }}</b>
-    </h2>
+    </div>
 
-    <p class="col-start-2 col-end-3 text-sm md:text-base font-bold">{{ title }}</p>
+    <header class="col-start-2 col-end-3">
+        <h1 class="text-sm md:text-base font-bold">{{ title }}</h1>
+        <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="block text-sm text-gray-500 mt-2">{{ date | readableDate('dd LLL yyyy') }}</time>
+    </header>
 
     <div class="col-start-1 col-end-3 mt-4 prose prose-h3:text-base prose-h3:uppercase dark:prose-invert md:col-start-2">
         {{content | safe }}
