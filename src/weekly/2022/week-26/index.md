@@ -1,6 +1,6 @@
 ---
 title: "W26: About value, product/market fit and how to be a 2x person starting today"
-date: 2022-06-30
+date: 2022-06-28
 week: 26
 linkedinURL: https://www.linkedin.com/pulse/w26-value-productmarket-fit-how-2x-person-starting-today-raz-tirboaca/
 ---
