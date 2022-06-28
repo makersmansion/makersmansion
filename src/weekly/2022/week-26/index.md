@@ -2,7 +2,7 @@
 title: "W26: About value, product/market fit and how to be a 2x person starting today"
 date: 2022-06-30
 week: 26
-linkedinURL: https://www.linkedin.com/pulse/w25-makers-mansion-new-tools-frontend-dev-how-make-money-raz-tirboaca
+linkedinURL: https://www.linkedin.com/pulse/w26-value-productmarket-fit-how-2x-person-starting-today-raz-tirboaca/
 ---
 
 💬 "Money doesn't follow money, money follows energy"
@@ -51,7 +51,7 @@ Then the Great Recession hit and everything crashed fast 💥 By the autumn of '
 
 **🏀 Value is a moving target, the wise thing to do is to recalibrate often**
 
-I recalibrated my compass and I found a job, a job that was great until it wasn't, that company went bankrupt 6 months later 🤦‍♂️ (watch your runway!). So.. you recalibrate again - it was there where I've met my soon-to-be technical co-founder for the next 5 years and 2 companies. We stepped together in this amazing journey called startup life and launched our first product later that year, the world's first [captcha advertising network](https://mobile.twitter.com/adcaptcher/status/4402484218). And here's where the story begins to get really crazy, I will leave it for a future weekly. Hit that SUBSCRIBE button 🔔
+I recalibrated my compass and I found a job, a job that was great until it wasn't, that company went bankrupt 6 months later 🤦‍♂️ (watch your runway!). So.. you recalibrate again - it was there where I've met my soon-to-be technical co-founder for the next 5 years and 2 companies. We stepped together in this amazing journey called startup life and launched our first product later that year, the world's first [captcha advertising network](https://mobile.twitter.com/adcaptcher/status/4402484218). And here's where the story begins to get really crazy - I will leave it for a future weekly. Hit that SUBSCRIBE button 🔔
 
 Startups call this 'finding product/market fit', it's a fancy name for an exciting adventure to understand the market you're in, what's valuable for your customers and execute on it.
 
@@ -109,5 +109,3 @@ I'm a big fan of SSG (static site generators), I built Makers Mansion on [11ty](
 🌶 A startup attracted 7500 applicants for their jobs using TikTok videos. [Chili Piper](https://www.chilipiper.com/ "https://www.chilipiper.com/") posted videos of real employees acting like real people, often with a trending song in the background and a few well-placed captions. [Makers gonna make](https://www.forbes.com/sites/johnbbrandon/2022/06/21/how-a-tech-startup-attracted-7500-job-applicants-using-tiktok-videos/)
 
 Thanks for reading and please let me know in the comments if I should continue writing my personal stories. See you again next Tuesday!
-
-
