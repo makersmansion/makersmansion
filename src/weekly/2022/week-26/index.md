@@ -59,7 +59,7 @@ As long as you keep the energy flowing and continue creating value, everything i
 
 ## TOOLS
 
-👩🏽‍💻 Github made [GitHub Copilot](https://github.com/features/copilot/) generally available to all developers for $10/month or $100/year. Copilot is an AI pair programmer that suggests code in your editor.
+👩🏽‍💻 Github makes [GitHub Copilot](https://github.com/features/copilot/) generally available to all developers for $10/month or $100/year. Copilot is an AI pair programmer that suggests code in your editor.
 
 This product should print money! If I would be a developer and this thing would save me a couple of hours each month, it's just a no-brainer. But I'm not and I noticed something interesting during the years regarding the developer tools market: *most devs don't want to pay for other devs' apps*. 
 

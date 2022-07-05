@@ -4,6 +4,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const markdownItEmoji = require("markdown-it-emoji");
 const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pageAssetsPlugin = require('eleventy-plugin-page-assets');
 
 const filters = require('./utils/filters.js');
 
