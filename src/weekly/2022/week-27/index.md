@@ -2,14 +2,14 @@
 title: "W27: About curiosity, machine learning and who are the best managers"
 date: 2022-07-05
 week: 27
-linkedinURL: https://www.linkedin.com/pulse/w26-value-productmarket-fit-how-2x-person-starting-today-raz-tirboaca/
+linkedinURL: https://www.linkedin.com/pulse/w27-curiosity-machine-learning-who-best-managers-raz-tirboaca/
 ---
 
 💬 "Curiosity has created more opportunities than hard work ever will"
 
 So if you're not born into a rich family, what are the factors in obtaining wealth?
 
-According to some studies: hard work, education, and smart investing - in this order. Wealthy people start as working or middle-class and this sounds like great news. But what exactly hard work does mean?
+According to some studies: hard work, education, and smart investing - in this order. Wealthy people start as working or middle-class and it sounds like great news. But what exactly hard work does mean?
 
 **I mean do you know any type of work that's easy?** 
 
