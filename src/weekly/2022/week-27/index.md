@@ -17,7 +17,7 @@ A dear friend of mine is a metro driver here in Barcelona and I used to think th
 
 **Everybody works hard**, yet just a few became wealthy, and I believe that curiosity is what makes all the difference. 
 
-Curiosity leads to asking lots of questions, asking questions leads to generating ideas, generating ideas leads to creating opportunities. And when those opportunities produce IP (intellectual property), then you have a real chance of becoming wealthy. Traditionally curiosity is associated with kids and growing up most people lose it somewhere on the way, and maybe that's exactly the biggest mistake of our lives. You can't be poor if you're curious. Food for thought!
+Curiosity leads to asking lots of questions, asking questions leads to generating ideas, generating ideas leads to creating opportunities. And when those opportunities produce IP (intellectual property), then you have a real chance of becoming wealthy. Traditionally, curiosity is associated with kids, and growing up most people lose it somewhere on the way, and maybe that's exactly the biggest mistake of our lives. You can't be poor if you're curious. Food for thought!
 
 The great thing about tech is that opportunity is unlimited. There are always new problems to solve, new markets to create, new products to ship. You just need a curious mind and [positive](https://avc.com/2022/06/staying-positive-2/) energy!
 
@@ -27,7 +27,7 @@ The great thing about tech is that opportunity is unlimited. There are always ne
 
 It seems that by this time, Jira is getting the same amount of hate as Internet Explorer used to. Not a great place to be 🙃
 
-🎨 Lea Verou and Chris Lilley officially release [Color.js](https://colorjs.io/), a 2 years effort to get serious about color. It's a library to manipulate colors in code and navigate a dev environment that's becoming more complex each day.
+🎨 Lea Verou and Chris Lilley officially release [Color.js](https://colorjs.io/), a 2 years effort to get serious about color. It's a library for manipulating colors in code and navigate a dev environment that's becoming more complex each day.
 
 Color is hard yo, I struggled with it for years until I found the "[Color for Creatives](https://thefutur.com/course/color-for-creatives)" course by Greg Gunn which I highly recommend. Greg does a perfect job to explain the color theory using paintings, movies, and illustrations as practical examples. Check it out!
 
@@ -79,6 +79,6 @@ The group aims to invest in more than 25 startups over the next 18 months, takin
 
 *"In Europe, they (traditional VCs) could not imagine investing in an outsider, a woman, an immigrant who did not have a college degree. But I did show grit and lateral thinking. You don’t have to be called Louis or Xavier or Benoit to succeed."* - [Amira Yahyaoui](https://www.linkedin.com/in/amirayahyaoui/), a Tunisian human rights activist who was for a while an illegal immigrant in Europe, now founder of Mos.com
 
-I strongly believe that successful founders turned investors is what Europe's missing the most right now to compete with the US. Traditional European investors are mostly folks coming from old rich families who are very risk-averse, and hard to innovate under these circumstances. I still remember a time when seed investors were asking for >50% 😖
+I strongly believe that what Europe's missing the most to compete with the US are successful founders turned investors. Traditional European investors are mostly folks coming from old rich families who are very risk-averse, and it's hard to innovate under these circumstances. I still remember a time when seed investors were asking for >50% 😖
 
 Thanks for reading and see you again next Tuesday!
