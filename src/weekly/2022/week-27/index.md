@@ -23,7 +23,7 @@ The great thing about tech is that opportunity is unlimited. There are always ne
 
 ## TOOLS
 
-🍿 Someone made this [IFuckingHateJira](https://ifuckinghatejira.com/) website that became viral in the last 7 days. Some opinions are funny and some are great product feedback - if I would work at Atlassian I would be 👀
+🍿 Someone made this [IFuckingHateJira](https://ifuckinghatejira.com/) website that went viral in the last 7 days. Some opinions are funny and some are great product feedback - if I would work at Atlassian I would be 👀
 
 It seems that by this time, Jira is getting the same amount of hate as Internet Explorer used to. Not a great place to be 🙃
 
@@ -53,7 +53,7 @@ Tensorflow, PyTorch, and Keras are all deep learning tools and deep learning is 
 ***You know who the best managers are?** 
 They're the great individual contributors, who never ever want to be a manager. But decide they have to be a manager because nobody else is gonna do as good a job as them.*
 
-Execution eats strategy for breakfast. During the years I worked with lots of managers that came from consulting and boy, nothing got done, nothing was delivered except some presentations that nobody was paying attention to. There's nothing like a hands-on manager!
+Execution eats strategy for breakfast. During the years I worked with lots of engineering managers that came from consulting and boy, nothing got done, nothing was delivered except some presentations that nobody was paying attention to. There's nothing like a hands-on manager!
 
 🧗‍♀️ It’s not uncommon to spend too much time and effort working on the wrong things. Maybe you’re putting hours into status updates for your manager, who never actually reads them, or prioritizing a presentation’s design over the message you’re trying to relay.
 
