@@ -9,13 +9,15 @@ linkedinURL: https://www.linkedin.com/pulse/w27-curiosity-machine-learning-who-b
 
 So if you're not born into a rich family, what are the factors in obtaining wealth?
 
+![Factors in obtaining wealth](wealth.jpeg "Factors in obtaining wealth")
+
 According to some studies: hard work, education, and smart investing - in this order. Wealthy people start as working or middle-class and it sounds like great news. But what exactly hard work does mean?
 
 **I mean do you know any type of work that's easy?** 
 
 A dear friend of mine is a metro driver here in Barcelona and I used to think that's easy. You need to press 2 buttons to start and stop. Actually, it's the same button. Until one day when she let me ride in the cabin and I could understand the psychological aspect of being underground for 6 hours while repeating the same task over and over again. You, sitting there and driving in circles for hours, while everyone around you going on with their lives. After some time it hits you hard! 
 
-**Everybody works hard**, yet just a few became wealthy, and I believe that curiosity is what makes all the difference. 
+**Everybody works hard**, yet just a few become wealthy, and I believe that curiosity is what makes all the difference. 
 
 Curiosity leads to asking lots of questions, asking questions leads to generating ideas, generating ideas leads to creating opportunities. And when those opportunities produce IP (intellectual property), then you have a real chance of becoming wealthy. Traditionally, curiosity is associated with kids, and growing up most people lose it somewhere on the way, and maybe that's exactly the biggest mistake of our lives. You can't be poor if you're curious. Food for thought!
 
