@@ -75,7 +75,7 @@ These interactions dictate how we manage our money, organize and complete work, 
 
 All those digital interactions take place with companies and organizations that increasingly sell their services as subscriptions or rely on user engagement. This makes user retention more important than in the past. Combine that with how individuals and companies have come to expect consistent updates, and you have a vital set of incentives for businesses to make design improvements that react to user feedback quickly.
 
-These [changes]((https://www.figma.com/blog/digital-design-is-now-a-real-job/)) have also put design at the center of how businesses function as a whole and have created less resistance to the work of design than in the past.
+These [changes](https://www.figma.com/blog/digital-design-is-now-a-real-job/) have also put design at the center of how businesses function as a whole and have created less resistance to the work of design than in the past.
 
 Thanks for reading and see you again next Tuesday!
 
