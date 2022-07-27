@@ -89,4 +89,4 @@ It doesn’t take a genius to see why US officials are concerned about a Chinese
 
 Well, no, just a new pricing plan that you wouldn't be aware of if you wouldn't read the small print, and that happens to be a lot more expensive 🤷🏻‍♂️ 
 
-Thanks for reading and see you again next Tuesday!
+Thanks for reading, and see you again next Tuesday!

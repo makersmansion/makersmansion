@@ -9,8 +9,6 @@ linkedinURL: https://www.linkedin.com/pulse/w27-curiosity-machine-learning-who-b
 
 So if you're not born into a rich family, what are the factors in obtaining wealth?
 
-![Factors in obtaining wealth](wealth.jpeg "Factors in obtaining wealth")
-
 According to some studies: hard work, education, and smart investing - in this order. Wealthy people start as working or middle-class and it sounds like great news. But what exactly hard work does mean?
 
 **I mean do you know any type of work that's easy?** 
@@ -83,4 +81,4 @@ The group aims to invest in more than 25 startups over the next 18 months, takin
 
 I strongly believe that what Europe's missing the most to compete with the US are successful founders turned investors. Traditional European investors are mostly folks coming from old rich families who are very risk-averse, and it's hard to innovate under these circumstances. I still remember a time when seed investors were asking for >50% 😖
 
-Thanks for reading and see you again next Tuesday!
+Thanks for reading, and see you again next Tuesday!
