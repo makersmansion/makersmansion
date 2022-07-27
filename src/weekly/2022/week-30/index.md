@@ -9,7 +9,7 @@ linkedinURL: https://www.linkedin.com/pulse/w30-enjoying-journey-musks-hiring-st
 
 Goals, plans, strategies, interviews, tasks, deadlines. All cool, all important! So is the 5 o'clock tea. 
 
-Take a break, look around, breath. Live the moment, feel the vibe, match the energy. 
+Take a break, look around, breathe. Live the moment, feel the vibe, match the energy. 
 
 The odds of you being born are **at least 1 in 400 trillion**. It's all I got to say this week ❤️
 
