@@ -54,7 +54,7 @@ To put it simply, people can share what they know, find what they don’t know, 
 
 ## MARKET
 
-🎙 **Most successful ideas are built off others.** Listen to this [Nudge podcast episode](https://open.spotify.com/episode/2bNQcymRi02wIItx9Fkq57), featuring Sam Tatam - head of Behavioral Science at Ogilvy, to find out why your great ideas aren’t unique (and why that’s a good thing).
+🎙 **Most successful ideas are built off others.** Listen to this [Nudge podcast episode](https://open.spotify.com/episode/2bNQcymRi02wIItx9Fkq57), featuring Sam Tatam - head of Behavioral Science at Ogilvy, to find out why your great ideas aren’t unique (and why that’s a good thing).
 
 ☃️ **Coinbase** CEO Brian Armstrong [warns investors](https://fortune.com/2022/08/23/coinbase-ceo-brian-armstrong-crypto-winter-web3-blockchain/) to buckle in for a long crypto winter. 
 
