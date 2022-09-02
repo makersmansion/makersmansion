@@ -11,9 +11,9 @@ It was 2003 when I built my 1st online product - a music store to sell my beats 
 
 See, I always knew I'm a maker, I just needed to find my craft. That's why today, 19 years later, I'm putting together [**MakersMansion.xyz**](https://makersmansion.xyz), a community for tech makers. 
 
- **Makers Weekly** is the first brick into the wall, a weekly newsletter that I publish every Thursday morning touching topics like tools, team culture, market and anything that's relevant to build better online products and services. 
+**Makers Weekly** is the first brick into the wall, a weekly newsletter that I publish every Thursday morning touching topics like tools, team culture, market and anything that's relevant to build better online products and services. 
  
- Consider subscribing if you're a designer, developer, product manager, marketeer, writer or startup founder. Let's dive in, makers!
+Consider subscribing if you're a designer, developer, product manager, marketeer, writer or startup founder. Let's dive in, makers!
 
 ## TOOLS
 🎨 Github launches [Primer Prism](https://primer.style/prism/), a tool for creating and maintaining cohesive, consistent, and accessible color palettes. Not ready for prime time yet, while definitely the best tools I've tried for playing with scale.

@@ -24,6 +24,7 @@ They can be product principles, design principles, how-we-work agreements, and s
 **Values are about behavior, principles are about making decisions.** You know you have solid principles when different people from different parts of the org can confidently take aligned decisions and focus on delivery. 
 
 ## TOOLS
+
 👉 **Context effect** / the cognitive bias of the week
 
 A [context effect](https://en.wikipedia.org/wiki/Context_effect) describes the influence of environmental factors on one's perception of a stimulus. The impact of context effects is considered to be part of top-down design. 
@@ -35,6 +36,7 @@ For example, research has shown that the comfort level of the floor that shopper
 🎨 [The history of UI](https://history.user-interface.io/), a visual gallery of how user interfaces have evolved.
 
 ## TEAM
+
 ☂️ Dharmesh Shah, co-founder of Hubspot, [shares](https://blog.hubspot.com/the-hustle/dharmesh-ama) 12 pieces of advice about building a team, a product, and a company.  
 
 He says that *"in order to attract and retain great people, you will need to give them autonomy so they can try things — and yes, sometimes fail. That’s how they learn. And the best people are there to learn. If they’re not learning, they're not staying."* 

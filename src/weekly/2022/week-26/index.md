@@ -11,9 +11,9 @@ The energy you put in creating **value**—and then, you exchange that value for
 
 I remember the first time I faced this question, it was the summer of '07 in Romania. I was sitting at a beautiful Rosewood conference table, sweating like a gypsy with a mortgage, when he asked me *"Now tell me, why should I pay you so much? What's wrong with my current website?"*
 
- **Hold on, let's take it 2 steps back!**
+**Hold on, let's take it 2 steps back!**
  
- After working full-time at Ubisoft for 3 years, and making websites in my spare time, in May 2007 I decided to quit and start my own company - a web design agency. All my clients were kinda friends and I was charging what I thought it's a fair price, just enough to make the salary I had. Only the idea that I can earn the same while working for myself was already WOW!! Back then the average salary was 300€, go figure 🙂
+After working full-time at Ubisoft for 3 years, and making websites in my spare time, in May 2007 I decided to quit and start my own company - a web design agency. All my clients were kinda friends and I was charging what I thought it's a fair price, just enough to make the salary I had. Only the idea that I can earn the same while working for myself was already WOW!! Back then the average salary was 300€, go figure 🙂
 
 On a Tuesday morning I receive a call from a friend, *"go and meet this guy who wants a new website"*. That was a time when you wouldn't ask 'follow-up' questions like today, you would do it or not. Bam Bam Yes! So there I was, 2 hours later, in front of this guy's office building, a 22-years old me with a made-up mind of asking 150€.
 
