@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Figtree', defaultTheme.fontFamily.sans]
+        'sans': ['DM Sans', defaultTheme.fontFamily.sans],
+        'serif': ['Libre Baskerville', defaultTheme.fontFamily.serif]
       },
       letterSpacing: {
         tighter: '-.01em',

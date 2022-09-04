@@ -6,11 +6,11 @@ date: 2022-06-18
 
 <div id="subscribe" class="text-center my-20 sm:pb-8 sm:border border-zinc-200 sm:px-8 md:px-24 dark:border-zinc-800 rounded-md">
     <img class="inline-block w-14 h-14 -mt-7 mb-4 rounded-full" src="{{ '/assets/images/raz.jpg' | url }}">
-    <h1 class="mb-2 text-xl md:text-2xl font-extrabold tracking-tighter">Makers Weekly Newsletter</h1>
+    <h1 class="mb-4 font-serif text-xl md:text-2xl font-bold">Makers Weekly Newsletter</h1>
     <p class="mb-6 text-sm md:text-base">Weekly notes and resources for tech makers about building better products and services. Published every Tuesday by <a href="https://helloraz.com" target="_blank" class="text-zinc-900 dark:text-zinc-100">Raz</a></p>
     <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="flex md:flex-nowrap justify-center items-center p-2 bg-zinc-200 rounded-full dark:bg-zinc-800">
         <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="form-input flex-1 px-2 py-1 bg-transparent border-0 focus:ring-0">
-        <button type="submit" name="subscribe" class="flex-none px-4 py-1 font-semibold bg-zinc-900 text-white rounded-full dark:bg-zinc-200 dark:text-zinc-900">
+        <button type="submit" name="subscribe" class="flex-none px-4 py-1 font-medium bg-zinc-900 text-white rounded-full dark:bg-zinc-200 dark:text-zinc-900">
             Subscribe
         </button>
     </form>
@@ -21,7 +21,7 @@ date: 2022-06-18
 <article class="text-center">
     <a href="{{ week.url }}" class="block py-10">
         <p class="mb-1 tracking-wider text-sm text-zinc-500">WEEK {{ week.data.week }}</p>
-        <h3 class="flex-1 md:text-xl font-extrabold">{{ week.data.title }}</h3>
+        <h3 class="flex-1 font-serif text-lg md:text-2xl font-bold">{{ week.data.title }}</h3>
     </a>
 </article>
 {% endfor %}

@@ -5,16 +5,16 @@ layout: base
 <article>
 
     <header class="text-center">
-        <h1 class="text-xl md:text-4xl font-extrabold tracking-tight">{{ title }}</h1>
-        <p class="mt-10 uppercase text-sm tracking-wider">Makers Weekly Newsletter</p>
-        <div class="flex items-center gap-5 mt-4">
+        <p class="mb-6 font-serif">Makers Weekly Newsletter</p>
+        <h1 class="font-serif text-xl md:text-4xl font-bold">{{ title }}</h1>
+        <div class="flex items-center gap-5 mt-10">
             <span class="w-full border-t border-dashed border-zinc-200 dark:border-zinc-700"></span>
             <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="flex-none text-sm">{{ date | readableDate('dd LLL yyyy') }}</time>
             <span class="w-full border-t border-dashed border-zinc-200 dark:border-zinc-700"></span>
         </div>
     </header>
 
-    <div class="mt-16 prose max-w-none prose-zinc prose-h2:font-sans prose-h2:text-lg prose-a:font-normal md:prose-xl md:prose-h2:text-2xl dark:prose-invert">
+    <div class="mt-16 prose max-w-none prose-zinc prose-h2:font-serif prose-h2:text-lg prose-a:font-normal md:prose-lg md:prose-h2:text-xl dark:prose-invert">
         {{content | safe }}
 
         <p>
@@ -29,11 +29,11 @@ layout: base
 
 <div id="subscribe" class="text-center my-20 sm:pb-8 sm:border border-zinc-200 sm:px-8 md:px-24 dark:border-zinc-800 rounded-md">
     <img class="inline-block w-14 h-14 -mt-7 mb-4 rounded-full" src="{{ '/assets/images/raz.jpg' | url }}">
-    <h1 class="mb-2 text-xl md:text-2xl font-extrabold tracking-tighter">Makers Weekly Newsletter</h1>
+    <h1 class="mb-4 font-serif text-xl md:text-2xl font-bold">Makers Weekly Newsletter</h1>
     <p class="mb-6 text-sm md:text-base">Weekly notes and resources for tech makers about building better products and services. Published every Tuesday by <a href="https://helloraz.com" target="_blank" class="text-zinc-900 dark:text-zinc-100">Raz</a></p>
     <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="flex md:flex-nowrap justify-center items-center p-2 bg-zinc-200 rounded-full dark:bg-zinc-800">
         <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="form-input flex-1 px-2 py-1 bg-transparent border-0 focus:ring-0">
-        <button type="submit" name="subscribe" class="flex-none px-4 py-1 font-semibold bg-zinc-900 text-white rounded-full dark:bg-zinc-200 dark:text-zinc-900">
+        <button type="submit" name="subscribe" class="flex-none px-4 py-1 font-medium bg-zinc-900 text-white rounded-full dark:bg-zinc-200 dark:text-zinc-900">
             Subscribe
         </button>
     </form>
