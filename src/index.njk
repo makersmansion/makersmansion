@@ -4,10 +4,10 @@ description: Weekly notes and resources for tech makers about building better pr
 date: 2022-06-18
 ---
 
-<div id="subscribe" class="text-center my-20 sm:pb-8 sm:bg-rose-50 sm:px-8 md:px-24 dark:sm:bg-zinc-900 dark:sm:border dark:sm:border-zinc-800">
+<div id="subscribe" class="text-center mt-7 mb-20 sm:pb-8 sm:px-8 sm:bg-rose-600 sm:text-white md:px-24 dark:sm:bg-zinc-900 dark:sm:border dark:sm:border-zinc-800">
     <img class="inline-block w-14 h-14 -mt-7 mb-4 rounded-full" src="{{ '/assets/images/raz.jpg' | url }}">
     <h1 class="my-2 font-serif text-xl md:text-2xl font-bold">Makers Weekly Newsletter</h1>
-    <p class="mb-6 text-sm md:text-base">Weekly notes and resources for tech makers about building better products and services. Published every Tuesday by <a href="https://helloraz.com" target="_blank" class="text-zinc-900 dark:text-zinc-100">Raz</a></p>
+    <p class="mb-6 text-sm md:text-base">Weekly notes and resources for tech makers about building better products and services. Published by <a href="https://helloraz.com" target="_blank">Raz Tirboaca</a></p>
     <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="flex md:flex-nowrap justify-center items-center">
         <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="form-input flex-1 px-3 py-2 bg-white border border-zinc-900 focus:border-zinc-900 focus:ring-0 rounded-none dark:bg-zinc-900 dark:border-zinc-200 dark:focus:border-zinc-200">
         <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-medium bg-zinc-900 border border-zinc-900 text-white rounded-none dark:bg-zinc-200 dark:border-zinc-200 dark:text-zinc-900">
@@ -16,11 +16,11 @@ date: 2022-06-18
     </form>
 </div>
 
-<h2 class="mb-3 uppercase text-sm text-center tracking-wider">Previous editions</h3>
+<h2 class="mb-3 uppercase text-sm text-center text-rose-600 tracking-widest">Previous editions</h3>
 {% for week in collections.weekly | reverse %}
 <article class="text-center">
     <a href="{{ week.url }}" class="block py-10">
-        <p class="mb-1 tracking-wider text-sm text-zinc-500">WEEK {{ week.data.week }}</p>
+        <p class="mb-1 text-sm text-zinc-500 tracking-widest">WEEK {{ week.data.week }}</p>
         <h3 class="flex-1 font-serif text-lg md:text-2xl font-bold">{{ week.data.title }}</h3>
     </a>
 </article>
