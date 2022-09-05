@@ -12,9 +12,17 @@ module.exports = {
         'sans': ['DM Sans', defaultTheme.fontFamily.sans],
         'serif': ['Libre Baskerville', defaultTheme.fontFamily.serif]
       },
-      letterSpacing: {
-        tighter: '-.01em',
-        tight: '-.001em'
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              'font-weight': 'inherit',
+            },
+            strong: {
+              'font-weight': 'bold',
+            },
+          },
+        },
       },
     },
   },
