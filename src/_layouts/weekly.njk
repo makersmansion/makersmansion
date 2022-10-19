@@ -6,22 +6,17 @@ layout: base
 
     <header class="text-center">
         <h1 class="font-serif text-xl md:text-4xl font-bold">{{ title }}</h1>
-        <div class="flex items-center gap-5 mt-10">
+        <div class="flex items-center gap-5 mt-6 md:mt-10">
             <span class="w-full border-t border-dashed border-zinc-200 dark:border-zinc-700"></span>
-            <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="flex-none text-sm">{{ date | readableDate('dd LLL yyyy') }}</time>
+            <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="flex-none uppercase text-sm text-zinc-500 tracking-widest">{{ date | readableDate('dd LLL yyyy') }}</time>
             <span class="w-full border-t border-dashed border-zinc-200 dark:border-zinc-700"></span>
         </div>
     </header>
 
-    <div class="mt-16 prose max-w-none prose-zinc prose-h2:font-serif prose-h2:text-lg md:prose-lg md:prose-h2:text-xl dark:prose-invert">
+    <div class="mt-10 md:mt-16 prose max-w-none prose-zinc prose-h2:text-lg md:prose-lg md:prose-h2:text-xl dark:prose-invert">
+
         {{content | safe }}
 
-        <p>
-            <a href="{{ linkedinURL }}" class="inline-flex items-center gap-2" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" class="ai ai-LinkedinBoxFill"><path fill-rule="evenodd" clip-rule="evenodd" d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634 3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388zm-5.5 10.403h3.208V9.25H4.208v10.54zM7.875 5.812a2.063 2.063 0 1 1-4.125 0 2.063 2.063 0 0 1 4.125 0z"/></svg>
-                Discuss on Linkedin
-            </a>
-        </p>
     </div>
 
 </article>
@@ -29,10 +24,10 @@ layout: base
 <div id="subscribe" class="text-center my-20 sm:pb-8 sm:px-8 sm:bg-zinc-100 md:px-24 dark:sm:bg-zinc-800">
     <img class="inline-block w-14 h-14 -mt-7 mb-4 rounded-full" src="{{ '/assets/images/raz.jpg' | url }}">
     <h1 class="my-2 font-serif text-xl md:text-2xl font-bold">Makers Weekly Newsletter</h1>
-    <p class="mb-6 text-sm md:text-base">Weekly notes and resources for tech makers about building better products and services. Published by <a href="https://helloraz.com" target="_blank">Raz Tirboaca</a></p>
+    <p class="mb-6">Weekly notes and resources for tech makers about building better products and services. Published by <a href="https://helloraz.com" target="_blank">Raz Tirboaca</a></p>
     <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="flex md:flex-nowrap justify-center items-center">
         <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="form-input flex-1 px-3 py-2 bg-white border text-zinc-900 border-zinc-900 focus:border-zinc-900 focus:ring-0 rounded-none dark:bg-zinc-900 dark:text-zinc-200 dark:border-zinc-200 dark:focus:border-zinc-200">
-        <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-medium bg-zinc-900 border border-zinc-900 text-white rounded-none dark:bg-zinc-200 dark:border-zinc-200 dark:text-zinc-900">
+        <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-semibold bg-zinc-900 border border-zinc-900 text-white rounded-none dark:bg-zinc-200 dark:border-zinc-200 dark:text-zinc-900">
             Subscribe
         </button>
     </form>

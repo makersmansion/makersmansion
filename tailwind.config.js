@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['DM Sans', defaultTheme.fontFamily.sans],
+        'sans': ['Inter', defaultTheme.fontFamily.sans],
         'serif': ['Libre Baskerville', defaultTheme.fontFamily.serif]
       },
       typography: {
