@@ -4,12 +4,9 @@ description: Weekly notes and resources for tech makers about building better pr
 date: 2022-06-18
 ---
 
-<div id="subscribe" class="mt-7 mb-10 pb-10 border-b-2 border-zinc-100 dark:border-zinc-800">
+<div id="subscribe" class="mb-10 pb-10 border-b-2 border-zinc-100 dark:border-zinc-800">
     <h1 class="font-serif text-2xl md:text-3xl font-bold">Makers Newsletter</h1>
-    <div class="mt-4 flex gap-3">
-        <img class="inline-block w-12 h-12 rounded-full" src="/assets/images/raz.jpg">
-        <p>Weekly notes and resources for tech makers about building better products and services. Published by <a href="https://helloraz.com" target="_blank">Raz Tirboaca</a></p>
-    </div>
+    <p class="mt-4">Weekly notes and resources for tech makers about building better products and services. Published by <a href="https://helloraz.com" target="_blank">Raz Tirboaca</a></p>
     <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="mt-6 flex md:flex-nowrap justify-center items-center">
         <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="form-input flex-1 px-3 py-2 bg-white border text-zinc-900 border-zinc-900 focus:border-zinc-900 focus:ring-0 rounded-none dark:bg-zinc-900 dark:text-zinc-200 dark:border-zinc-200 dark:focus:border-zinc-200">
         <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-semibold bg-zinc-900 border border-zinc-900 text-white rounded-none dark:bg-zinc-200 dark:border-zinc-200 dark:text-zinc-900">
@@ -18,13 +15,11 @@ date: 2022-06-18
     </form>
 </div>
 
-<h2 class="text-sm uppercase tracking-widest text-zinc-500">Previous editions</h2>
-
 {% for week in collections.weekly | reverse %}
-<article class="mt-12">
-    <a href="{{ week.url }}" class="block sm:grid grid-cols-4">
-        <p class="col-end-2 pt-1 pb-3 text-sm text-zinc-500 tracking-widest">WEEK {{ week.data.week }}</p>
-        <h3 class="col-start-2 col-end-5 pb-12 font-serif text-lg md:text-xl font-bold border-b border-dashed border-zinc-200 dark:border-zinc-700">{{ week.data.title }}</h3>
+<article>
+    <a href="{{ week.url }}" class="block pt-12 sm:grid grid-cols-4 group">
+        <span class="col-end-2 block pt-1 pb-3 text-sm text-zinc-500 tracking-widest">WEEK {{ week.data.week }}</span>
+        <h3 class="col-start-2 col-end-5 pb-12 font-serif text-lg md:text-xl font-bold border-b border-dashed border-zinc-200 dark:border-zinc-700  group-hover:text-rose-600">{{ week.data.title }}</h3>
     </a>
 </article>
 {% endfor %}
