@@ -15,9 +15,7 @@ module.exports = {
       'neutral-weak': 'var(--color-neutral-weak)',
       'neutral-medium': 'var(--color-neutral-medium)',
       'neutral-strong': 'var(--color-neutral-strong)',
-      'primary': 'var(--color-primary)',
-      'primary-weak': 'var(--color-primary-weak)',
-      'primary-medium': 'var(--color-primary-medium)',
+      'primary': 'var(--color-primary)'
     },
     fontFamily: {
       'sans': ['Inter', defaultTheme.fontFamily.sans],
@@ -44,19 +42,21 @@ module.exports = {
     plugin(function ({ addBase }) {
       addBase({
         ':root': {
-          '--color-neutral': 'rgb(255, 255, 255)',
+          '--color-neutral': 'rgb(255 255 255)',
           '--color-neutral-weakeast': 'rgb(30 30 30 / 4%)',
           '--color-neutral-weak': 'rgb(30 30 30 / 14%)',
           '--color-neutral-medium': 'rgb(30 30 30 / 56%)',
-          '--color-neutral-strong': 'rgb(30, 30, 30)',
+          '--color-neutral-strong': 'rgb(30 30 30)',
           '--color-primary-rgb': '225 29 72',
-          '--color-primary': 'rgb(var(--color-primary-rgb))',
-          '--color-primary-weak': 'rgb(var(--color-primary-rgb) / 6%)',
-          '--color-primary-medium': 'rgb(var(--color-primary-rgb) / 50%)',
+          '--color-primary': 'rgb(var(--color-primary-rgb))'
         },
-        '@supports (color: color(display-p3 1 1 1))': {
+        '@media (prefers-color-scheme: dark)': {
           ':root': {
-            '--color-primary': 'color(display-p3 0.115 0.885 0.418)',
+            '--color-neutral': 'rgb(30 30 30)',
+            '--color-neutral-weakeast': 'rgb(255 255 255 / 3%)',
+            '--color-neutral-weak': 'rgb(255 255 255 / 14%)',
+            '--color-neutral-medium': 'rgb(255 255 255 / 56%)',
+            '--color-neutral-strong': 'rgb(255 255 255)',
           }
         }
       })
