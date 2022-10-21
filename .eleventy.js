@@ -31,7 +31,7 @@ module.exports = function  (eleventyConfig) {
 
     // Pass-through files
     eleventyConfig.addPassthroughCopy("./src/assets/images/");
-    eleventyConfig.addPassthroughCopy("./src/site.webmanifest");
+    eleventyConfig.addPassthroughCopy("./src/manifest.json");
 
     // Deep-Merge
     eleventyConfig.setDataDeepMerge(true);
