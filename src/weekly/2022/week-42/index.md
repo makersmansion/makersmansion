@@ -22,7 +22,7 @@ Based on your feedback, I learned that LinkedIn works better for short-form cont
 
 - A more intelligent search tool to compare prices across thousands of stores, find the best deals, check in-store availability and explore shipping options—all in one place.
 - Dynamic shoppable video content
--  An app for retailers and influencers to collaborate on brand campaigns and to track earnings, performance and sales.
+- An app for retailers and influencers to collaborate on brand campaigns and to track earnings, performance and sales.
 
 It used to be Klarna vs Affirm vs Apple Pay, now it's Klarna vs Pinterest. Smart move!
 
