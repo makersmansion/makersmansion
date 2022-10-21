@@ -56,7 +56,7 @@ module.exports = {
             '--color-neutral-weakeast': 'rgb(255 255 255 / 3%)',
             '--color-neutral-weak': 'rgb(255 255 255 / 14%)',
             '--color-neutral-medium': 'rgb(255 255 255 / 56%)',
-            '--color-neutral-strong': 'rgb(255 255 255)',
+            '--color-neutral-strong': 'rgb(255 255 255 / 90%)',
           }
         }
       })
