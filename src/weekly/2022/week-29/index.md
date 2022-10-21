@@ -2,7 +2,6 @@
 title: "W29: About reframing, price increase communication and how to resolve the conflicts between designers and engineers"
 date: 2022-07-19
 week: 29
-linkedinURL: https://www.linkedin.com/pulse/w29-reframing-price-increase-communication-how-resolve-raz-tirboaca
 ---
 
 💬 "If you don't like how the table is set, turn it over"

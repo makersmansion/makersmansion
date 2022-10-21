@@ -2,7 +2,6 @@
 title: "W30: About enjoying the journey, Musk's hiring strategy and the 1st important earnings period"
 date: 2022-07-27
 week: 30
-linkedinURL: https://www.linkedin.com/pulse/w30-enjoying-journey-musks-hiring-strategy-1st-period-raz-tirboaca
 ---
 
 💬 "Life... Is for Living"

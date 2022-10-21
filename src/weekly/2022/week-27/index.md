@@ -2,7 +2,6 @@
 title: "W27: About curiosity, machine learning and who are the best managers"
 date: 2022-07-05
 week: 27
-linkedinURL: https://www.linkedin.com/pulse/w27-curiosity-machine-learning-who-best-managers-raz-tirboaca/
 ---
 
 💬 "Curiosity has created more opportunities than hard work ever will"

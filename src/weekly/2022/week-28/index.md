@@ -2,7 +2,6 @@
 title: "W28: About product principles, design market and how Apple is losing the innovation game"
 date: 2022-07-12
 week: 28
-linkedinURL: https://www.linkedin.com/pulse/w28-product-principles-design-market-how-apple-losing-raz-tirboaca
 ---
 
 💬 "Change your opinions, keep to your principles"

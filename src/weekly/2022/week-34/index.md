@@ -2,7 +2,6 @@
 title: "W34: About writing better documentation, engineering culture and the subscription economy"
 date: 2022-08-23
 week: 34
-linkedinURL: https://www.linkedin.com/pulse/w34-writing-better-documentation-engineering-culture-economy-raz
 ---
 
 💬 "You're not competing with those who can do, but with those who do"
