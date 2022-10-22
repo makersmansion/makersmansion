@@ -8,13 +8,12 @@ week: 42
 
 Hello, hello! 
 
-I'm coming with great news and a fresh approach to moving forward with the Makers newsletter.  I will stop publishing it here on LinkedIn and move it to the 'old' way of delivery to your Inbox. 
+I'm coming with great news and a fresh approach to moving forward with the Makers newsletter.
 
-Right on time for your Sunday morning ☕️
+1. **I will stop publishing it on LinkedIn.** Based on your feedback, I learned that LinkedIn works better for short-form content, so I redesigned the Makers website to create a calmer reading experience where everyone can take the time here to digest the weekly. Thank you for that and enjoy the new design!
+2. **We have a WhatsApp group** which you can join if you don't want to receive it in your Inbox. 
 
-Based on your feedback, I learned that LinkedIn works better for short-form content, so I redesigned the Makers website to create a calmer reading experience where everyone can take the time to digest the weekly. Thank you for that!
-
-[Visit the website and leave your email](https://makersmansion.xyz/) to continue receiving the notes. It's also the first step towards building the community  🙌
+Starting next week, the weekly will be published every Sunday morning, just in time for your ☕️ Let's dive in!
 
 ## TOOLS
 
