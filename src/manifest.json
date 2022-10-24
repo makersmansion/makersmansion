@@ -3,7 +3,7 @@
     "dir": "ltr",
     "name": "Makers Mansion",
     "short_name": "Makers Mansion",
-    "description": "Weekly notes and resources for tech makers about building better products and services.",
+    "description": "The 15-minutes newsletter on maximizing outcomes for product designers, engineers, and managers. Sent every Sunday morning",
     "icons": [
         {
             "src": "/assets/images/favicon/android-chrome-192x192.png",
@@ -34,7 +34,7 @@
         "enctype": "application/x-www-form-urlencoded",
         "params": {
             "title": "MakersMansion",
-            "text": "Weekly notes and resources for tech makers about building better products and services.",
+            "text": "The 15-minutes newsletter on maximizing outcomes for product designers, engineers, and managers. Sent every Sunday morning",
             "url": "https://makersmansion.xyz"
         }
     }
