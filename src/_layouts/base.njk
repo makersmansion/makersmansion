@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html {{ site.lang }}>
+<html lang="{{ site.lang }}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     {% include 'meta.njk' %}
-    {% include 'analytics.njk' %}
 </head>
 <body class="antialiased bg-neutral text-neutral-strong">
 
@@ -49,6 +48,9 @@
             Deployed with <a href="https://www.cloudflare.com" target="_blank"><b>Cloudflare</b></a>
         </p>
     </footer>
+
+
+    {% include 'analytics.njk' %}
 
 </body>
 </html>
