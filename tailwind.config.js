@@ -11,7 +11,7 @@ module.exports = {
     colors: {
       'transparent': 'transparent',
       'neutral': 'var(--color-neutral)',
-      'neutral-weakeast': 'var(--color-neutral-weakeast)',
+      'neutral-weakeast': 'var(--color-neutral-weakest)',
       'neutral-weak': 'var(--color-neutral-weak)',
       'neutral-medium': 'var(--color-neutral-medium)',
       'neutral-strong': 'var(--color-neutral-strong)',
@@ -43,7 +43,7 @@ module.exports = {
       addBase({
         ':root': {
           '--color-neutral': 'rgb(255 255 255)',
-          '--color-neutral-weakeast': 'rgb(30 30 30 / 4%)',
+          '--color-neutral-weakest': 'rgb(30 30 30 / 4%)',
           '--color-neutral-weak': 'rgb(30 30 30 / 14%)',
           '--color-neutral-medium': 'rgb(30 30 30 / 56%)',
           '--color-neutral-strong': 'rgb(30 30 30)',
@@ -53,7 +53,7 @@ module.exports = {
         '@media (prefers-color-scheme: dark)': {
           ':root': {
             '--color-neutral': 'rgb(30 30 30)',
-            '--color-neutral-weakeast': 'rgb(255 255 255 / 3%)',
+            '--color-neutral-weakest': 'rgb(255 255 255 / 3%)',
             '--color-neutral-weak': 'rgb(255 255 255 / 14%)',
             '--color-neutral-medium': 'rgb(255 255 255 / 56%)',
             '--color-neutral-strong': 'rgb(255 255 255 / 90%)',
