@@ -11,7 +11,7 @@ module.exports = {
     colors: {
       'transparent': 'transparent',
       'neutral': 'var(--color-neutral)',
-      'neutral-weakeast': 'var(--color-neutral-weakest)',
+      'neutral-weakest': 'var(--color-neutral-weakest)',
       'neutral-weak': 'var(--color-neutral-weak)',
       'neutral-medium': 'var(--color-neutral-medium)',
       'neutral-strong': 'var(--color-neutral-strong)',
