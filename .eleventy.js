@@ -6,6 +6,7 @@ const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const filters = require('./utils/filters.js');
+const transforms = require('./utils/transforms.js');
 
 let markdownLibrary = markdownIt({
     html: true,
@@ -21,6 +22,11 @@ module.exports = function  (eleventyConfig) {
     // Filters
     Object.keys(filters).forEach((filterName) => {
         eleventyConfig.addFilter(filterName, filters[filterName])
+    });
+
+    // Transforms
+    Object.keys(transforms).forEach((transformName) => {
+        eleventyConfig.addTransform(transformName, transforms[transformName])
     });
 
     // Asset Watch Targets
