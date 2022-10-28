@@ -6,7 +6,7 @@ layout: base
 <article>
 
     <header>
-        <h1 class="font-serif text-2xl md:text-3xl xl:text-4xl font-bold">{{ title }}</h1>
+        <h1 class="font-serif text-2xl leading-normal md:text-3xl md:leading-snug xl:text-4xl xl:leading-snug font-bold">{{ title }}</h1>
         <div class="
             flex flex-nowrap items-center gap-4 sm:gap-5 
             mt-6 md:mt-10 
@@ -26,11 +26,10 @@ layout: base
 
     <div class="
         mt-10 max-w-none 
-        prose-base md:prose-lg 
+        prose prose-neutral md:prose-lg 
         prose-h2:text-xl prose-h2:font-bold md:prose-h2:text-2xl 
-        prose-a:underline prose-a:underline-offset-2
-        prose-ul:list-disc 
-        prose-ol:list-decimal
+        prose-a:underline prose-a:underline-offset-2 prose-a:decoration-1 prose-a:decoration-primary hover:prose-a:decoration-neutral-strongest 
+        prose-hr:border-dashed
         ">
 
         {{content | safe }}
@@ -39,22 +38,22 @@ layout: base
 
 </article>
 
-<div id="subscribe" class="
+<aside id="subscribe" class="
     my-10 
     py-6 sm:px-8 md:mb-6 md:px-16 md:py-10 
-    sm:bg-neutral-weakest  
+    sm:bg-neutral-weakest 
     border-t-4 border-t-primary 
     sm:rounded-sm
     ">
     <h3 class="font-serif text-xl md:text-2xl font-bold">Get the latest Weekly in your Inbox</h3>
     <p class="mt-4 text-sm sm:text-base">The <b>15-minute newsletter</b> on maximizing outcomes for product designers, engineers, and managers. Sent every Sunday morning ☕️</p>
     <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="mt-4 max-w-lg flex flex-nowrap justify-center items-center">
-        <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="form-input flex-1 px-3 py-2 text-neutral-strong bg-neutral border-2 border-neutral-weak focus:border-neutral-strong focus:ring-0 rounded-l-sm">
-        <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-semibold text-neutral-strong bg-neutral border-2 border-l-0 border-neutral-weak rounded-r-sm">
+        <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="form-input flex-1 px-3 py-2 text-neutral-strongest bg-neutral border-2 border-neutral-weak focus:border-neutral-strongest focus:ring-0 rounded-l-sm">
+        <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-semibold text-neutral-strongest bg-neutral border-2 border-l-0 border-neutral-weak rounded-r-sm">
             Subscribe
         </button>
     </form>
     <p class="mt-5 text-sm text-neutral-medium">
         Published by <a href="https://helloraz.com" target="_blank" class="underline underline-offset-2 font-semibold">Raz Tirboaca</a>
     </p>
-</div>
+</aside>
