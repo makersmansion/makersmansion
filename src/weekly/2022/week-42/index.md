@@ -8,12 +8,7 @@ week: 42
 
 Hello, hello! 
 
-I'm coming with great news and a fresh approach to moving forward with the Makers newsletter.
-
-1. **I will stop publishing it on LinkedIn.** Based on your feedback, I learned that LinkedIn works better for short-form content, so I redesigned the Makers website to create a calmer reading experience where everyone can take the time here to digest the weekly. Thank you for that and enjoy the new design!
-2. **You can join our WhatsApp group** if you don't want to receive it in your Inbox, find the invitation button at the end of this page.
-
-Starting next week, the weekly will be published every Sunday morning, just in time for your ☕️ Let's dive in!
+I'm coming with great news and a fresh approach to moving forward with the Makers newsletter. I will stop publishing it on LinkedIn – based on your feedback, I learned that LinkedIn works better for short-form content, so I redesigned the Makers website to create a calmer reading experience where everyone can take the time here to digest the weekly. Thank you for that and enjoy the new design!
 
 ## TOOLS
 
@@ -25,7 +20,7 @@ Starting next week, the weekly will be published every Sunday morning, just in t
 
 It used to be Klarna vs Affirm vs Apple Pay, now it's Klarna vs Pinterest. Smart move!
 
-📱 **An anonymous app called [Gas](https://apps.apple.com/us/app/gas/id1641791746) is taking high schools by storm**. The app prompts teens to say nice things about each other, and last week, it became the no. 1 free social app in the App Store.
+📱 **An anonymous app called [Gas](https://apps.apple.com/us/app/gas/id1641791746) is taking high schools by storm**. The app prompts teens to say nice things about each other. The app has racked up 500k+ downloads since August, despite only launching in 12 states so far.
 
 Here’s how Gas works:
 
@@ -33,11 +28,7 @@ Here’s how Gas works:
 -   Users are served multiple choice questions about fellow students with superlative-style answers – e.g., "the most beautiful person you have ever met"
 -   Users are anonymous by default, but an upgraded version lets them see who said what about them
 
-The app has racked up 500k+ downloads since August, despite only launching in 12 states so far.
-
-❤️ **Speaking of complete privacy,** we're building **Fotopulse** – a mobile app to receive unbiased reactions of your photos from people *who don't know you*.
-
-[Check it out](https://fotopulse.com/?utm_source=MakersMansion) and join our friends list to receive news as we progress and give us feedback.
+❤️ **Speaking of complete privacy,** we're building Fotopulse – a mobile app to receive unbiased reactions of your photos from people *who don't know you*. [Check it out](https://fotopulse.com/?utm_source=MakersMansion) and join our friends list to receive news as we progress and give us feedback.
 
 🧑‍💻 **The future of rendering in React.** React can be confusing with so many rendering options. Prateek Surana [wrote an article](https://prateeksurana.me/blog/future-of-rendering-in-react/) about what the landscape looks like and what's on the horizon.
 
