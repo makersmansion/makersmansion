@@ -38,11 +38,13 @@ module.exports = {
           css: {
             '--tw-prose-body': theme('colors.neutral-strong'),
             '--tw-prose-headings': theme('colors.neutral-strongest'),
+            '--tw-prose-lead': theme('colors.neutral-strong'),
             '--tw-prose-links': theme('colors.neutral-strong'),
             '--tw-prose-bold': theme('colors.neutral-strong'),
-            '--tw-prose-counters': theme('colors.medium'),
-            '--tw-prose-bullets': theme('colors.medium'),
-            '--tw-prose-hr': theme('colors.weak'),
+            '--tw-prose-captions': theme('colors.neutral-medium'),
+            '--tw-prose-counters': theme('colors.neutral-medium'),
+            '--tw-prose-bullets': theme('colors.neutral-medium'),
+            '--tw-prose-hr': theme('colors.neutral-weak'),
             '--tw-prose-quotes': theme('colors.neutral-medium'),
             '--tw-prose-quote-borders': theme('colors.neutral-weak'),
             '--tw-prose-quote-captions': theme('colors.neutral-medium'),
@@ -76,9 +78,9 @@ module.exports = {
             '--color-neutral': 'rgb(30 30 30)',
             '--color-neutral-weakest': 'rgb(255 255 255 / 3%)',
             '--color-neutral-weak': 'rgb(255 255 255 / 14%)',
-            '--color-neutral-medium': 'rgb(255 255 255 / 56%)',
-            '--color-neutral-strong': 'rgb(255 255 255 / 80%)',
-            '--color-neutral-strongest': 'rgb(255 255 255 / 90%)',
+            '--color-neutral-medium': 'rgb(255 255 255 / 32%)',
+            '--color-neutral-strong': 'rgb(255 255 255 / 86%)',
+            '--color-neutral-strongest': 'rgb(255 255 255 / 94%)',
           }
         }
       })
