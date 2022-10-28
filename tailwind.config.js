@@ -15,6 +15,7 @@ module.exports = {
       'neutral-weak': 'var(--color-neutral-weak)',
       'neutral-medium': 'var(--color-neutral-medium)',
       'neutral-strong': 'var(--color-neutral-strong)',
+      'neutral-strongest': 'var(--color-neutral-strongest)',
       'primary': 'var(--color-primary)'
     },
     fontFamily: {
