@@ -1,5 +1,5 @@
 ---
-title: "W27: About curiosity, machine learning and who are the best managers"
+title: "About curiosity, machine learning and who are the best managers"
 date: 2022-07-05
 week: 27
 ---

@@ -1,5 +1,5 @@
 ---
-title: "W42: About Klarna's new products, apps focused on privacy, and connecting folks to a deeper sense of purpose and meaning at work"
+title: "About Klarna's new products, apps focused on privacy, and connecting folks to a deeper sense of purpose and meaning at work"
 date: 2022-10-21
 week: 42
 ---

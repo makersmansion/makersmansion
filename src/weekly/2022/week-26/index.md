@@ -1,5 +1,5 @@
 ---
-title: "W26: About value, product/market fit and how to be a 2x person starting today"
+title: "About value, product/market fit and how to be a 2x person starting today"
 date: 2022-06-28
 week: 26
 ---

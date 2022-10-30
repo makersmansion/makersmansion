@@ -1,5 +1,5 @@
 ---
-title: "W25: About Makers Mansion, new tools for frontend dev and how to make money in a recession"
+title: "About Makers Mansion, new tools for frontend dev and how to make money in a recession"
 date: 2022-06-21
 week: 25
 ---

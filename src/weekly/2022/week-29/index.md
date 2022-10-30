@@ -1,5 +1,5 @@
 ---
-title: "W29: About reframing, price increase communication and how to resolve the conflicts between designers and engineers"
+title: "About reframing, price increase communication and how to resolve the conflicts between designers and engineers"
 date: 2022-07-19
 week: 29
 ---

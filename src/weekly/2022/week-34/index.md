@@ -1,5 +1,5 @@
 ---
-title: "W34: About writing better documentation, engineering culture and the subscription economy"
+title: "About writing better documentation, engineering culture and the subscription economy"
 date: 2022-08-23
 week: 34
 ---
