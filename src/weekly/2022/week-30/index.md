@@ -1,5 +1,5 @@
 ---
-title: "About enjoying the journey, Musk's hiring strategy and the 1st important earnings period"
+title: "About enjoying the journey, Musk‘s hiring strategy, and the 1st important earnings period"
 date: 2022-07-27
 week: 30
 ---

@@ -1,5 +1,5 @@
 ---
-title: "About product principles, design market and how Apple is losing the innovation game"
+title: "About product principles, design market, and how Apple is losing the innovation game"
 date: 2022-07-12
 week: 28
 ---

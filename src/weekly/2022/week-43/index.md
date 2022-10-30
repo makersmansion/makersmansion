@@ -1,5 +1,5 @@
 ---
-title: "About minimizing TTV, why keeping a holistic view is crucial, and writing better error messages "
+title: "About minimizing TTV, keeping a holistic view, and writing better error messages "
 date: 2022-10-30
 week: 43
 ---
