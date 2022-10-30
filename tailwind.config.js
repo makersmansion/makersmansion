@@ -15,11 +15,10 @@ module.exports = {
       'neutral-weak': 'var(--color-neutral-weak)',
       'neutral-medium': 'var(--color-neutral-medium)',
       'neutral-strong': 'var(--color-neutral-strong)',
-      'neutral-strongest': 'var(--color-neutral-strongest)',
       'primary': 'var(--color-primary)'
     },
     fontFamily: {
-      'sans': ['Inter', defaultTheme.fontFamily.sans],
+      'sans': ['Noto Sans', defaultTheme.fontFamily.sans],
       'serif': ['Libre Baskerville', defaultTheme.fontFamily.serif]
     },
     extend: {
@@ -37,7 +36,7 @@ module.exports = {
         neutral: {
           css: {
             '--tw-prose-body': theme('colors.neutral-strong'),
-            '--tw-prose-headings': theme('colors.neutral-strongest'),
+            '--tw-prose-headings': theme('colors.neutral-strong'),
             '--tw-prose-lead': theme('colors.neutral-strong'),
             '--tw-prose-links': theme('colors.neutral-strong'),
             '--tw-prose-bold': theme('colors.neutral-strong'),
@@ -45,7 +44,7 @@ module.exports = {
             '--tw-prose-counters': theme('colors.neutral-medium'),
             '--tw-prose-bullets': theme('colors.neutral-medium'),
             '--tw-prose-hr': theme('colors.neutral-weak'),
-            '--tw-prose-quotes': theme('colors.neutral-medium'),
+            '--tw-prose-quotes': theme('colors.neutral-strong'),
             '--tw-prose-quote-borders': theme('colors.neutral-weak'),
             '--tw-prose-quote-captions': theme('colors.neutral-medium'),
             '--tw-prose-code': theme('colors.neutral-strong'),
@@ -67,20 +66,18 @@ module.exports = {
           '--color-neutral': 'rgb(255 255 255)',
           '--color-neutral-weakest': 'rgb(30 30 30 / 4%)',
           '--color-neutral-weak': 'rgb(30 30 30 / 14%)',
-          '--color-neutral-medium': 'rgb(30 30 30 / 56%)',
+          '--color-neutral-medium': 'rgb(30 30 30 / 48%)',
           '--color-neutral-strong': 'rgb(30 30 30 / 86%)',
-          '--color-neutral-strongest': 'rgb(30 30 30)',
           '--color-primary-rgb': '225 29 72',
           '--color-primary': 'rgb(var(--color-primary-rgb))'
         },
         '@media (prefers-color-scheme: dark)': {
           ':root': {
-            '--color-neutral': 'rgb(30 30 30)',
+            '--color-neutral': 'rgb(24 24 24)',
             '--color-neutral-weakest': 'rgb(255 255 255 / 3%)',
             '--color-neutral-weak': 'rgb(255 255 255 / 14%)',
-            '--color-neutral-medium': 'rgb(255 255 255 / 32%)',
+            '--color-neutral-medium': 'rgb(255 255 255 / 48%)',
             '--color-neutral-strong': 'rgb(255 255 255 / 86%)',
-            '--color-neutral-strongest': 'rgb(255 255 255 / 94%)',
           }
         }
       })
