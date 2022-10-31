@@ -64,7 +64,7 @@ module.exports = {
       addBase({
         ':root': {
           '--color-neutral': 'rgb(255 255 255)',
-          '--color-neutral-weakest': 'rgb(30 30 30 / 4%)',
+          '--color-neutral-weakest': 'rgb(30 30 30 / 3%)',
           '--color-neutral-weak': 'rgb(30 30 30 / 14%)',
           '--color-neutral-medium': 'rgb(30 30 30 / 48%)',
           '--color-neutral-strong': 'rgb(30 30 30 / 86%)',
