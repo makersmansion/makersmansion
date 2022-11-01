@@ -22,10 +22,13 @@ layout: base
 </div>
 
 {% for week in collections.weekly | reverse %}
-<article>
-    <a href="{{ week.url }}" class="block pt-12 sm:grid grid-cols-4 group">
-        <span class="col-end-2 block pt-1 pb-3 text-sm text-neutral-medium tracking-widest">WEEK {{ week.data.week }}</span>
-        <h2 class="col-start-2 col-end-5 pb-12 font-serif text-lg leading-relaxed md:text-xl md:leading-relaxed font-bold border-b border-dashed border-neutral-weak group-hover:text-primary">{{ week.data.title }}</h2>
+<article class="
+    sm:px-8 md:px-16 
+    border-b border-dashed border-neutral-weak 
+    ">
+    <a href="{{ week.url }}" class="block py-12 group">
+        <span class="block mb-2 text-sm text-neutral-medium tracking-widest">WEEK {{ week.data.week }}</span>
+        <h2 class="font-serif text-lg leading-relaxed md:text-xl md:leading-relaxed font-bold group-hover:text-primary">{{ week.data.title }}</h2>
     </a>
 </article>
 {% endfor %}
