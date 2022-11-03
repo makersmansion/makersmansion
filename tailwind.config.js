@@ -31,6 +31,9 @@ module.exports = {
             strong: {
               'font-weight': 'bold',
             },
+            blockquote: {
+              'font-weight': 'inherit',
+            }
           },
         },
         neutral: {
