@@ -32,13 +32,13 @@ Sounds obvious, right? Sure, but in my experience, keeping a holistic view for e
 
 👨‍💻 [Get more granular control over your applications](https://nextjs.org/blog/next-13) with Next.js 13’s support for Nested Layouts, Server Components, and ergonomic data fetching. Designed for incremental adoption with the App Directory.
 
-👍 With the proliferation of AI technologies like GitHub Copilot for code completion, Stable Diffusion for image generation, and GPT-3 for text, many critics are starting to look at the data that they use to train their AI/ML models. The privacy and ownership issues around these tools are thorny, and the data used to train less prominent AI tools can have equally problematic results. That’s where [synthetic data](https://stackoverflow.blog/2022/10/17/synthetic-data-big-data-fewer-privacy-risks/) comes in.
+👍 [Synthetic data](https://stackoverflow.blog/2022/10/17/synthetic-data-big-data-fewer-privacy-risks/). With the proliferation of AI technologies like GitHub Copilot for code completion, Stable Diffusion for image generation, and GPT-3 for text, many critics are starting to look at the data that they use to train their AI/ML models. The privacy and ownership issues around these tools are thorny, and the data used to train less prominent AI tools can have equally problematic results. That’s where synthetic data comes in.
 
 ---
 
 ## TEAM
 
-🤙 [Molly Graham is asking](https://www.linkedin.com/posts/mograham_hate-to-break-it-to-you-but-your-team-is-activity-6985644502191394817-7ORb/) the right questions on underperforming teams. As a manager or leader, helping people not be lost – not waste time and energy – is one of the most important things to spend time on. It ultimately means revisiting, regularly, the basics of management. Do the people that work for you know what their role is? Do they know what's expected of them in that role? Do they know how they fit in to the larger context? Do they know how to move work forward?  
+🤙 [Molly Graham asks the right questions](https://www.linkedin.com/posts/mograham_hate-to-break-it-to-you-but-your-team-is-activity-6985644502191394817-7ORb/) on underperforming teams. As a manager or leader, helping people not be lost – not waste time and energy – is one of the most important things to spend time on. It ultimately means revisiting, regularly, the basics of management. Do the people that work for you know what their role is? Do they know what's expected of them in that role? Do they know how they fit in to the larger context? Do they know how to move work forward?  
   
 There are 6 things that tend to cause *lostness* or under performance that you as a manager can help change:
   
