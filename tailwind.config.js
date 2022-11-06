@@ -25,6 +25,9 @@ module.exports = {
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
+            a: {
+              'font-weight': 'inherit',
+            },
             strong: {
               'font-weight': 'bold',
             },
