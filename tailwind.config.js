@@ -21,6 +21,13 @@ module.exports = {
       'sans': ['Noto Sans', defaultTheme.fontFamily.sans],
       'serif': ['Libre Baskerville', defaultTheme.fontFamily.serif]
     },
+    dropShadow: {
+      'sm': '0 1px 2px rgb(0 0 0 / 13%)',
+      DEFAULT: [
+          '0 4px 3px rgb(0 0 0 / 8%)',
+          '0 2px 2px rgb(0 0 0 / 10%)'
+      ],
+    },
     extend: {
       typography: ({ theme }) => ({
         DEFAULT: {
@@ -66,21 +73,21 @@ module.exports = {
     plugin(function ({ addBase }) {
       addBase({
         ':root': {
-          '--color-neutral': 'rgb(255 255 255)',
-          '--color-neutral-weakest': 'rgb(30 30 30 / 3%)',
-          '--color-neutral-weak': 'rgb(30 30 30 / 14%)',
-          '--color-neutral-medium': 'rgb(30 30 30 / 48%)',
-          '--color-neutral-strong': 'rgb(30 30 30 / 86%)',
-          '--color-primary-rgb': '225 29 72',
-          '--color-primary': 'rgb(var(--color-primary-rgb))'
+          '--color-neutral': 'hsl(0deg 0% 100%)',
+          '--color-neutral-weakest': 'hsl(211deg 12% 97%)',
+          '--color-neutral-weak': 'hsl(211deg 34% 90%)',
+          '--color-neutral-medium': 'hsl(211deg 12% 58%)',
+          '--color-neutral-strong': 'hsl(211deg 8% 22%)',
+          '--color-primary': 'hsl(347deg 77% 50%)'
         },
         '@media (prefers-color-scheme: dark)': {
           ':root': {
-            '--color-neutral': 'rgb(24 24 24)',
-            '--color-neutral-weakest': 'rgb(255 255 255 / 3%)',
-            '--color-neutral-weak': 'rgb(255 255 255 / 14%)',
-            '--color-neutral-medium': 'rgb(255 255 255 / 48%)',
-            '--color-neutral-strong': 'rgb(255 255 255 / 86%)',
+            '--color-neutral': 'hsl(211deg 28% 8%)',
+            '--color-neutral-weakest': 'hsl(211deg 24% 11%)',
+            '--color-neutral-weak': 'hsl(211deg 24% 18%)',
+            '--color-neutral-medium': 'hsl(211deg 12% 46%)',
+            '--color-neutral-strong': 'hsl(211deg 24% 86%)',
+            '--color-primary': 'hsl(347deg 77% 44%)'
           }
         }
       })
