@@ -42,6 +42,14 @@ module.exports = function  (eleventyConfig) {
 
     // Deep-Merge
     eleventyConfig.setDataDeepMerge(true);
+
+    // Collections
+    eleventyConfig.addCollection("weekly", function(collectionApi) {
+        return collectionApi.getFilteredByGlob("./src/weekly/**/**/*.md");
+    });
+    eleventyConfig.addCollection("biases", function(collectionApi) {
+        return collectionApi.getFilteredByGlob("./src/biases/*.md");
+    });
     
     return {
         dir: {

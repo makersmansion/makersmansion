@@ -1,5 +1,4 @@
 {
     "layout": "bias",
-    "tags": "biases",
     "permalink": "cognitive-biases/{{ page.fileSlug }}/index.html"
 }
