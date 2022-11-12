@@ -5,7 +5,9 @@ const plugin = require('tailwindcss/plugin')
 
 module.exports = {
   content: [
-    './src/**/*.{njk, md, html}'
+    './src/**/**/**/*.html',
+    './src/**/**/**/*.njk',
+    './src/**/**/**/*.md',
   ],
   theme: {
     colors: {
@@ -24,9 +26,12 @@ module.exports = {
     dropShadow: {
       'sm': '0 1px 2px rgb(0 0 0 / 13%)',
       DEFAULT: [
-          '0 4px 3px rgb(0 0 0 / 8%)',
-          '0 2px 2px rgb(0 0 0 / 10%)'
+        '0 2px 2px rgb(0 0 0 / 8%)',
+        '0 4px 4px rgb(0 0 0 / 8%)',
       ],
+    },
+    aspectRatio: {
+      'video': '16 / 9',
     },
     extend: {
       typography: ({ theme }) => ({
