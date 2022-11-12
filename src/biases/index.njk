@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
 
 <div class="mb-12 sm:flex items-start">
     <hgroup class="mb-4">
-        <h1 class="font-serif text-2xl md:text-3xl font-bold">42 Cognitive Biases to be aware of</h1>
+        <h1 class="font-serif font-bold text-2xl leading-normal md:text-3xl md:leading-snug xl:text-4xl xl:leading-snug">42 Cognitive Biases to be aware of</h1>
         <p class="mt-2 text-xl text-neutral-medium">
             So you can build <em>impactful</em> products. 
             <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fmakersmansion.xyz&via=makers_mansion&text=Check%20out%20Makers%20Weekly,%20the%2015-minute%20newsletter%20on%20maximizing%20outcomes%20for%20product%20designers%2C%20engineers%2C%20and%20managers." target="_blank"class="inline-flex flex-nowrap items-center gap-1 underline underline-offset-2 hover:decoration-primary" title="Share on Twitter">
@@ -26,8 +26,8 @@ eleventyExcludeFromCollections: true
     {% for bias in collections.biases | sortByOrder %}
     <article class="
         p-6 py-8 sm:px-8 sm:py-10 
-        flex flex-col justify-between 
-        bg-neutral-weakest border-t-2 border-neutral-weak 
+        flex flex-col  
+        bg-neutral-weakest border-b-2 border-primary
         rounded-sm
         ">
         <h2 class="font-serif text-lg leading-relaxed md:text-xl md:leading-relaxed font-bold">

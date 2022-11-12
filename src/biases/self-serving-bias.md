@@ -1,6 +1,6 @@
 ---
 title: Self-Serving Bias
-description: Our failures are situational, but our success are our responsibility.
+description: Our failures are situational, but our success is our responsibility.
 tags: 
     - social
     - belief
