@@ -7,8 +7,4 @@ tags:
     - politics
 ---
 
-# False Consensus
-
-**We believe more people agree with us than is acutally the case.**
-
 > Everybody things that!

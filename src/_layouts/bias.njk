@@ -14,9 +14,26 @@ layout: base
 </p>
 
 
-<article class="
-    max-w-none 
-    mb-20 
+<article class="max-w-none mb-20">
+
+    <header>
+        <h1 class="font-serif text-2xl leading-normal md:text-3xl md:leading-snug xl:text-4xl xl:leading-snug font-bold">{{ title }}</h1>
+        <p class="mt-2 text-xl text-neutral-medium">{{ description }}</h1>
+        <div class="mt-4 flex flex-nowrap items-center gap-3 sm:gap-5 text-xs md:text-sm uppercase text-neutral-medium tracking-widest">
+            {% for tag in tags %}
+            <span class="flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" fill="none" class="w-5 h-5">
+                    <circle cx="15" cy="9" r="1" fill="currentColor"></circle>
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 4.75H19.25V12L12.5535 18.6708C11.7544 19.4668 10.4556 19.445 9.68369 18.6226L5.28993 13.941C4.54041 13.1424 4.57265 11.8895 5.36226 11.1305L12 4.75Z"></path>
+                </svg>
+                {{ tag }}
+            </span>
+            {% endfor %}
+        </div>
+    </header>
+
+    <div class="
+    mt-12 
     prose prose-neutral md:prose-lg 
     prose-h1:font-serif prose-h1:font-bold prose-h1:text-2xl prose-h1:leading-normal md:prose-h1:text-3xl md:prose-h1:leading-snug xl:prose-h1:text-4xl xl:prose-h1:leading-snug
     prose-h2:text-xl prose-h2:font-bold md:prose-h2:text-2xl 
@@ -25,18 +42,8 @@ layout: base
     prose-hr:border-dashed
     ">
 
-    <div class="mb-2 flex flex-nowrap items-center gap-3 sm:gap-5 text-xs md:text-sm uppercase text-neutral-medium tracking-widest">
-        {% for tag in tags %}
-        <span class="flex items-center gap-1">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" fill="none" class="w-5 h-5">
-                <circle cx="15" cy="9" r="1" fill="currentColor"></circle>
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 4.75H19.25V12L12.5535 18.6708C11.7544 19.4668 10.4556 19.445 9.68369 18.6226L5.28993 13.941C4.54041 13.1424 4.57265 11.8895 5.36226 11.1305L12 4.75Z"></path>
-            </svg>
-            {{ tag }}
-        </span>
-        {% endfor %}
+        {{content | safe }}
+    
     </div>
-
-    {{content | safe }}
 
 </article>

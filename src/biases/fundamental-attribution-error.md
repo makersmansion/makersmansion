@@ -6,10 +6,6 @@ tags:
     - belief
 ---
 
-# Fundamental Attribution Error
-
-**We judge others on their personality or fundamental character, but we judge ourselves on the situation.**
-
 > Maria is late to work, she’s lazy. You’re late to work, it was a bad morning.
 
 ---

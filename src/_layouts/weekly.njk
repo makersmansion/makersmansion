@@ -7,11 +7,7 @@ layout: base
 
     <header>
         <h1 class="font-serif text-2xl leading-normal md:text-3xl md:leading-snug xl:text-4xl xl:leading-snug font-bold">{{ title }}</h1>
-        <div class="
-            flex flex-nowrap items-center gap-3 sm:gap-5 
-            mt-6 md:mt-10 
-            text-xs md:text-sm uppercase text-neutral-medium tracking-widest
-            ">
+        <div class="mt-6 md:mt-10 flex flex-nowrap items-center gap-3 sm:gap-5 text-xs md:text-sm uppercase text-neutral-medium tracking-widest">
             <span class="flex-none">WEEK {{ week }}</span>
             <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="flex-none flex items-center gap-1">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" fill="none" class="w-5 h-5 -mt-[1px]">

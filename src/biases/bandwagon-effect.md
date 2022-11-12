@@ -7,10 +7,6 @@ tags:
     - politics
 ---
 
-# Bandwagon Effect
-
-**Ideas, fads, and beliefs grow as more people adopt them.**
-
 > Maria believes figet spinners help her children. Adrian does, too.
 
 ---

@@ -7,10 +7,6 @@ tags:
     - money
 ---
 
-# Halo Effect
-
-**If you see a person as having a possitive trait, that possitive impression will spill over into their other traits.**
-
 > Maria could never be mean, she’s so cute!
 
 ---

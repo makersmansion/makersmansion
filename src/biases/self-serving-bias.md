@@ -7,10 +7,6 @@ tags:
     - money
 ---
 
-# Self-Serving Bias
-
-**Our failures are situational, but our success is our responsibility.**
-
 > You won that award due to hard work rather than help or luck. Meanwhile, you failed that text because you hadn’t gotten enough sleep. 
 
 ---
