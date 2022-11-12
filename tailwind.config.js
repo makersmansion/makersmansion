@@ -87,8 +87,8 @@ module.exports = {
         },
         '@media (prefers-color-scheme: dark)': {
           ':root': {
-            '--color-neutral': 'hsl(211deg 28% 8%)',
-            '--color-neutral-weakest': 'hsl(211deg 24% 11%)',
+            '--color-neutral': 'hsl(211deg 18% 9%)',
+            '--color-neutral-weakest': 'hsl(211deg 28% 11%)',
             '--color-neutral-weak': 'hsl(211deg 24% 18%)',
             '--color-neutral-medium': 'hsl(211deg 12% 46%)',
             '--color-neutral-strong': 'hsl(211deg 24% 86%)',
