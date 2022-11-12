@@ -1,0 +1,42 @@
+---
+layout: base
+---
+{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
+
+<div class="mb-24 max-w-lg">
+    <h2 class="font-serif text-lg leading-relaxed md:text-xl md:leading-relaxed font-bold">
+        <a href="/cognitive-biases/" class="underline underline-offset-2 decoration-neutral-medium hover:decoration-primary">
+            42 Cognitive Biases
+        </a>
+    </h2>
+    <p class="mt-2">A collection of errors in our thinking that occur when we interpret information and make decisions.</p>
+</div>
+
+
+<article class="
+    max-w-none 
+    prose prose-neutral md:prose-lg 
+    prose-h1:font-serif prose-h1:font-bold prose-h1:text-2xl prose-h1:leading-normal md:prose-h1:text-3xl md:prose-h1:leading-snug xl:prose-h1:text-4xl xl:prose-h1:leading-snug
+    prose-h2:text-xl prose-h2:font-bold md:prose-h2:text-2xl 
+    prose-a:underline prose-a:underline-offset-2 prose-a:decoration-neutral-medium hover:prose-a:decoration-primary 
+    prose-blockquote:not-italic 
+    prose-hr:border-dashed
+    ">
+
+    <div class="mb-2 flex flex-nowrap items-center gap-3 sm:gap-5 text-xs md:text-sm uppercase text-neutral-medium tracking-widest">
+        {% for tag in tags %}
+            {% if tag !== 'biases' %}
+                <span class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" fill="none" class="w-5 h-5">
+                        <circle cx="15" cy="9" r="1" fill="currentColor"></circle>
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 4.75H19.25V12L12.5535 18.6708C11.7544 19.4668 10.4556 19.445 9.68369 18.6226L5.28993 13.941C4.54041 13.1424 4.57265 11.8895 5.36226 11.1305L12 4.75Z"></path>
+                    </svg>
+                    {{ tag }}
+                </span>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    {{content | safe }}
+
+</article>
