@@ -1,10 +1,10 @@
 ---
 title: Halo Effect
-description: If you see a person as having a possitive trait, that possitive impression will spill over into their other traits.
+description: If we see a person as having a possitive trait, that possitive impression will spill over into their other traits.
 tags: 
     - social
     - belief
-    - money
+    - politics
 ---
 
 > Maria could never be mean, she’s so cute!
