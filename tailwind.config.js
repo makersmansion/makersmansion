@@ -80,7 +80,7 @@ module.exports = {
         ':root': {
           '--color-neutral': 'hsl(0deg 0% 100%)',
           '--color-neutral-weakest': 'hsl(211deg 12% 97%)',
-          '--color-neutral-weak': 'hsl(211deg 34% 90%)',
+          '--color-neutral-weak': 'hsl(211deg 34% 92%)',
           '--color-neutral-medium': 'hsl(211deg 12% 58%)',
           '--color-neutral-strong': 'hsl(211deg 8% 22%)',
           '--color-primary': 'hsl(347deg 77% 50%)'
@@ -89,7 +89,7 @@ module.exports = {
           ':root': {
             '--color-neutral': 'hsl(211deg 24% 8%)',
             '--color-neutral-weakest': 'hsl(211deg 28% 11%)',
-            '--color-neutral-weak': 'hsl(211deg 24% 18%)',
+            '--color-neutral-weak': 'hsl(211deg 24% 15%)',
             '--color-neutral-medium': 'hsl(211deg 12% 46%)',
             '--color-neutral-strong': 'hsl(211deg 24% 86%)',
             '--color-primary': 'hsl(347deg 77% 44%)'
