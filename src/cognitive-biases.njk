@@ -19,18 +19,21 @@ description: A collection of errors in our thinking that occur when we interpret
 
 <ol class="mt-16 space-y-16">
     {% for bias in collections.biases %}
-    <li class="grid auto-rows-min grid-cols-8 gap-x-2">
-        <div class="
-            row-start-1 row-span-3 col-start-1 col-span-2 
-            flex items-center 
-            pl-4 sm:pl-8 
-            text-2xl md:text-3xl xl:text-4xl font-serif text-neutral-weak 
-            bg-neutral-weakest rounded-sm
+    <li class="relative grid auto-rows-2 grid-cols-[minmax(12%,_70px)_1fr] gap-x-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="80" class="w-20 absolute -z-10 pointer-events-none rounded-full">
+            <rect x="0" y="0" width="120" height="120" fill="var(--color-neutral)"></rect>
+            <path d="M67 0L86 0L86 20L68 20L68 40L85 40L85 60L99 60L99 80L63 80L63 100L81 100L81 120L0 120L0 100L0 100L0 80L0 80L0 60L0 60L0 40L0 40L0 20L0 20L0 0L0 0Z" fill="var(--color-neutral-weakest)" />
+            <path d="M43 0L40 0L40 20L34 20L34 40L58 40L58 60L30 60L30 80L42 80L42 100L53 100L53 120L0 120L0 100L0 100L0 80L0 80L0 60L0 60L0 40L0 40L0 20L0 20L0 0L0 0Z" fill="var(--color-neutral-weak)" />
+        </svg>
+        <span class="
+            row-start-1 col-start-1 
+            pl-6 pt-6 sm:pl-8 
+            text-lg leading-relaxed md:text-xl md:leading-relaxed xl:text-2xl font-bold 
             ">
             {{ loop.index }}
-        </div>
+        </span>
         <h2 class="
-            row-start-1 col-start-2 col-span-7   
+            row-start-1 col-start-2 
             font-serif text-lg leading-relaxed md:text-xl md:leading-relaxed xl:text-2xl font-bold
             ">
             <a href="{{ bias.url }}" class="
@@ -44,7 +47,7 @@ description: A collection of errors in our thinking that occur when we interpret
                 </svg>
             </a>
         </h2>
-        <p class="row-start-2 col-start-2 col-span-7 pb-6 md:text-lg">{{ bias.data.description }}</p>
+        <p class="row-start-2 col-start-2 pb-6 md:text-lg">{{ bias.data.description }}</p>
     </li>
     {% endfor %}
 </ol>
