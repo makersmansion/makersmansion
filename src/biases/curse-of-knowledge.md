@@ -1,6 +1,6 @@
 ---
 title: Curse of Knowledge
-description: Once we know something, we asuume everyone else knows it, too.
+description: Once we know something, we asume everyone else knows it, too.
 tags: 
     - social
     - belief
