@@ -6,7 +6,7 @@ tags:
     - memory
 ---
 
-> Maria is worried everyone's going to notice how lame her t-shirt is.
+> Maria is worried everyone's going to notice how lame her t-shirt is
 
 ---
 

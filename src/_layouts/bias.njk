@@ -3,22 +3,14 @@ layout: base
 ---
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
 
-<p class="mb-24 font-serif text-lg leading-relaxed md:text-xl md:leading-relaxed font-bold">
-    <a href="/cognitive-biases/" class="flex items-center gap-2 underline underline-offset-2 decoration-neutral-medium hover:decoration-primary">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" fill="none" class="w-6 h-6">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.25 6.75L4.75 12L10.25 17.25"></path>
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.25 12H5"></path>
-        </svg>
-        42 Biases
-    </a>
-</p>
+<p class="mb-24 font-serif text-lg leading-relaxed md:text-xl md:leading-relaxed font-bold"><a href="/cognitive-biases/" class="underline underline-offset-2 decoration-neutral-medium hover:decoration-primary">42 Biases to be aware of</a></p>
 
 
 <article class="max-w-none mb-20">
 
     <header>
         <h1 class="font-serif text-2xl leading-normal md:text-3xl md:leading-snug xl:text-4xl xl:leading-snug font-bold">{{ title }}</h1>
-        <div class="mt-2 flex flex-nowrap items-center gap-3 sm:gap-5 text-xs md:text-sm uppercase text-neutral-medium tracking-widest">
+        <div class="mt-2 flex flex-wrap items-center gap-3 sm:gap-5 text-xs md:text-sm uppercase text-neutral-medium tracking-widest">
             {% for tag in tags %}
             <span class="flex items-center gap-1">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" fill="none" class="w-5 h-5">
@@ -29,7 +21,6 @@ layout: base
             </span>
             {% endfor %}
         </div>
-        <p class="mt-10 text-lg md:text-xl">{{ description }}</p>
     </header>
 
     <div class="
@@ -41,6 +32,7 @@ layout: base
     prose-blockquote:not-italic 
     prose-hr:border-dashed
     ">
+        <p class="lead">{{ description }}</p>
 
         {{content | safe }}
     
@@ -55,7 +47,7 @@ layout: base
     sm:rounded-sm
     ">
     <h3 class="font-serif text-xl md:text-2xl font-bold">Makers Newsletter</h3>
-    <p class="mt-4">Stay in the loop with our <b>15-minute newsletter</b> on maximizing outcomes for product designers, engineers, and managers.</p>
+    <p class="mt-4">Product manager, designer, or engineer? Stay in the loop with weekly notes on how to maximize your outcomes.</p>
     <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="mt-6 max-w-lg flex flex-nowrap justify-center items-center">
         <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="form-input flex-1 px-3 py-2 text-neutral-strong bg-neutral border-2 border-r-0 border-neutral-strong focus:border-neutral-strong focus:ring-0 rounded-l-sm">
         <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-semibold text-neutral bg-neutral-strong border-2 border-l-0 border-neutral-strong rounded-r-sm">
@@ -63,6 +55,6 @@ layout: base
         </button>
     </form>
     <p class="mt-4 text-sm text-neutral-medium">
-        Sent every Sunday morning by <a href="https://helloraz.com" target="_blank" class="underline underline-offset-2 font-semibold hover:decoration-primary">Raz Tirboaca</a>
+        Sent every Sunday morning by <a href="https://helloraz.com" target="_blank" class="underline underline-offset-2 decoration-neutral-medium font-semibold hover:text-neutral-strong">Raz Tirboaca</a>
     </p>
 </aside>

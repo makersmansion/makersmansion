@@ -7,7 +7,7 @@ tags:
     - money
 ---
 
-> You won that award due to hard work rather than help or luck. Meanwhile, you failed that text because you hadn’t gotten enough sleep. 
+> You won that award due to hard work rather than help or luck. Meanwhile, you failed that text because you hadn’t gotten enough sleep
 
 ---
 

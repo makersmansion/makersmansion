@@ -7,7 +7,7 @@ tags:
     - money
 ---
 
-> Adrian is in your church, so you like Adrian more than Maria.
+> Adrian is in your church, so you like Adrian more than Maria
 
 ---
 

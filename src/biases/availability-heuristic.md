@@ -9,7 +9,7 @@ tags:
     - money
 ---
 
-> When deciding which store to visit, you choose the one you most recently saw an ad for.
+> When deciding which store to visit, you choose the one you most recently saw an ad for
 
 ---
 
