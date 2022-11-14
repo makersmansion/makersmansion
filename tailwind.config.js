@@ -70,6 +70,9 @@ module.exports = {
           },
         },
       }),
+      borderRadius: {
+        '5xl': '7rem',
+      },
     },
   },
   plugins: [
