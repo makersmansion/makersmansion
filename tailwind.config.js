@@ -23,6 +23,37 @@ module.exports = {
       'sans': ['Noto Sans', defaultTheme.fontFamily.sans],
       'serif': ['Libre Baskerville', defaultTheme.fontFamily.serif]
     },
+    fontSize: {
+      'caption': ['var(--text-caption-fs)', {
+        lineHeight: 'var(--text-caption-lh)',
+      }],
+      'base': ['var(--text-base-fs)', {
+        lineHeight: 'var(--text-base-lh)',
+      }],
+      'lead': ['var(--text-lead-fs)', {
+        lineHeight: 'var(--text-lead-lh)',
+      }],
+      'heading': ['var(--text-heading-fs)', {
+        lineHeight: 'var(--text-heading-lh)',
+        letterSpacing: '-0.01em',
+        fontWeight: 'bold',
+      }],
+      'heading-md': ['var(--text-heading-md-fs)', {
+        lineHeight: 'var(--text-heading-md-lh)',
+        letterSpacing: '-0.01em',
+        fontWeight: 'bold',
+      }],
+      'heading-lg': ['var(--text-heading-lg-fs)', {
+        lineHeight: 'var(--text-heading-lg-lh)',
+        letterSpacing: '-0.01em',
+        fontWeight: 'bold',
+      }],
+      'display': ['var(--text-display-fs)', {
+        lineHeight: 'var(--text-display-lh)',
+        letterSpacing: '-0.01em',
+        fontWeight: 'bold',
+      }],
+    },
     dropShadow: {
       'sm': '0 1px 2px rgb(0 0 0 / 13%)',
       DEFAULT: [
@@ -45,7 +76,7 @@ module.exports = {
             },
             blockquote: {
               'font-weight': 'inherit',
-            }
+            },
           },
         },
         neutral: {
@@ -73,29 +104,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    plugin(function ({ addBase }) {
-      addBase({
-        ':root': {
-          '--color-neutral': 'hsl(0deg 0% 100%)',
-          '--color-neutral-weakest': 'hsl(211deg 12% 97%)',
-          '--color-neutral-weak': 'hsl(211deg 34% 92%)',
-          '--color-neutral-medium': 'hsl(211deg 12% 58%)',
-          '--color-neutral-strong': 'hsl(211deg 8% 22%)',
-          '--color-primary': 'hsl(347deg 77% 50%)'
-        },
-        '@media (prefers-color-scheme: dark)': {
-          ':root': {
-            '--color-neutral': 'hsl(211deg 24% 8%)',
-            '--color-neutral-weakest': 'hsl(211deg 28% 11%)',
-            '--color-neutral-weak': 'hsl(211deg 24% 15%)',
-            '--color-neutral-medium': 'hsl(211deg 12% 46%)',
-            '--color-neutral-strong': 'hsl(211deg 24% 86%)',
-            '--color-primary': 'hsl(347deg 77% 44%)'
-          }
-        }
-      })
-    })
+    require('@tailwindcss/typography')
   ]
 }

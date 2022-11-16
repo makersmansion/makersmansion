@@ -3,14 +3,14 @@ layout: base
 ---
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
 
-<p class="mb-24 font-serif text-lg leading-relaxed md:text-xl md:leading-relaxed font-bold"><a href="/cognitive-biases/" class="underline underline-offset-2 decoration-neutral-medium hover:decoration-primary">42 Biases to be aware of</a></p>
+<p class="mb-16"><a href="/cognitive-biases/" class="underline underline-offset-2 decoration-neutral-medium hover:decoration-primary"><strong>42 Biases to be aware of</strong></a></p>
 
 
 <article class="max-w-none mb-20">
 
     <header>
-        <h1 class="font-serif text-2xl leading-normal md:text-3xl md:leading-snug xl:text-4xl xl:leading-snug font-bold">{{ title }}</h1>
-        <div class="mt-2 flex flex-wrap items-center gap-3 sm:gap-5 text-xs md:text-sm uppercase text-neutral-medium tracking-widest">
+        <h1 class="font-serif text-heading-lg">{{ title }}</h1>
+        <div class="mt-2 flex flex-wrap items-center gap-3 sm:gap-5 text-caption uppercase text-neutral-medium tracking-widest">
             {% for tag in tags %}
             <span class="flex items-center gap-1">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" fill="none" class="w-5 h-5">
@@ -21,18 +21,18 @@ layout: base
             </span>
             {% endfor %}
         </div>
+        <p class="mt-6 text-lead">{{ description }}</p>
     </header>
 
     <div class="
-    mt-8 max-w-none 
-    prose prose-neutral md:prose-lg 
-    prose-h1:font-serif prose-h1:font-bold prose-h1:text-2xl prose-h1:leading-normal md:prose-h1:text-3xl md:prose-h1:leading-snug xl:prose-h1:text-4xl xl:prose-h1:leading-snug
-    prose-h2:text-xl prose-h2:font-bold md:prose-h2:text-2xl 
-    prose-a:underline prose-a:underline-offset-2 prose-a:decoration-neutral-medium hover:prose-a:decoration-primary 
-    prose-blockquote:not-italic 
-    prose-hr:border-dashed
+        mt-10 max-w-none 
+        prose prose-neutral   
+        prose-h2:text-heading 
+        prose-p:text-base 
+        prose-a:underline prose-a:underline-offset-2 prose-a:decoration-neutral-medium hover:prose-a:decoration-primary 
+        prose-blockquote:not-italic 
+        prose-hr:border-dashed
     ">
-        <p class="lead">{{ description }}</p>
 
         {{content | safe }}
     
@@ -46,15 +46,15 @@ layout: base
     md:bg-neutral-weakest 
     md:rounded-sm 
     ">
-    <h3 class="font-serif text-xl md:text-2xl font-bold">Makers Newsletter</h3>
-    <p class="mt-4">Product manager, designer, or engineer? Stay in the loop with weekly notes and resources on <strong>maximizing</strong> your outcomes.</p>
-    <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="mt-6 w-full max-w-lg inline-flex flex-nowrap justify-center items-center rounded-sm shadow">
-        <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="form-input flex-1 px-3 py-2 text-neutral-strong bg-neutral border border-r-0 border-neutral-strong focus:border-neutral-strong focus:ring-0 rounded-l-sm">
+    <h3 class="font-serif text-heading-md">Stay in the loop</h3>
+    <p class="mt-2">Product manager, designer, or engineer? Stay in the loop with weekly notes and resources on <strong>maximizing</strong> your outcomes.</p>
+    <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="mt-6 w-full max-w-lg inline-flex flex-nowrap justify-center rounded-sm shadow">
+        <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="flex-1 px-3 py-2 text-neutral-strong bg-neutral border border-r-0 border-neutral-strong focus:border-neutral-strong focus:outline-none focus:ring-0 rounded-l-sm">
         <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-semibold text-neutral bg-neutral-strong border border-l-0 border-neutral-strong rounded-r-sm">
             Subscribe
         </button>
     </form>
-    <p class="mt-4 text-sm text-neutral-medium">
+    <p class="mt-4 text-caption text-neutral-medium">
         Sent every Sunday morning by <a href="https://helloraz.com" target="_blank" class="underline underline-offset-2 decoration-neutral-medium font-semibold hover:text-neutral-strong">Raz Tirboaca</a>
     </p>
 </aside>
