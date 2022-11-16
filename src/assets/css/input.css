@@ -37,6 +37,15 @@
         }
     }
 
+    @media screen(sm) {
+        :root {
+            --text-lead-fs: 1.324rem;
+            --text-lead-lh: 1.44;
+            --text-display-fs: 1.969rem;
+            --text-display-lh: 1.25;
+        }
+    }
+
     @media screen(md) {
         :root {
             --text-caption-fs: .825rem;
