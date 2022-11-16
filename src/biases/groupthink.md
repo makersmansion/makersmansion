@@ -7,7 +7,7 @@ tags:
     - politics
 ---
 
-> Maria wants to get ice cream. Adrian wants to shop for t-shirts. You suggest getting t-shirts with picture if ice cream on them
+💬  **Maria wants to get ice cream. Adrian wants to shop for t-shirts. You suggest getting t-shirts with picture if ice cream on them**
 
 The term was coined by Irving Janis, who described it as “a form of social coercion that leads individuals to suppress dissent in the interest of harmonious coherence.” To be sure, Groupthink doesn't always lead to bad decision-making. But when it does—it’s costly.
 

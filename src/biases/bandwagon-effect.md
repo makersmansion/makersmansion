@@ -7,7 +7,7 @@ tags:
     - politics
 ---
 
-> Maria believes figet spinners help her children. Adrian does, too
+💬  **Maria believes figet spinners help her children. Adrian does, too**
 
 ---
 
