@@ -3,13 +3,17 @@ layout: base
 ---
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
 
-<p class="mb-16"><a href="/cognitive-biases/" class="underline underline-offset-2 decoration-neutral-medium hover:decoration-primary"><strong>42 Biases to be aware of</strong></a></p>
+<p class="mb-16 font-serif">
+    <a href="/cognitive-biases/" class="underline underline-offset-2 decoration-neutral-medium hover:decoration-primary">
+        <strong>42 Biases to be aware of</strong>
+    </a>
+</p>
 
 
 <article class="max-w-none mb-20">
 
     <header>
-        <h1 class="font-serif text-heading-lg">{{ title }}</h1>
+        <h1 class="text-heading-lg">{{ title }}</h1>
         <p class="mt-2 text-lead">{{ description }}</p>
         <div class="mt-6 md:mt-10 flex flex-nowrap items-center gap-3 sm:gap-5 text-caption uppercase text-neutral-medium tracking-widest">
             {% for tag in tags %}
