@@ -1,7 +1,7 @@
 {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
 
 {# General #}
-<meta name="title" content="{% if title %}{{ title }} / {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="title" content="{% if title %}{{ title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
 <meta name="author" content="Raz Tirboaca">
 <link rel="canonical" href="{{ absolutePageUrl }}">
