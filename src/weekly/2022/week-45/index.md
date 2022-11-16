@@ -52,7 +52,7 @@ To illustrate, consider Steve Tadelis’s eBay research. Ebay lost $0.63 cents o
 
 👻 [The reason for Meta's massive layoffs](https://www.wired.com/story/meta-layoffs-overhiring/)? Ghosts in the Machine—new projects helped Facebook to accumulate employees rapidly. The company has continued to keep staff on even after projects have been deemed unsuccessful and shut down. Meta would hire new employees with each new project, and when those projects were over, the employees would just work on experiments and research.
 
-📈 [YouTube Music and Premium added 30M](https://www.theverge.com/2022/11/9/23449067/youtube-music-premium-subscriber-growth-2022) subscribers in one year, bringing the total to 80M across both platforms. These new numbers indicate that YouTube Music and Premium are growing even faster this year than the last. In last year’s report, YouTube said it added 20M subscribers across both its services in just one year.
+📈 [YouTube Music and Premium added 30M](https://www.theverge.com/2022/11/9/23449067/youtube-music-premium-subscriber-growth-2022) subscribers in one year, bringing the total to 80M across both platforms. These new numbers indicate that YouTube Music and Premium are growing even faster this year than the last. In last year’s report, YouTube said it added 20M subscribers across both its services in just one year.
 
 🎙️ [Listen to Phill Agnew on this episode](https://open.spotify.com/episode/77p6HTQluth2u2FbMJVbl9) of _Nudge_ to find out why “You have to spend money to make money” is the biggest lie in business. There are plenty of examples of cost-free marketing based on proven behavioural science tactics that get results. Learn how to boost app downloads without spending on ads.
 
