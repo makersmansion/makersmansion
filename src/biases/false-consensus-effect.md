@@ -1,6 +1,6 @@
 ---
 title: False Consensus Effects
-description: We believe more people agree with us than is acutally the case.
+description: We believe more people agree with us than is actually the case.
 tags: 
     - social
     - belief
