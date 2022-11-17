@@ -20,15 +20,15 @@ module.exports = {
       'primary': 'var(--color-primary)'
     },
     fontFamily: {
-      'sans': ['Noto Sans', defaultTheme.fontFamily.sans],
+      'sans': ['Lexend', defaultTheme.fontFamily.sans],
       'serif': ['Libre Baskerville', defaultTheme.fontFamily.serif]
     },
     fontSize: {
       'caption': ['var(--text-caption-fs)', {
         lineHeight: 'var(--text-caption-lh)',
       }],
-      'base': ['var(--text-base-fs)', {
-        lineHeight: 'var(--text-base-lh)',
+      'body': ['var(--text-body-fs)', {
+        lineHeight: 'var(--text-body-lh)',
       }],
       'lead': ['var(--text-lead-fs)', {
         lineHeight: 'var(--text-lead-lh)',
