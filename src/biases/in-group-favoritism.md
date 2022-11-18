@@ -13,7 +13,7 @@ We believe that our in-group or group of friends is superior to others, or that 
 
 We also have a tendency to value outsiders less than insiders.
 
-## You can avoid it by doing the following
+**You can avoid it by doing the following**
 
 - Praise your peers’ work and accept criticism gracefully.
 - Solicit feedback from outsiders and avoid making assumptions about them.

@@ -15,7 +15,7 @@ People might also be influenced by the bandwagon effect just because seeing ever
 
 The bandwagon effect can happen in politics as well, when people see others supporting an idea and decide to follow suit, even if they don't really agree with that idea. For example, some people might think that voting for a certain candidate is just because other people are doing it, even if they have different opinions themselves.
 
-## You can avoid it by doing the following
+**You can avoid it by doing the following**
 
 - Think about why you are doing something – what do you hope to achieve?
 - Keep an open mind – don’t base your decisions on what you see other people doing, but rather what feels right to you in your own way.
