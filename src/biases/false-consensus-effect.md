@@ -13,5 +13,5 @@ We tend to overestimate the extent to which others share our opinions. This effe
 
 ## You can avoid it by doing the following
 
-1. Put your assumptions about what others are likely to think and feel to the test by thinking about people with different backgrounds and beliefs than you.
-2. Ask others for their thoughts on the topic you're currently debating.
+- Put your assumptions about what others are likely to think and feel to the test by thinking about people with different backgrounds and beliefs than you.
+- Ask others for their thoughts on the topic you're currently debating.

@@ -17,6 +17,6 @@ The bandwagon effect can happen in politics as well, when people see others supp
 
 ## You can avoid it by doing the following
 
-1. Think about why you are doing something – what do you hope to achieve? 
-2. Keep an open mind – don’t base your decisions on what you see other people doing, but rather what feels right to you in your own way.
-3. If there’s something that you really want to do, make sure that it is right for you and that it is something that you can see yourself doing for a long time.
+- Think about why you are doing something – what do you hope to achieve?
+- Keep an open mind – don’t base your decisions on what you see other people doing, but rather what feels right to you in your own way.
+- If there’s something that you really want to do, make sure that it is right for you and that it is something that you can see yourself doing for a long time.
