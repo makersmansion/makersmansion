@@ -1,10 +1,10 @@
 ---
-title: "About value, product/market fit, and how to be a 2x person starting today"
+title: "Creating value, finding product/market fit, and being a 2x person"
 date: 2022-06-28
 week: 26
 ---
 
-💬 "Money doesn't follow money, money follows energy"
+💬 **Money doesn't follow money, money follows energy**
 
 The energy you put in creating **value**—and then, you exchange that value for money. But what is value?
 

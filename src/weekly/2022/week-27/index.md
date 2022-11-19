@@ -1,10 +1,10 @@
 ---
-title: "About curiosity, machine learning, and who are the best managers"
+title: "Curiosity, opportunities, and who are the best managers"
 date: 2022-07-05
 week: 27
 ---
 
-💬 "Curiosity has created more opportunities than hard work ever will"
+💬 **Curiosity has created more opportunities than hard work ever will**
 
 So if you're not born into a rich family, what are the factors in obtaining wealth?
 

@@ -1,10 +1,10 @@
 ---
-title: "About reframing, price increase communication, and how to resolve the conflicts between designers and engineers"
+title: "Reframing trick, price increase communication, and resolving conflicts between designers and engineers"
 date: 2022-07-19
 week: 29
 ---
 
-💬 "If you don't like how the table is set, turn it over"
+💬 **If you don't like how the table is set, turn it over**
 
 The first time I heard this line, I imagined four guys sitting at a poker table, engaging in a dispute, when suddenly one of them would get up and turn over the table angrily to calm his emotions. Most probably right after losing his hand.
 

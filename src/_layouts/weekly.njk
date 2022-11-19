@@ -36,7 +36,10 @@ layout: base
         prose-p:text-body  
         prose-a:underline prose-a:underline-offset-2 prose-a:decoration-neutral-medium hover:prose-a:decoration-primary 
         prose-blockquote:not-italic 
-        prose-hr:border-dashed
+        prose-hr:border-dashed 
+        prose-figure:relative 
+        prose-img:shadow prose-img:rounded-sm dark:prose-img:shadow-none dark:prose-img:opacity-80  
+        prose-figcaption:p-3 prose-figcaption:absolute prose-figcaption:left-2 prose-figcaption:right-2 prose-figcaption:bottom-2 prose-figcaption:text-caption prose-figcaption:text-center prose-figcaption:text-black/95 prose-figcaption:bg-white/80 
         ">
 
         {{content | safe }}
@@ -50,7 +53,7 @@ layout: base
     mt-24 mb-16 
     text-center
     ">
-    <h3 class="font-serif text-heading-lg">Stay in the loop</h3>
+    <h3 class="font-serif text-heading-md">Stay in the loop</h3>
     <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="mt-4 w-full max-w-lg inline-flex flex-nowrap justify-center rounded-sm shadow">
         <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="flex-1 px-3 py-2 text-neutral-strong bg-neutral border border-r-0 border-neutral-strong focus:border-neutral-strong focus:outline-none focus:ring-0  rounded-none rounded-l-sm">
         <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-medium text-neutral bg-neutral-strong border border-l-0 border-neutral-strong rounded-r-sm">

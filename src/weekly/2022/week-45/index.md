@@ -1,5 +1,5 @@
 ---
-title: "About AI eating the world, the advertising bubble, and IQ tests"
+title: "AI eating the world, the advertising bubble, and IQ tests"
 date: 2022-11-13
 week: 45
 ---

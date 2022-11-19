@@ -1,10 +1,10 @@
 ---
-title: "About enjoying the journey, Musk‘s hiring strategy, and the 1st important earnings period"
+title: "Enjoying the journey, Musk‘s hiring strategy, and the 1st important earnings period"
 date: 2022-07-27
 week: 30
 ---
 
-💬 "Life... Is for Living"
+💬 **Life... Is for Living**
 
 Goals, plans, strategies, interviews, tasks, deadlines. All cool, all important! So is the 5 o'clock tea. 
 

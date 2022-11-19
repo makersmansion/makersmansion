@@ -1,10 +1,10 @@
 ---
-title: "About writing better documentation, engineering culture, and the subscription economy"
+title: "Writing better documentation, engineering culture, and the subscription economy"
 date: 2022-08-23
 week: 34
 ---
 
-💬 "You're not competing with those who can do, but with those who do"
+💬 **You're not competing with those who can do, but with those who do**
 
 A warm welcome to everyone new here 👋  I'm Raz, a Barcelona based designer, and this is the 'Makers Weekly' newsletter. Every week I post resources and notes for tech makers to build better products and services.
 

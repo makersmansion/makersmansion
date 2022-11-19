@@ -1,10 +1,10 @@
 ---
-title: "About Klarna's new products, apps focused on privacy, and connecting folks to a deeper sense of purpose and meaning at work"
+title: "Klarna's new products, privacy focused apps, and connecting folks to a deeper sense of purpose and meaning"
 date: 2022-10-21
 week: 42
 ---
 
-💬 "It doesn't matter what you say, it matters what they hear"
+💬 **It doesn't matter what you say, it matters what they hear**
 
 Hello, hello! 
 

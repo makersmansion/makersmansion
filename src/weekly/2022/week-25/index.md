@@ -1,10 +1,10 @@
 ---
-title: "About Makers Mansion, new tools for frontend dev, and how to make money in a recession"
+title: "Makers Mansion, new tools for frontend dev, and how to make money in a recession"
 date: 2022-06-21
 week: 25
 ---
 
-💬 "Choose your tomorrow but start today" 
+💬 **Choose your tomorrow but start today** 
 
 It was 2003 when I built my 1st online product - a music store to sell my beats - right after I figured out that I'm not going to be a great music producer, I was average at best. And it was while designing and coding this website when I discovered that I can actually be great at it! 
 

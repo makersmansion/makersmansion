@@ -1,10 +1,10 @@
 ---
-title: "About product principles, design market, and how Apple is losing the innovation game"
+title: "Product principles, design market, and Apple losing the innovation game"
 date: 2022-07-12
 week: 28
 ---
 
-💬 "Change your opinions, keep to your principles"
+💬 **Change your opinions, keep to your principles**
 
 I'm writing this weekly from Val d'Aran, a one-of-a-kind [place](https://www.visitvaldaran.com/) in the Pyrenees mountains where Spain meets France, enjoying it together with my team at [Cledara](https://www.cledara.com/). It's our summer offsite and we celebrate the 4th anniversary in style. Check it out, it's the perfect place for a summer holiday with lots of outdoor activities to choose from ⛰
 
