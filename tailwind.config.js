@@ -74,8 +74,26 @@ module.exports = {
             strong: {
               'font-weight': 'bold',
             },
+            p: {
+              'margin-top': '1.6em',
+              'margin-bottom': '0',
+            },
+            ol: {
+              'margin-top': '1em',
+              'margin-bottom': '0',
+            },
+            ul: {
+              'margin-top': '1em',
+              'margin-bottom': '0',
+            },
+            li: {
+              'margin-top': '.4em',
+              'margin-bottom': '0',
+            },
             blockquote: {
               'font-weight': 'inherit',
+              'margin-top': '1.6em',
+              'margin-bottom': '0',
             },
           },
         },

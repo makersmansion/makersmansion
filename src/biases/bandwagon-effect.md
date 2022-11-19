@@ -7,7 +7,7 @@ tags:
     - politics
 ---
 
-💬  **Maria believes figet spinners help her children. Adrian does, too**
+> Maria believes figet spinners help her children. Adrian does, too
 
 The bandwagon effect is the tendency to do something because a lot of other people are doing it. It takes advantage of herd mentality and social influence. People who are more likely to be influenced by others and want to fit in will be more likely to join in on the bandwagon, even if they don’t really agree with it. This can cause people to form a negative consensus, where a group of people starts believing something without really knowing why.
 

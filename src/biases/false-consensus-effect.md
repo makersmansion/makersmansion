@@ -7,7 +7,7 @@ tags:
     - politics
 ---
 
-💬  **Everybody things that!**
+> Everybody things that!
 
 We tend to overestimate the extent to which others share our opinions. This effect is amplified in groups and when we are surrounded by people who share our values. This can cause us to pay less attention to those who disagree with us, making it difficult for them to express their views without being mocked.
 

@@ -7,7 +7,7 @@ tags:
     - money
 ---
 
-💬  **Maria is a teacher and struggles to understand the perspective of her new students**
+> Maria is a teacher and struggles to understand the perspective of her new students
 
 ---
 

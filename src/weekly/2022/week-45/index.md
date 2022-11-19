@@ -6,9 +6,7 @@ week: 45
 
 💬 **It’s not a tech bubble, it’s an advertising bubble**
 
-Google, Facebook, Twitter, TikTok, etc don’t have a product, they have an audience. And their business is selling ads.
-
-**Is online advertising working?** Probably not.
+Google, Facebook, Twitter, TikTok, etc don’t have a product, they have an audience. And their business is selling ads. Is online advertising working? Probably not.
 
 To illustrate, consider Steve Tadelis’s eBay research. Ebay lost $0.63 cents on every dollar they put into Google search advertising, but that’s actually an imprecise estimate. If the experiment were to be replicated infinitely (and another ad stop, and another ad stop, and another ad stop...), in 95% of all ad stops the true loss would fall in the range of negative $1.24 and negative $0.03. This is what statisticians call the confidence interval. In advertising research, the confidence interval tends to be huge.
 

@@ -6,7 +6,7 @@ tags:
     - belief
 ---
 
-💬 **Maria is late to work, she’s lazy. You’re late to work, it is a bad morning**
+> Maria is late to work, she’s lazy. You’re late to work, it is a bad morning
 
 The fundamental attribution error is so prevalent because it’s rooted in psychology, so completely overcoming it can be difficult.
 

@@ -7,7 +7,7 @@ tags:
     - politics
 ---
 
-💬  **Maria could never be mean, she’s so cute!**
+> Maria could never be mean, she’s so cute!
 
 ---
 
