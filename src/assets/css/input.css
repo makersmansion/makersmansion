@@ -28,11 +28,11 @@
 
     @media (prefers-color-scheme: dark) {
         :root {
-          --color-neutral: hsl(211deg 24% 8%);
-          --color-neutral-weakest: hsl(211deg 28% 11%);
-          --color-neutral-weak: hsl(211deg 24% 15%);
-          --color-neutral-medium: hsl(211deg 12% 46%);
-          --color-neutral-strong: hsl(211deg 24% 86%);
+          --color-neutral: hsl(211deg 20% 8%);
+          --color-neutral-weakest: hsl(211deg 20% 11%);
+          --color-neutral-weak: hsl(211deg 20% 15%);
+          --color-neutral-medium: hsl(211deg 6% 46%);
+          --color-neutral-strong: hsl(211deg 12% 86%);
           --color-primary: hsl(347deg 77% 44%);
         }
     }
