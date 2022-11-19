@@ -1,6 +1,5 @@
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require('markdown-it-attrs');
-const markdownItAnchor = require("markdown-it-anchor");
 const markdownItEmoji = require("markdown-it-emoji");
 const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
