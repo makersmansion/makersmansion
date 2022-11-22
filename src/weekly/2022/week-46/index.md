@@ -29,7 +29,7 @@ What you have to say is, “I’m gonna do the best I can now. I’ll go to the 
 
 ## TEAM
 
-🎙️ [In The Essentials Of Leadership](https://www.youtube.com/watch?v=LFhyL4pqqc8) episode, Marshall Goldsmith - one of the world’s leading executive coaches - discusses how to gain confidence, motivate others, where leaders go wrong, why it’s easier to change behavior than perception, how to specifically change other people’s perceptions, the three words that kill any conversation, decision making, and the relationship between intensity and consistency. 90 minutes of pure gold!
+🎙️ [In this ‘Essentials Of Leadership’ episode](https://www.youtube.com/watch?v=LFhyL4pqqc8), Marshall Goldsmith - one of the world’s leading executive coaches - discusses how to gain confidence, motivate others, where leaders go wrong, why it’s easier to change behavior than perception, how to specifically change other people’s perceptions, the three words that kill any conversation, decision making, and the relationship between intensity and consistency. 90 minutes of pure gold!
 
 > Our mission in life is to make a positive difference, not to prove we’re smart and not to prove we’re right. We are not here on earth to prove how smart we are.
 
@@ -43,13 +43,13 @@ What you have to say is, “I’m gonna do the best I can now. I’ll go to the 
 
 ## MARKET
 
-🎥 [How the best companies pivot](https://www.youtube.com/watch?v=MTypPo4T6t0) during a bad recession. HubSpot’s CMO and SVP of Marketing, Kipp Bodnar and Kieran Flanagan, share their marketing expertise.
+🎥 [How the best companies pivot during a bad recession](https://www.youtube.com/watch?v=MTypPo4T6t0). HubSpot’s CMO and SVP of Marketing, Kipp Bodnar and Kieran Flanagan, share their marketing expertise.
 
 💶 [Some ideas for alternative ways to make money](https://news.ycombinator.com/item?id=33619650) with coding and system skills.
 
-👾 [Epic says more than half of all](https://www.theverge.com/2022/11/15/23454055/epic-games-unreal-engine-ps5-xbox-series-x-s-next-gen-game) announced next-gen games are made on Unreal Engine. Unreal Engine is proving to be a popular choice for developers making games for the PS5 and Xbox Series X / S.
+👾 [More than half of all announced next-gen games](https://www.theverge.com/2022/11/15/23454055/epic-games-unreal-engine-ps5-xbox-series-x-s-next-gen-game) are made on Unreal Engine, says Epic. Unreal Engine is proving to be a popular choice for developers making games for the PS5 and Xbox Series X / S.
 
-👀 [Are we looking at a turning point](https://stackoverflow.blog/2022/11/11/another-hard-week-of-layoffs-in-tech-ep-505/) for how tech gets built? On this Stack Overflow podcast, Ben, Matt, and Cassidy reflect on job losses in tech, repojacking on GitHub, the ethics of generative AI, and what it would take to make us switch browsers.
+👀 [Are we looking at a turning point for how tech gets built](https://stackoverflow.blog/2022/11/11/another-hard-week-of-layoffs-in-tech-ep-505/)? On this Stack Overflow podcast, Ben, Matt, and Cassidy reflect on job losses in tech, repojacking on GitHub, the ethics of generative AI, and what it would take to make us switch browsers.
 
 🧐 [Mastodon, a decentralized microblogging site](https://time.com/6229230/mastodon-eugen-rochko-interview/) named after an extinct type of mammoth, “recorded 120,000 new users in the four days following the acquisition of Twitter”, its German founder Eugen Rochko tells TIME. He has a vision for democratizing social media.
 
