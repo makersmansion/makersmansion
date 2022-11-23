@@ -17,7 +17,8 @@ module.exports = {
       'neutral-weak': 'var(--color-neutral-weak)',
       'neutral-medium': 'var(--color-neutral-medium)',
       'neutral-strong': 'var(--color-neutral-strong)',
-      'primary': 'var(--color-primary)'
+      'primary': 'var(--color-primary)',
+      'accent': 'var(--color-accent)',
     },
     fontFamily: {
       'sans': ['Lexend', defaultTheme.fontFamily.sans],
@@ -53,6 +54,11 @@ module.exports = {
         letterSpacing: '-0.01em',
         fontWeight: 'bold',
       }],
+      'display-lg': ['var(--text-display-lg-fs)', {
+        lineHeight: 'var(--text-display-lg-lh)',
+        letterSpacing: '-0.01em',
+        fontWeight: 'bold',
+      }],
     },
     dropShadow: {
       'sm': '0 1px 2px rgb(0 0 0 / 13%)',
@@ -60,9 +66,6 @@ module.exports = {
         '0 2px 2px rgb(0 0 0 / 8%)',
         '0 4px 4px rgb(0 0 0 / 8%)',
       ],
-    },
-    aspectRatio: {
-      'video': '16 / 9',
     },
     extend: {
       typography: ({ theme }) => ({
