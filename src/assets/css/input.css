@@ -11,6 +11,8 @@
         --color-neutral-strong: hsl(211deg 8% 22%);
         --color-primary: hsl(347deg 77% 50%);
         --color-accent: hsl(31deg 100% 48%);
+        --color-accent-weak: hsl(31deg 100% 54%);
+        --color-accent-strong: hsl(50, 100%, 60%);
         --text-caption-fs: .8rem;
         --text-caption-lh: 1rem;
         --text-body-fs: 1rem;
