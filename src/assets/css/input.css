@@ -5,12 +5,12 @@
 @layer base {
     :root {
         --color-neutral: hsl(0deg 0% 100%);
-        --color-neutral-weakest: hsl(211deg 12% 97%);
-        --color-neutral-weak: hsl(211deg 34% 92%);
-        --color-neutral-medium: hsl(211deg 12% 58%);
-        --color-neutral-strong: hsl(211deg 8% 22%);
+        --color-neutral-weakest: hsl(228deg 12% 97%);
+        --color-neutral-weak: hsl(228deg 34% 92%);
+        --color-neutral-medium: hsl(228deg 18% 54%);
+        --color-neutral-strong: hsl(228deg 20% 12%);
         --color-primary: hsl(347deg 77% 50%);
-        --color-accent: hsl(31deg 100% 48%);
+        --color-accent: hsl(40deg 100% 48%);
         --color-accent-weak: hsl(31deg 100% 54%);
         --color-accent-strong: hsl(50, 100%, 60%);
         --text-caption-fs: .8rem;
@@ -27,26 +27,26 @@
         --text-heading-lg-lh: 1.3;
         --text-display-fs: 1.969rem;;
         --text-display-lh: 1.1;
-        --text-display-lg-fs: 2.37rem;;
-        --text-display-lg-lh: 1.1;
+        --text-display-ls: -.02em;
+        --text-display-lg-fs: 2.44rem;
+        --text-display-lg-lh: 1.05;
+        --text-display-lg-ls: -.02em;
     }
 
     @media (prefers-color-scheme: dark) {
         :root {
-          --color-neutral: hsl(211deg 18% 8%);
-          --color-neutral-weakest: hsl(211deg 20% 10%);
-          --color-neutral-weak: hsl(211deg 16% 13%);
-          --color-neutral-medium: hsl(211deg 16% 46%);
-          --color-neutral-strong: hsl(211deg 16% 90%);
+          --color-neutral: hsl(228deg 50% 8%);
+          --color-neutral-weakest: hsl(228deg 50% 11%);
+          --color-neutral-weak: hsl(228deg 50% 16%);
+          --color-neutral-medium: hsl(228deg 10% 46%);
+          --color-neutral-strong: hsl(228deg 10% 96%);
         }
     }
 
-    @media screen(sm) {
+    @media screen(md) {
         :root {
             --text-caption-fs: .85rem;
             --text-caption-lh: 1.5;
-            --text-lead-fs: 1.324rem;
-            --text-lead-lh: 1.44;
             --text-display-fs: 1.969rem;
             --text-display-lh: 1.2;
             --text-display-lg-fs: 3.052rem;
@@ -54,11 +54,11 @@
         }
     }
 
-    @media screen(md) {
+    @media screen(lg) {
         :root {
             --text-body-fs: 1.125rem;
             --text-body-lh: 1.55;
-            --text-lead-fs: 1.406rem;
+            --text-lead-fs: 1.324rem;
             --text-lead-lh: 1.44;
             --text-heading-fs: 1.406rem;
             --text-heading-lh: 1.3;
@@ -68,12 +68,19 @@
             --text-heading-lg-lh: 1.25;
             --text-display-fs: 2.747rem;
             --text-display-lh: 1.05;
-            --text-display-lg-fs: 3.552rem;;
-            --text-display-lg-lh: 1.05;
+            --text-display-lg-fs: 3.552rem;
+            --text-display-lg-lh: 1;
         }
     }
 
-    html {
-        font-variation-settings: "LXND" 10;
+    @media screen(xl) {
+        :root {
+            --text-lead-fs: 1.406rem;
+            --text-lead-lh: 1.44;
+            --text-display-fs: 3.552rem;
+            --text-display-lh: 1;
+            --text-display-lg-fs: 4.735rem;
+            --text-display-lg-lh: 1;
+        }
     }
 }
