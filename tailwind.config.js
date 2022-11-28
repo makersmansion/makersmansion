@@ -36,27 +36,27 @@ module.exports = {
       }],
       'heading': ['var(--text-heading-fs)', {
         lineHeight: 'var(--text-heading-lh)',
-        letterSpacing: '-0.01em',
+        letterSpacing: 'var(--text-heading-ls)',
         fontWeight: 'bold',
       }],
       'heading-md': ['var(--text-heading-md-fs)', {
         lineHeight: 'var(--text-heading-md-lh)',
-        letterSpacing: '-0.01em',
+        letterSpacing: 'var(--text-heading-md-ls)',
         fontWeight: 'bold',
       }],
       'heading-lg': ['var(--text-heading-lg-fs)', {
         lineHeight: 'var(--text-heading-lg-lh)',
-        letterSpacing: '-0.01em',
+        letterSpacing: 'var(--text-heading-lg-ls)',
         fontWeight: 'bold',
       }],
       'display': ['var(--text-display-fs)', {
         lineHeight: 'var(--text-display-lh)',
-        letterSpacing: '-0.01em',
+        letterSpacing: 'var(--text-display-ls)',
         fontWeight: 'bold',
       }],
       'display-lg': ['var(--text-display-lg-fs)', {
         lineHeight: 'var(--text-display-lg-lh)',
-        letterSpacing: '-0.01em',
+        letterSpacing: 'var(--text-display-lg-ls)',
         fontWeight: 'bold',
       }],
     },
@@ -68,6 +68,9 @@ module.exports = {
       ],
     },
     extend: {
+      backgroundSize: {
+        'full': '100% auto',
+      },
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
@@ -125,6 +128,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/line-clamp'),
   ]
 }
