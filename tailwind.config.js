@@ -57,7 +57,7 @@ module.exports = {
       'display-lg': ['var(--text-display-lg-fs)', {
         lineHeight: 'var(--text-display-lg-lh)',
         letterSpacing: 'var(--text-display-lg-ls)',
-        fontWeight: 'bold',
+        fontWeight: '800',
       }],
     },
     dropShadow: {
