@@ -38,8 +38,8 @@
           --color-neutral: hsl(228deg 15% 8%);
           --color-neutral-weakest: hsl(228deg 15% 11%);
           --color-neutral-weak: hsl(228deg 15% 16%);
-          --color-neutral-medium: hsl(228deg 8% 56%);
-          --color-neutral-strong: hsl(228deg 10% 96%);
+          --color-neutral-medium: hsl(228deg 5% 56%);
+          --color-neutral-strong: hsl(228deg 5% 96%);
         }
     }
 
