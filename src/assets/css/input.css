@@ -72,13 +72,4 @@
             --text-display-lg-lh: 1;
         }
     }
-
-    @media screen(xl) {
-        :root {
-            --text-lead-fs: 1.406rem;
-            --text-lead-lh: 1.44;
-            --text-display-lg-fs: 5.215rem;
-            --text-display-lg-lh: 1;
-        }
-    }
 }
