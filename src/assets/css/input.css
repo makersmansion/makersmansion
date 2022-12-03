@@ -5,10 +5,10 @@
 @layer base {
     :root {
         --color-neutral: hsl(0deg 0% 100%);
-        --color-neutral-weakest: hsl(228deg 12% 97%);
-        --color-neutral-weak: hsl(228deg 34% 92%);
-        --color-neutral-medium: hsl(228deg 18% 54%);
-        --color-neutral-strong: hsl(228deg 20% 12%);
+        --color-neutral-weakest: hsl(228deg 15% 97%);
+        --color-neutral-weak: hsl(228deg 15% 92%);
+        --color-neutral-medium: hsl(228deg 8% 50%);
+        --color-neutral-strong: hsl(228deg 8% 12%);
         --color-primary: hsl(347deg 77% 50%);
         --color-accent: hsl(40deg 100% 48%);
         --color-accent-weak: hsl(31deg 100% 54%);
@@ -35,10 +35,10 @@
 
     @media (prefers-color-scheme: dark) {
         :root {
-          --color-neutral: hsl(228deg 50% 8%);
-          --color-neutral-weakest: hsl(228deg 50% 11%);
-          --color-neutral-weak: hsl(228deg 50% 16%);
-          --color-neutral-medium: hsl(228deg 10% 46%);
+          --color-neutral: hsl(228deg 15% 8%);
+          --color-neutral-weakest: hsl(228deg 15% 11%);
+          --color-neutral-weak: hsl(228deg 15% 16%);
+          --color-neutral-medium: hsl(228deg 8% 56%);
           --color-neutral-strong: hsl(228deg 10% 96%);
         }
     }
