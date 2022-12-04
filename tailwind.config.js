@@ -57,7 +57,7 @@ module.exports = {
       'display-lg': ['var(--text-display-lg-fs)', {
         lineHeight: 'var(--text-display-lg-lh)',
         letterSpacing: 'var(--text-display-lg-ls)',
-        fontWeight: '800',
+        fontWeight: 'bold',
       }],
     },
     dropShadow: {
@@ -70,6 +70,9 @@ module.exports = {
     extend: {
       backgroundSize: {
         'full': '100% auto',
+      },
+      letterSpacing: {
+        widest: '.2em',
       },
       typography: ({ theme }) => ({
         DEFAULT: {
