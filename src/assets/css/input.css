@@ -5,10 +5,10 @@
 @layer base {
     :root {
         --color-neutral: hsl(0deg 0% 100%);
-        --color-neutral-weakest: hsl(228deg 15% 97%);
-        --color-neutral-weak: hsl(228deg 15% 92%);
-        --color-neutral-medium: hsl(228deg 8% 50%);
-        --color-neutral-strong: hsl(228deg 8% 12%);
+        --color-neutral-weakest: hsl(240deg 11% 96%);
+        --color-neutral-weak: hsl(240deg 11% 92%);
+        --color-neutral-medium: hsl(240deg 8% 44%);
+        --color-neutral-strong: hsl(240deg 3% 12%);
         --color-primary: hsl(347deg 77% 50%);
         --color-accent: hsl(40deg 100% 48%);
         --color-accent-weak: hsl(31deg 100% 54%);
@@ -26,20 +26,20 @@
         --text-heading-lg-fs: 1.56rem;
         --text-heading-lg-lh: 1.3;
         --text-display-fs: 1.969rem;;
-        --text-display-lh: 1.1;
-        --text-display-ls: -.02em;
-        --text-display-lg-fs: 3.052rem;
-        --text-display-lg-lh: 1.05;
-        --text-display-lg-ls: -.02em;
+        --text-display-lh: 1.2;
+        --text-display-ls: -.01em;
+        --text-display-lg-fs: 1.969rem;
+        --text-display-lg-lh: 1.2;
+        --text-display-lg-ls: -.01em;
     }
 
     @media (prefers-color-scheme: dark) {
         :root {
-          --color-neutral: hsl(228deg 15% 8%);
-          --color-neutral-weakest: hsl(228deg 15% 11%);
-          --color-neutral-weak: hsl(228deg 15% 16%);
-          --color-neutral-medium: hsl(228deg 5% 56%);
-          --color-neutral-strong: hsl(228deg 5% 96%);
+          --color-neutral: hsl(240deg 11% 8%);
+          --color-neutral-weakest: hsl(240deg 11% 12%);
+          --color-neutral-weak: hsl(240deg 15% 16%);
+          --color-neutral-medium: hsl(240deg 8% 56%);
+          --color-neutral-strong: hsl(240deg 3% 97%);
         }
     }
 
@@ -47,17 +47,6 @@
         :root {
             --text-caption-fs: .85rem;
             --text-caption-lh: 1.5;
-            --text-heading-lg-fs: 2.197rem;
-            --text-heading-lg-lh: 1.2;
-            --text-display-fs: 2.747rem;
-            --text-display-lh: 1.05;
-            --text-display-lg-fs: 3.552rem;
-            --text-display-lg-lh: 1.05;
-        }
-    }
-
-    @media screen(lg) {
-        :root {
             --text-body-fs: 1.125rem;
             --text-body-lh: 1.55;
             --text-lead-fs: 1.324rem;
@@ -66,10 +55,12 @@
             --text-heading-lh: 1.3;
             --text-heading-md-fs: 1.758rem;
             --text-heading-md-lh: 1.25;
-            --text-display-fs: 3.552rem;
-            --text-display-lh: 1;
-            --text-display-lg-fs: 4.735rem;
-            --text-display-lg-lh: 1;
+            --text-heading-lg-fs: 2.197rem;
+            --text-heading-lg-lh: 1.3;
+            --text-display-fs: 2.747rem;
+            --text-display-lh: 1.05;
+            --text-display-lg-fs: 3.552rem;
+            --text-display-lg-lh: 1.2;
         }
     }
 }
