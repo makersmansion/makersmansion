@@ -5,7 +5,7 @@ layout: base
 <article class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-12 md:mt-20 px-6 sm:px-0">
 
     <header>
-        <h1 class="text-heading-lg">{{ title }}</h1>
+        <h1 class="font-serif text-heading-lg">{{ title }}</h1>
         <div class="mt-6 md:mt-10 flex flex-nowrap items-center gap-3 sm:gap-5 text-caption text-neutral-medium uppercase tracking-widest">
             <span class="flex-none">WEEK {{ week }}</span>
             <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="flex-none">{{ date | readableDate('dd LLL yyyy') }}</time>
@@ -45,6 +45,6 @@ layout: base
         </button>
     </form>
     <p class="mt-4 text-caption text-neutral-medium">
-        Every Sunday by <a href="https://helloraz.com" target="_blank" class="underline underline-offset-2 decoration-neutral-medium font-medium hover:text-neutral-strong">Raz Tirboaca</a>
+        Every Sunday by <a href="https://helloraz.com" target="_blank" class="hover:text-neutral-strong">Raz Tirboaca</a>
     </p>
 </aside>
