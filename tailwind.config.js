@@ -22,7 +22,8 @@ module.exports = {
     },
     fontFamily: {
       'sans': ['Lexend', defaultTheme.fontFamily.sans],
-      'serif': ['Libre Baskerville', defaultTheme.fontFamily.serif]
+      'serif': ['Libre Baskerville', defaultTheme.fontFamily.serif],
+      'cursive': 'Caveat, cursive',
     },
     fontSize: {
       'caption': ['var(--text-caption-fs)', {
