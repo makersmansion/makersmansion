@@ -49,17 +49,17 @@
             --text-caption-lh: 1.5;
             --text-body-fs: 1.125rem;
             --text-body-lh: 1.55;
-            --text-lead-fs: 1.324rem;
+            --text-lead-fs: 1.406rem;
             --text-lead-lh: 1.44;
             --text-heading-fs: 1.406rem;
             --text-heading-lh: 1.3;
             --text-heading-md-fs: 1.758rem;
-            --text-heading-md-lh: 1.25;
+            --text-heading-md-lh: 1.3;
             --text-heading-lg-fs: 2.197rem;
-            --text-heading-lg-lh: 1.3;
+            --text-heading-lg-lh: 1.2;
             --text-display-fs: 2.747rem;
-            --text-display-lh: 1.05;
-            --text-display-lg-fs: 3.552rem;
+            --text-display-lh: 1.2;
+            --text-display-lg-fs: 3.433rem;
             --text-display-lg-lh: 1.2;
         }
     }
