@@ -27,14 +27,13 @@
                 <path class="drop-shadow-sm" fill="var(--color-accent-weak)" d="M70.023 189.213c9.055-1.283 13.815-8.527 13.815-8.527-10.947 6.489-16.23 3.471-16.23 3.471.906 3.773 2.415 5.056 2.415 5.056Zm59.235 0c-7.395-.981-15.318-8.527-15.318-8.527 11.017 6.112 17.733 3.471 17.733 3.471-.906 3.773-2.415 5.056-2.415 5.056Z"/>
             </svg>
         </a>
-        <nav class="flex-1 flex items-center text-caption">
+        <nav class="flex-1 flex items-center text-caption text-neutral-medium">
             <a href="/" class="mr-auto p-4 pl-3 flex flex-col gap-1 leading-none text-caption group">
-                <span class="text-[.9em] font-serif font-bold tracking-widest">MAKERS MANSION</span>
-                <span class="text-[.9em] text-neutral-medium transition-colors group-hover:text-neutral-strong">Keeping makers in the loop</span>
+                <span class="text-[.9em] font-serif font-bold tracking-widest text-neutral-strong">MAKERS MANSION</span>
+                <span class="text-[.9em] transition-colors group-hover:text-neutral-strong">Keeping makers in the loop</span>
             </a>
-            <a href="/" class="md:hidden p-3 sm:p-4 text-neutral-medium transition-all hover:text-neutral-strong">Menu</a>
-            <a href="/" class="hidden md:block p-3 sm:p-4 text-neutral-medium transition-colors hover:text-neutral-strong">Newsletter</a>
-            <a href="/cognitive-biases-explained/" class="hidden md:block p-3 sm:p-4 text-neutral-medium transition-colors hover:text-neutral-strong">Products</a>
+            <a href="/" class="p-3 sm:p-4 {{ 'text-neutral-strong' if '/weekly/' in page.url }} transition-colors hover:text-neutral-strong">Newsletter</a>
+            <a href="/cognitive-biases-explained/" class="p-3 sm:p-4 {{ 'text-neutral-strong' if '/cognitive-biases-explained/' in page.url }} transition-colors hover:text-neutral-strong">Products</a>
         </nav>
     </header>
 
