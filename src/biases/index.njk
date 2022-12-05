@@ -13,7 +13,7 @@ paymentLink: https://buy.stripe.com/28oaFH5MO7Jd7ug28b
 </p>
 
 <section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mt-12 md:mt-20 px-6 sm:px-0 grid lg:grid-cols-12 gap-10 lg:items-end">
-    <hgroup class="space-y-8 pb-16 text-center lg:text-left lg:items-start lg:col-span-7 xl:col-span-8">
+    <hgroup class="space-y-8 lg:pb-16 text-center lg:text-left lg:items-start lg:col-span-7 xl:col-span-8">
         <p class="text-caption uppercase tracking-widest">
             <b class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-primary">
                 From Theory to Practice
@@ -40,7 +40,7 @@ paymentLink: https://buy.stripe.com/28oaFH5MO7Jd7ug28b
     </hgroup>
     <figure class="lg:col-span-5 xl:col-span-4">
         <div class="overflow-hidden flex justify-center border-b border-neutral-weakest">
-            <img src="/assets/images/inbox.png" alt="Inbox" class="w-3/5 sm:w-1/2 lg:w-11/12 xl:w-10/12 drop-shadow">
+            <img src="/assets/images/inbox.png" alt="Inbox" class="w-3/4 sm:w-1/2 lg:w-11/12 xl:w-10/12 drop-shadow">
         </div>
     </figure>
 </section>
@@ -72,38 +72,16 @@ paymentLink: https://buy.stripe.com/28oaFH5MO7Jd7ug28b
     <p class="mt-8">Understanding how people think and make decisions will level up your day-to-day impact, and will set you up for success within your team by communicating clearer and presenting better. Get promoted this quarter!</p>
     <h3 class="mt-16 font-serif text-heading-md">Summary</h3>
     <p class="mt-1">One email per week—21 in total. Go at your own pace.</p>
-</section>
-<section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl mt-8 px-6 sm:px-0">
-    <div class="text-caption grid gap-2 md:grid-cols-3">
-        <ol class="px-6 py-3 border border-neutral-weak rounded divide-y divide-neutral-weak">
-            <li class="py-2"><span class="font-bold text-neutral-medium uppercase tracking-widest">Social</span></li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#01</span> False Consensus Effect</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#02</span> Halo Effect</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#03</span> Bandwagon Effect</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#04</span> Availability Heuristic</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#05</span> Groupthink</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#06</span> In-group Favoritism</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#07</span> Spotlight Effect</li>
-        </ol>
-        <ol class="px-6 py-3 border border-neutral-weak rounded divide-y divide-neutral-weak">
-            <li class="py-2"><span class="font-bold text-neutral-medium uppercase tracking-widest">Beliefs</span></li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#08</span> False Consensus Effect</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#09</span> Halo Effect</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#10</span> Bandwagon Effect</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#11</span> Availability Heuristic</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#12</span> a</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#13</span> a</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#14</span> a</li>
-        </ol>
-        <ol class="px-6 py-3 border border-neutral-weak rounded divide-y divide-neutral-weak">
-            <li class="py-2"><span class="font-bold text-neutral-medium uppercase tracking-widest">Economic</span></li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#15</span> False Consensus Effect</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#16</span> Halo Effect</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#17</span> Bandwagon Effect</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#18</span> Availability Heuristic</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#19</span> a</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#20</span> a</li>
-            <li class="py-2 line-clamp-1"><span class="mr-1 text-neutral-medium">#21</span> a</li>
+    <div class="mt-8 space-y-4">
+        <ol class="space-y-2">
+            {% for bias in biases %}
+            <li class="flex flex-nowrap items-center gap-3 sm:gap-5">
+                <span class="flex-none w-8 text-right text-neutral-medium">#{{ loop.index }}</span> 
+                <span class="flex-none">{{ bias.title }}</span>
+                <span class="w-full border-t border-dashed border-neutral-weak"></span>
+                <span class="flex-none text-neutral-medium">{{ bias.duration }} min</span>
+            </li>
+            {% endfor %}
         </ol>
     </div>
 </section>
@@ -138,7 +116,7 @@ paymentLink: https://buy.stripe.com/28oaFH5MO7Jd7ug28b
             </div>
         </header>
         <main class=" 
-            max-w-none h-96
+            max-w-none h-[556px] max-h-[60vh]
             py-8 
             overflow-auto
             prose prose-neutral 
