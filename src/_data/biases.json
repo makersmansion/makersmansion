@@ -1,0 +1,107 @@
+[
+    {
+        "title": "Bandwagon Effect",
+        "description": "Causes people to do or believe something because they see others doing or believing it.",
+        "duration": "8"
+    },
+    {
+        "title": "Scarcity Bias",
+        "description": "Makes people value things more highly when they are scarce or in limited supply.",
+        "duration": "7"
+    },
+    {
+        "title": "Framing Effect",
+        "description": "Causes people to make different decisions based on how information is presented to them.",
+        "duration": "6"
+    },
+    {
+        "title": "Halo Effect",
+        "description": "Causes people to have a positive impression of something based on a single positive characteristic.",
+        "duration": "6"
+    },
+    {
+        "title": "Familiarity Bias",
+        "description": "Causes people to prefer things that are familiar to them.",
+        "duration": "6"
+    },
+    {
+        "title": "Social Proof Bias",
+        "description": "Causes people to do or believe something because they see others doing or believing it.",
+        "duration": "7"
+    },
+    {
+        "title": "Authority Bias",
+        "description": "Causes people to believe and follow the advice of someone in a position of authority.",
+        "duration": "8"
+    },
+    {
+        "title": "Confirmation Bias",
+        "description": "Causes people to seek out information that confirms their preexisting beliefs.",
+        "duration": "6"
+    },
+    {
+        "title": "Sunk Cost Fallacy",
+        "description": "Causes people to continue investing in something because they have already invested a lot of time or money in it.",
+        "duration": "8"
+    },
+    {
+        "title": "Endowment Effect",
+        "description": "Causes people to value something more highly simply because they own it.",
+        "duration": "8"
+    },
+    {
+        "title": "Loss Aversion Bias",
+        "description": "Causes people to avoid taking risks in order to avoid potential losses.",
+        "duration": "6"
+    },
+    {
+        "title": "Projection Bias",
+        "description": "Causes people to project their own beliefs and attitudes onto others.",
+        "duration": "7"
+    },
+    {
+        "title": "Recency Bias",
+        "description": "Causes people to give more weight to recent events or information.",
+        "duration": "7"
+    },
+    {
+        "title": "Optimism bias",
+        "description": "Causes people to overestimate their chances of success and underestimate the likelihood of negative events.",
+        "duration": "8"
+    },
+    {
+        "title": "Groupthink",
+        "description": "Causes people to go along with the majority, even if they personally disagree.",
+        "duration": "7"
+    },
+    {
+        "title": "In-Group Favoritism",
+        "description": "Causes people to favor members of their own group over those in other groups.",
+        "duration": "8"
+    },
+    {
+        "title": "Curse of Knowledge",
+        "description": "Causes people to favor members of their own group over those in other groups.",
+        "duration": "8"
+    },
+    {
+        "title": "Automation Bias",
+        "description": "Causes people to favor members of their own group over those in other groups.",
+        "duration": "6"
+    },
+    {
+        "title": "Google Effect",
+        "description": "Causes people to favor members of their own group over those in other groups.",
+        "duration": "7"
+    },
+    {
+        "title": "Belief Bias",
+        "description": "Causes people to favor members of their own group over those in other groups.",
+        "duration": "8"
+    },
+    {
+        "title": "Status Quo Bias",
+        "description": "Causes people to favor members of their own group over those in other groups.",
+        "duration": "8"
+    }
+]
