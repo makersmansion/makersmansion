@@ -21,16 +21,19 @@
         --text-lead-lh: 1.45;
         --text-heading-fs: 1.25rem;
         --text-heading-lh: 1.3;
+        --text-heading-ls: auto;
         --text-heading-md-fs: 1.56rem;
         --text-heading-md-lh: 1.3;
+        --text-heading-md-ls: auto;
         --text-heading-lg-fs: 1.56rem;
         --text-heading-lg-lh: 1.3;
+        --text-heading-lg-ls: auto;
         --text-display-fs: 1.969rem;;
         --text-display-lh: 1.25;
-        --text-display-ls: 0;
-        --text-display-lg-fs: 1.969rem;
+        --text-display-ls: auto;
+        --text-display-lg-fs: 2.441rem;
         --text-display-lg-lh: 1.25;
-        --text-display-lg-ls: 0;
+        --text-display-lg-ls: auto;
     }
 
     @media (prefers-color-scheme: dark) {
