@@ -17,7 +17,7 @@
         --text-caption-lh: 1.5;
         --text-body-fs: 1rem;
         --text-body-lh: 1.6;
-        --text-lead-fs: 1.25rem;
+        --text-lead-fs: 1.125rem;
         --text-lead-lh: 1.45;
         --text-heading-fs: 1.25rem;
         --text-heading-lh: 1.3;
@@ -26,11 +26,11 @@
         --text-heading-lg-fs: 1.56rem;
         --text-heading-lg-lh: 1.3;
         --text-display-fs: 1.969rem;;
-        --text-display-lh: 1.2;
-        --text-display-ls: -.01em;
+        --text-display-lh: 1.25;
+        --text-display-ls: 0;
         --text-display-lg-fs: 1.969rem;
-        --text-display-lg-lh: 1.2;
-        --text-display-lg-ls: -.01em;
+        --text-display-lg-lh: 1.25;
+        --text-display-lg-ls: 0;
     }
 
     @media (prefers-color-scheme: dark) {

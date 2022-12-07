@@ -1,5 +1,5 @@
 {
     "layout": "bias",
     "permalink": "products/cognitive-biases-explained/{{ page.fileSlug }}/index.html",
-    "thumbnail": "/assets/images/sm-biases.png"
+    "thumbnail": "/assets/images/products/biases/sm.png"
 }
