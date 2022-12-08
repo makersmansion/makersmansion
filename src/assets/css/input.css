@@ -35,7 +35,7 @@
 
     @media (prefers-color-scheme: dark) {
         :root {
-          --color-neutral: hsl(240deg 11% 11%);
+          --color-neutral: hsl(240deg 11% 10%);
           --color-neutral-weakest: hsl(240deg 11% 14%);
           --color-neutral-weak: hsl(240deg 15% 21%);
           --color-neutral-medium: hsl(240deg 8% 56%);
