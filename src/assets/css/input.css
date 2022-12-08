@@ -66,4 +66,12 @@
             --text-display-lg-lh: 1.2;
         }
     }
+
+    summary {
+        list-style: none
+    }
+    summary::marker,
+    summary::-webkit-details-marker {
+        display:none;
+    }
 }
