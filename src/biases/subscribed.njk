@@ -5,15 +5,43 @@ description: Learn how to capture users' attention and keep them engaged with ps
 permalink: products/cognitive-biases-explained/subscribed/
 ---
 
-<section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-12 md:mt-20 px-6 sm:px-0 text-center">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+var end = Date.now() + (6 * 1000);
+
+var colors = ['#e21d48', '#f5a300'];
+
+(function frame() {
+  confetti({
+    particleCount: 2,
+    angle: 60,
+    spread: 55,
+    origin: { x: 0 },
+    colors: colors
+  });
+  confetti({
+    particleCount: 2,
+    angle: 120,
+    spread: 55,
+    origin: { x: 1 },
+    colors: colors
+  });
+
+  if (Date.now() < end) {
+    requestAnimationFrame(frame);
+  }
+}());
+</script>
+
+<section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-12 md:mt-20 px-6 sm:px-0">
     <h1 class="font-serif text-heading-lg">Payment successful</h1>
-    <hr class="mx-auto mt-6 md:mt-8 w-12">
+    <hr class="mt-6 md:mt-8 w-12">
+    <p class="mt-6 md:mt-8">Thanks for buying “The Product Engagement Blueprint” email course.</p>
     <figure class="mt-10 lg:mt-12">
         <div class="overflow-hidden flex justify-center border-b border-neutral-weakest">
             <img src="/assets/images/products/biases/inbox.png" alt="inbox screenshot" class="w-2/5 drop-shadow">
         </div>
     </figure>
-    <p class="mt-6 md:mt-8">Thanks for buying “The Product Engagement Blueprint” email course.</p>
     <p class="mt-6 md:mt-8">Watch your inbox, you’ll shortly receive the first lesson. You’ll get 21 emails in total - 2 emails per week - over the next 10 weeks. If you aren’t satisfied with the course, please reply to any email and ask for a full refund within the next 2 weeks.</p>
     <p class="mt-6 md:mt-8 font-bold">
         <a href="https://makersmansion.xyz" class="underline underline-offset-2 decoration-neutral-medium hover:decoration-primary">Back to Products</a>
