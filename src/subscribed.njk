@@ -1,12 +1,42 @@
 ---
 layout: base
 title: Successfully subscribed
-description: You've successfully subscribed to Makers Weekly.
+description: You've successfully subscribed to Makers newsletter.
 ---
-<section class="mx-auto max-w-xl px-6 pt-20 pb-8 sm:px-8 md:pt-32 md:pb-16 lg:px-0 sm:text-center">
-    <h1 class="font-serif text-display">Welcome to the Masion!</h1>
-    <p class="mt-2 text-xl md:text-2xl">You subscribed successfully, maker. Watch your inbox every Sunday, just in time for ☕️</p>
-    <p class="mt-12 text-xl md:text-2xl">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+var end = Date.now() + (6 * 1000);
+
+var colors = ['#e21d48', '#f5a300'];
+
+(function frame() {
+  confetti({
+    particleCount: 2,
+    angle: 60,
+    spread: 55,
+    origin: { x: 0 },
+    colors: colors
+  });
+  confetti({
+    particleCount: 2,
+    angle: 120,
+    spread: 55,
+    origin: { x: 1 },
+    colors: colors
+  });
+
+  if (Date.now() < end) {
+    requestAnimationFrame(frame);
+  }
+}());
+</script>
+
+<section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-12 md:mt-20 px-6 sm:px-0">
+    <h1 class="font-serif text-heading-lg">Welcome to the Masion!</h1>
+    <hr class="mt-6 md:mt-8 w-12">
+    <p class="mt-6 md:mt-8">You subscribed successfully, maker. Watch your inbox every Sunday, just in time for ☕️</p>
+    <p class="mt-12 font-bold text-center">
         <a href="https://makersmansion.xyz" class="inline-flex items-center gap-2 font-bold underline underline-offset-2 decoration-neutral-medium hover:decoration-primary">
             Read the latest weekly
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" fill="none" class="w-5 h-5">
