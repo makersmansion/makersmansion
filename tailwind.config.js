@@ -55,11 +55,6 @@ module.exports = {
         letterSpacing: 'var(--text-display-ls)',
         fontWeight: 'bold',
       }],
-      'display-lg': ['var(--text-display-lg-fs)', {
-        lineHeight: 'var(--text-display-lg-lh)',
-        letterSpacing: 'var(--text-display-lg-ls)',
-        fontWeight: 'bold',
-      }],
     },
     dropShadow: {
       'sm': '0 1px 2px rgb(0 0 0 / 13%)',
@@ -104,6 +99,14 @@ module.exports = {
               'font-weight': 'inherit',
               'margin-top': '1.6em',
               'margin-bottom': '0',
+            },
+            img: {
+              'margin-top': '1.6em',
+              'margin-bottom': '1.6em',
+            },
+            hr: {
+              'margin-top': '3em',
+              'margin-bottom': '3em',
             },
           },
         },
