@@ -95,7 +95,7 @@ paymentLink: https://buy.stripe.com/28oaFH5MO7Jd7ug28b
     </div>
 
     <article class="mt-16 md:mt-24 p-2 bg-neutral-strong dark:bg-[#0b0b0e] rounded-2xl">
-        <header class="px-6 py-6 md:px-12 bg-neutral dark:bg-neutral-weakest rounded-t-xl flex flex-nowrap items-center gap-4">
+        <header class="px-6 py-6 md:px-12 bg-neutral rounded-t-xl flex flex-nowrap items-center gap-4">
             <img src="/assets/images/icon.png" alt="Makers Mansion icon" width="40" class="w-10 h-10 flex-none rounded-full">
             <div class="flex-1">
                 <h5 class="text-caption flex flex-nowrap gap-2">
@@ -110,10 +110,10 @@ paymentLink: https://buy.stripe.com/28oaFH5MO7Jd7ug28b
             </div>
             <span class="px-2 py-[2px] font-normal text-caption text-neutral-medium bg-neutral-weakest dark:bg-neutral rounded">Inbox</span>
         </header>
-        <ol class="pb-3 bg-neutral dark:bg-neutral-weakest border-t border-neutral-weak dark:border-neutral  divide-y divide-neutral-weak dark:divide-neutral rounded-b-xl">
+        <ol class="pb-3 bg-neutral border-t border-neutral-weakest  divide-y divide-neutral-weakest rounded-b-xl">
             <li class="px-6 pt-3 md:px-12">
                 <p class="flex flex-nowrap justify-between items-center">
-                    <b>#0: Anchoring Effect</b>
+                    <span>#0: Anchoring Effect</span>
                     <span class="text-caption text-neutral-medium">7 min</span>
                 </p>
                 <details class="group">
@@ -178,7 +178,7 @@ paymentLink: https://buy.stripe.com/28oaFH5MO7Jd7ug28b
             </li>
             {% for bias in biases %}
             <li class="px-6 py-3 md:px-12 flex flex-nowrap justify-between items-center">
-                <b>#{{ loop.index }}: {{ bias.title }}</b>
+                <span>#{{ loop.index }}: {{ bias.title }}</span>
                 <span class="text-caption text-neutral-medium">{{ bias.duration }} min</span>
             </li>
             {% endfor %}
