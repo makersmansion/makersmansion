@@ -37,8 +37,8 @@
         :root {
           --color-neutral: hsl(240deg 11% 10%);
           --color-neutral-weakest: hsl(240deg 11% 14%);
-          --color-neutral-weak: hsl(240deg 15% 21%);
-          --color-neutral-medium: hsl(240deg 8% 56%);
+          --color-neutral-weak: hsl(240deg 12% 21%);
+          --color-neutral-medium: hsl(240deg 6% 56%);
           --color-neutral-strong: hsl(240deg 3% 97%);
           --color-primary: hsl(347deg 68% 50%);
         }
@@ -46,7 +46,7 @@
 
     @media screen(md) {
         :root {
-            --text-caption-fs: .85rem;
+            --text-caption-fs: .875rem;
             --text-caption-lh: 1.5;
             --text-body-fs: 1.125rem;
             --text-body-lh: 1.55;
