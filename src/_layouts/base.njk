@@ -34,10 +34,9 @@
                     <span class="mt-1 text-[.928575em] text-neutral-medium leading-none transition-colors group-hover:text-neutral-strong">Keeping makers in the loop</span>
                 </span>
             </a>
-            <button type="button" class="md:hidden p-3 sm:p-4 text-caption text-neutral-medium leading-none transition-colors hover:text-neutral-strong">Menu</button>
-            <nav class="hidden md:flex items-center text-caption text-neutral-medium leading-none">
-                <a href="/" class="p-3 sm:p-4 {{ 'text-neutral-strong' if '/weekly' in page.url }} transition-colors hover:text-neutral-strong">Newsletter</a>
-                <a href="/products/the-product-engagement-blueprint/" class="p-3 sm:p-4 {{ 'text-neutral-strong' if '/products' in page.url }} transition-colors hover:text-neutral-strong">Products</a>
+            <nav class="flex items-center text-caption text-neutral-medium leading-none">
+                <a href="/" class="hidden md:block p-3 sm:p-4 {{ 'text-neutral-strong' if '/weekly' in page.url }} transition-colors hover:text-neutral-strong">Newsletter</a>
+                <a href="/products/the-product-engagement-blueprint/" class="block p-3 sm:p-4 {{ 'text-neutral-strong' if '/products' in page.url }} transition-colors hover:text-neutral-strong">Products</a>
             </nav>
         </div>
     </header>
