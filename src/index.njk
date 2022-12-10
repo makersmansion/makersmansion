@@ -2,21 +2,23 @@
 layout: base
 ---
 
-<section id="subscribe" class="mx-auto max-w-lg mt-12 md:mt-20 px-6 sm:px-0 text-center">
-    <h1 class="font-serif text-heading-lg">Makers Newsletter</h1>
-    <p class="mt-2">Product manager, designer, or engineer? Stay in the loop with weekly notes and resources on <strong>maximizing</strong> your outcomes.</p>
-    <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="mt-6 w-full inline-flex flex-nowrap justify-center rounded-sm shadow">
-        <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="flex-1 px-4 py-2 text-neutral-strong bg-neutral border border-r-0 border-neutral-strong focus:border-neutral-strong  focus:outline-none focus:ring-0 rounded-none rounded-l-sm">
-        <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-medium text-neutral bg-neutral-strong border border-neutral-strong rounded-none rounded-r-sm transition hover:text-neutral-strong hover:bg-transparent">
-            Subscribe
-        </button>
-    </form>
-    <p class="mt-4 text-caption text-neutral-medium">
-        Every Sunday by <a href="https://helloraz.com" target="_blank" class="hover:text-neutral-strong">Raz Tirboaca</a>
-    </p>
+<section id="subscribe" class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-12 md:mt-20 px-6 sm:px-0">
+    <div class="max-w-lg">
+        <h1 class="font-serif text-heading-lg">Makers Newsletter</h1>
+        <p class="mt-2">Product manager, designer, or engineer? Stay in the loop with weekly notes and resources on <b>maximizing</b> your outcomes.</p>
+        <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="mt-6 w-full inline-flex flex-nowrap justify-center rounded-sm shadow">
+            <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="flex-1 px-4 py-2 text-neutral-strong bg-neutral border border-r-0 border-neutral-strong focus:border-neutral-strong  focus:outline-none focus:ring-0 rounded-none rounded-l-sm">
+            <button type="submit" name="subscribe" class="flex-none px-4 py-2 font-medium text-neutral bg-neutral-strong border border-neutral-strong rounded-none rounded-r-sm transition hover:text-neutral-strong hover:bg-transparent">
+                Subscribe
+            </button>
+        </form>
+        <p class="mt-4 text-caption text-neutral-medium">
+            Every Sunday by <a href="https://helloraz.com" target="_blank" class="hover:text-neutral-strong">Raz Tirboaca</a>
+        </p>
+    </div>
 </section>
 
-<section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl my-12 md:my-20 p-6 sm:px-0">
+<section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-8 px-6 sm:px-0">
     {% for week in collections.weekly | reverse %}
     <article class="border-t border-neutral-weakest">
         <a href="{{ week.url }}" class="block py-8 group">
