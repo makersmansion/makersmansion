@@ -6,7 +6,7 @@
     :root {
         --color-neutral: hsl(0deg 0% 100%);
         --color-neutral-weakest: hsl(240deg 11% 96%);
-        --color-neutral-weak: hsl(240deg 11% 90%);
+        --color-neutral-weak: hsl(240deg 11% 88%);
         --color-neutral-medium: hsl(240deg 8% 44%);
         --color-neutral-strong: hsl(240deg 3% 12%);
         --color-primary: hsl(347deg 77% 50%);
