@@ -56,19 +56,26 @@ module.exports = {
         fontWeight: 'bold',
       }],
     },
-    dropShadow: {
-      'sm': '0 1px 1px rgb(0 0 0 / 8%)',
-      DEFAULT: [
-        '0 2px 2px rgb(0 0 0 / 8%)',
-        '0 4px 4px rgb(0 0 0 / 8%)',
-      ],
-    },
     extend: {
+      letterSpacing: {
+        widest: '.2em',
+      },
       backgroundSize: {
         'full': '100% auto',
       },
-      letterSpacing: {
-        widest: '.2em',
+      boxShadow: {
+        'sm': '0 1px 0 rgb(0 0 0 / 6%)',
+        DEFAULT: [
+          '0 2px 5px rgb(50 50 93 / 10%)',
+          '0 1px 1px rgb(0 0 0 / 7%)',
+        ],
+      },
+      dropShadow: {
+        'sm': '0 1px 0 rgb(0 0 0 / 6%)',
+        DEFAULT: [
+          '0 2px 5px rgb(50 50 93 / 10%)',
+          '0 1px 1px rgb(0 0 0 / 7%)',
+        ],
       },
       typography: ({ theme }) => ({
         DEFAULT: {
