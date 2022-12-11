@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<section id="subscribe" class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-12 md:mt-20 px-6 sm:px-0">
+<section id="subscribe" class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl mt-12 md:mt-20 px-6 pb-8 sm:px-0 border-b border-neutral-weakest">
     <div class="max-w-lg">
         <h1 class="font-serif text-heading-lg">Makers Newsletter</h1>
         <p class="mt-2">Product manager, designer, or engineer? Stay in the loop with weekly notes and resources on <b>maximizing</b> your outcomes.</p>
@@ -13,17 +13,17 @@ layout: base
             </button>
         </form>
         <p class="mt-4 text-caption text-neutral-medium">
-            Every Sunday by <a href="https://helloraz.com" target="_blank" class="hover:text-neutral-strong">Raz Tirboaca</a>
+            Every Sunday by <a href="https://helloraz.com" target="_blank" class="text-neutral-strong underline underline-offset-2 decoration-neutral-medium hover:decoration-primary">Raz Tirboaca</a>
         </p>
     </div>
 </section>
 
-<section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-8 px-6 sm:px-0">
+<section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl mt-8 px-6 sm:px-0 grid lg:grid-cols-2 lg:gap-2">
     {% for week in collections.weekly | reverse %}
-    <article class="border-t border-neutral-weakest">
-        <a href="{{ week.url }}" class="block py-8 group">
-            <span class="block mb-2 text-caption text-neutral-medium uppercase tracking-widest">WEEK {{ week.data.week }}</span>
-            <h2 class="text-heading group-hover:text-primary">{{ week.data.title }}</h2>
+    <article>
+        <a href="{{ week.url }}" class="h-full py-8 lg:pt-10 lg:pb-12 flex flex-col justify-between rounded-lg group">
+            <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="block mb-2 lg:mb-8 px-6 lg:px-8 text-caption text-neutral-medium uppercase tracking-widest border-l border-neutral-weak">{{ week.data.date | readableDate('dd LLL yyyy') }}</time>
+            <h2 class="px-6 lg:px-8 font-bold underline underline-offset-2 decoration-neutral-medium border-l border-transparent group-hover:decoration-primary">{{ week.data.title }}</h2>
         </a>
     </article>
     {% endfor %}

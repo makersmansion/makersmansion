@@ -53,7 +53,6 @@ module.exports = {
       'display': ['var(--text-display-fs)', {
         lineHeight: 'var(--text-display-lh)',
         letterSpacing: 'var(--text-display-ls)',
-        fontWeight: 'bold',
       }],
     },
     extend: {
