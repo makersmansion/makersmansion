@@ -6,9 +6,9 @@ layout: base
 
     <header>
         <h1 class="font-serif text-heading-lg">{{ title }}</h1>
-        <div class="mt-6 md:mt-10 flex flex-nowrap items-center gap-3 sm:gap-5 text-caption text-neutral-medium uppercase tracking-widest">
-            <span class="flex-none">WEEK {{ week }}</span>
+        <div class="mt-6 md:mt-10 flex flex-nowrap items-center gap-2 text-caption text-neutral-medium uppercase tracking-widest">
             <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="flex-none">{{ date | readableDate('dd LLL yyyy') }}</time>
+            <span class="w-6 border-t border-dashed border-neutral-weak"></span>
             <address class="flex-none">
                 <a rel="author" href="https://helloraz.com" target="_blank" class="not-italic">Raz Tirboaca</a>
             </address>
