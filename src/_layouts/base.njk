@@ -39,7 +39,7 @@
                     {% for entry in navPages %}
                         <a 
                             href="{{ entry.url }}" 
-                            class="block p-3 font-bold transition-colors hover:text-neutral-strong transitions-colors 
+                            class="block p-3 font-medium transition-colors hover:text-neutral-strong transitions-colors 
                             {% if entry.url == page.url %} text-neutral-strong {% endif %}
                         ">
                             {{ entry.title }}
