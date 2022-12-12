@@ -3,6 +3,7 @@ const markdownItAttrs = require('markdown-it-attrs');
 const markdownItEmoji = require("markdown-it-emoji");
 const slugify = require("slugify");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 const filters = require('./utils/filters.js');
 const transforms = require('./utils/transforms.js');
@@ -17,6 +18,7 @@ module.exports = function  (eleventyConfig) {
 
     // Plugins
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
     // Filters
     Object.keys(filters).forEach((filterName) => {
