@@ -19,7 +19,7 @@
 <meta property="og:url" content="{{ absolutePageUrl }}">
 <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:image" content="{% if thumbnail %}{{ thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}">
+<meta property="og:image" content="{{ site.url }}{% if thumbnail %}{{ thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}">
 
 {# Twitter #}
 <meta property="twitter:card" content="summary_large_image">
@@ -28,7 +28,7 @@
 <meta property="twitter:url" content="{{ absolutePageUrl }}">
 <meta property="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="twitter:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}">
-<meta property="twitter:image" content="{% if thumbnail %}{{ thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}">
+<meta property="twitter:image" content="{{ site.url }}{% if thumbnail %}{{ thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}">
 
 {# RSS Feed #}
 <link type="application/atom+xml" rel="alternate" href="{{ site.url }}/feed.xml" title="{{ site.title }}">
