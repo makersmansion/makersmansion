@@ -4,7 +4,7 @@ date: 2022-10-30
 week: 43
 ---
 
-💬 **What is it about Apple’s boxes that you don’t want to throw them away?**
+**What is it about Apple’s boxes that you don’t want to throw them away?**
 
 The answer can be traced back to Jobs‘ ability to keep a **holistic view** for the entire product. Here's a story told by one engineer demoing speakers in the first flat panel iMac to him:
 

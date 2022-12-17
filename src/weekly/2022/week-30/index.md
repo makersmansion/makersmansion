@@ -4,13 +4,15 @@ date: 2022-07-27
 week: 30
 ---
 
-💬 **Life... Is for Living**
+**Life... Is for Living**
 
 Goals, plans, strategies, interviews, tasks, deadlines. All cool, all important! So is the 5 o'clock tea. 
 
 Take a break, look around, breathe. Live the moment, feel the vibe, match the energy. 
 
 The odds of you being born are **at least 1 in 400 trillion**. It's all I got to say this week ❤️
+
+---
 
 ## TOOLS
 
@@ -23,6 +25,8 @@ That's how you move users from Confluence to your product, performance matters a
 Some React Native devs [don't feel the vibe](https://twitter.com/ashfurrow/status/1551607951428820993) - maybe the lesson here is *'don't tie your identity to a framework so you can always do what's right for your users?!'* I had a fair share of discussions regarding the stack we should build on and, in the end, there are just two types of makers: the ones who care about creating a product that they believe should exist in this world, and the ones who care about a specific tool/framework/language.
 
 🍹 Not many product announcements this week, it's summertime when the weather is fine.
+
+---
 
 ## TEAM
 
@@ -41,6 +45,8 @@ To test candidates effectively, give tests (a task or assignment) that most clos
 *I have only one mention to this, the interview task or assignment doesn't necessarily need to be a Home Take away assignment. At Cledara, when hiring for the design team, the 'task' is a 15 minutes live session in Figma or Figjam, where we evaluate the thinking process.*
 
 *Hiring is easy, firing is hard. Which makes hiring even harder!*
+
+---
 
 ## MARKET
 

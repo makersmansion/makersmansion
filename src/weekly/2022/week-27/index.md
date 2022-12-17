@@ -4,7 +4,7 @@ date: 2022-07-05
 week: 27
 ---
 
-💬 **Curiosity has created more opportunities than hard work ever will**
+**Curiosity has created more opportunities than hard work ever will**
 
 So if you're not born into a rich family, what are the factors in obtaining wealth?
 
@@ -19,6 +19,8 @@ A dear friend of mine is a metro driver here in Barcelona and I used to think th
 Curiosity leads to asking lots of questions, asking questions leads to generating ideas, generating ideas leads to creating opportunities. And when those opportunities produce IP (intellectual property), then you have a real chance of becoming wealthy. Traditionally, curiosity is associated with kids, and growing up most people lose it somewhere on the way, and maybe that's exactly the biggest mistake of our lives. You can't be poor if you're curious. Food for thought!
 
 The great thing about tech is that opportunity is unlimited. There are always new problems to solve, new markets to create, new products to ship. You just need a curious mind and [positive](https://avc.com/2022/06/staying-positive-2/) energy!
+
+----
 
 ## TOOLS
 
@@ -46,7 +48,10 @@ In the [words](https://www.youtube.com/watch?v=McnTeuKtmfg) of Lil Wayne *"Bring
 
 Tensorflow, PyTorch, and Keras are all deep learning tools and deep learning is a very, very small part of real-world machine learning.
 
+---
+
 ## TEAM
+
 🎯 Steve Jobs on [recruiting people](https://www.youtube.com/watch?v=fj0hpsJvrko) and who are the best managers
 
 ***You know who the best managers are?** 
@@ -59,6 +64,8 @@ Execution eats strategy for breakfast. During the years I worked with lots of en
 HBR has [3 tips](https://hbr.org/2022/06/help-your-team-actually-work-smarter-not-harder) for young managers in large organizations to make their teams work smarter.
 
 But then again, great people don't need to be managed, and those great people are most probably the makers.
+
+---
 
 ## MARKET
 

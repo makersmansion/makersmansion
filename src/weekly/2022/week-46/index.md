@@ -7,7 +7,7 @@ thumbnail: "/assets/images/x-0.jpg"
 
 ![game](/assets/images/x-0.jpg)
 
-💬 **How do you stay very grounded, and at the same time reach for the stars?**
+**How do you stay very grounded, and at the same time reach for the stars?**
 
 Everything that’s real and it’s profound has to have both, because it’s a vibratory thing. It’s the force that makes things happen. 
 

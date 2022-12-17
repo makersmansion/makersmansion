@@ -4,7 +4,7 @@ date: 2022-07-12
 week: 28
 ---
 
-💬 **Change your opinions, keep to your principles**
+**Change your opinions, keep to your principles**
 
 I'm writing this weekly from Val d'Aran, a one-of-a-kind [place](https://www.visitvaldaran.com/) in the Pyrenees mountains where Spain meets France, enjoying it together with my team at [Cledara](https://www.cledara.com/). It's our summer offsite and we celebrate the 4th anniversary in style. Check it out, it's the perfect place for a summer holiday with lots of outdoor activities to choose from ⛰
 
@@ -22,6 +22,8 @@ They can be product principles, design principles, how-we-work agreements, and s
 
 **Values are about behavior, principles are about making decisions.** You know you have solid principles when different people from different parts of the org can confidently take aligned decisions and focus on delivery. 
 
+---
+
 ## TOOLS
 
 👉 **Context effect** / the cognitive bias of the week
@@ -33,6 +35,8 @@ Context effects can impact our daily lives in many ways such as word recognition
 For example, research has shown that the comfort level of the floor that shoppers are standing on while reviewing products can affect their assessments of product's quality, leading to higher assessments if the floor is comfortable and lower ratings if it is uncomfortable.
 
 🎨 [The history of UI](https://history.user-interface.io/), a visual gallery of how user interfaces have evolved.
+
+---
 
 ## TEAM
 
@@ -55,6 +59,8 @@ It didn't finish well for him!
 The good vibes following the Bozeman demo didn’t last long. Apple’s test vehicles struggled to navigate streets near its Silicon Valley headquarters without the maps, smacking into curbs and sometimes having trouble staying in their lanes while crossing intersections. 
 
 Interesting [read](https://www.theinformation.com/articles/inside-apples-eight-year-struggle-to-build-a-self-driving-car) about how Apple lost its game at building new products from scratch after Steve Jobs' death. Iteration is not the same thing as innovation. Iteration is easy!
+
+---
 
 ## MARKET
 

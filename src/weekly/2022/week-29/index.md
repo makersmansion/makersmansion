@@ -4,7 +4,7 @@ date: 2022-07-19
 week: 29
 ---
 
-💬 **If you don't like how the table is set, turn it over**
+**If you don't like how the table is set, turn it over**
 
 The first time I heard this line, I imagined four guys sitting at a poker table, engaging in a dispute, when suddenly one of them would get up and turn over the table angrily to calm his emotions. Most probably right after losing his hand.
 
@@ -30,6 +30,8 @@ Reframing is so simple and powerful that I don't understand how we don't learn a
 
 Start by noticing your own thoughts. Pay attention to any negative or distorted thinking. Next, work on evaluating the evidence that supports or disputes your thoughts. Note things that might contradict your interpretation.
 
+---
+
 ## TOOLS
 
 🤔 Struggling to define what great UX means? Built for Mars publishes an 'Apple Maps vs Google Maps' [case study](https://builtformars.com/case-studies/maps) on user experience comparing the 2 apps. Real examples FTW
@@ -54,11 +56,15 @@ Another example may be when estimating the orbit of Mars, one might start with 
 
 *The anchoring effect is also called the 'reference point' in psychology and is why the first impression matters so much. We tend to compare everything that follows against it, and it's proven that most people don't update their opinion about somebody else, regardless of how much that person changed over time. It's also why it's more likely to get a promotion by changing your job than staying where you are.*
 
+---
+
 ## TEAM
 
 ⚔️ Exceptionally [great article](https://www.smashingmagazine.com/2022/07/resolving-conflicts-designers-engineers/) by Scott Himmer on how to resolve the conflicts between designers and engineers. Scott goes over some areas where you might find the design and engineering conflicts manifesting, some of the contributing factors, and strategies to work through the challenges.
 
 *"You may not make friends at first, but you will get respect. You may find that 30% of the people are on board with you. Another 30% are interested but not yet sold. The remaining percent of nay-sayers who want to continue with the status quo will eventually come along as the rest of the clan unites around them. Fight the good fight, my friends, and unite the clans!"*
+
+---
 
 ## MARKET
 

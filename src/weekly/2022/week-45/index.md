@@ -4,7 +4,7 @@ date: 2022-11-13
 week: 45
 ---
 
-💬 **It’s not a tech bubble, it’s an advertising bubble**
+**It’s not a tech bubble, it’s an advertising bubble**
 
 Google, Facebook, Twitter, TikTok, etc don’t have a product, they have an audience. And their business is selling ads. Is online advertising working? Probably not.
 

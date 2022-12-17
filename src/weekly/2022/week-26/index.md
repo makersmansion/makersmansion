@@ -4,7 +4,7 @@ date: 2022-06-28
 week: 26
 ---
 
-💬 **Money doesn't follow money, money follows energy**
+**Money doesn't follow money, money follows energy**
 
 The energy you put in creating **value**—and then, you exchange that value for money. But what is value?
 
@@ -56,6 +56,8 @@ Startups call this 'finding product/market fit', it's a fancy name for an exciti
 
 As long as you keep the energy flowing and continue creating value, everything is going to be alright. Money follows energy! 
 
+---
+
 ## TOOLS
 
 👩🏽‍💻 Github makes [GitHub Copilot](https://github.com/features/copilot/) generally available to all developers for $10/month or $100/year. Copilot is an AI pair programmer that suggests code in your editor.
@@ -72,7 +74,10 @@ At the company level, this debate is called '[Build vs Buy](https://divbyzero.co
 
 It's a known fact that better performance improves UX and increases conversion rate, how much tho? Matthew Prince, CEO of Cloudflare, [says around 7%](https://twitter.com/eastdakota/status/1540009701886263297) 
 
+---
+
 ## TEAM
+
 🙋‍♀️ Reid Hoffman, Linkedin's founder, [talks](https://www.linkedin.com/pulse/i-to-the-we-you-your-team-reid-hoffman/) about the 'I' or how Kobe Bryant likes to put it, there's a 'ME' in a team.
 
 The self-made person may be a myth, but the old saying *"There is no I in team"* is wrong, too. There is an "I" in team. A team is made up of individuals with different strengths and abilities. So "I" versus "We" is a false choice. Both the individual and the team matter. Your career success depends on both your personal capabilities and your network’s ability to magnify them. These are inseparable.
@@ -94,6 +99,8 @@ We can't control the economic cycle, but we can control our own impact in the te
 - Have new ideas, important ones! This one is **so important**
 - Be reliable, show up
 - Care
+
+---
 
 ## MARKET
 

@@ -4,7 +4,7 @@ date: 2022-11-06
 week: 44
 ---
 
-💬 **Reject the false dilemma** 
+**Reject the false dilemma** 
 
 It's easy to lose sight of things when everything around you says, "We’re screwed." Starting with the layoffs this week and finishing with the stock market return, it seems like tech jobs are not a good choice anymore. That the tech industry was in a bubble that just popped, and it’s a smaller industry than we thought.
 

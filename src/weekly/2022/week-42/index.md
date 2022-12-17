@@ -4,11 +4,13 @@ date: 2022-10-21
 week: 42
 ---
 
-💬 **It doesn't matter what you say, it matters what they hear**
+**It doesn't matter what you say, it matters what they hear**
 
 Hello, hello! 
 
 I'm coming with great news and a fresh approach to moving forward with the Makers newsletter. I will stop publishing it on LinkedIn – based on your feedback, I learned that LinkedIn works better for short-form content, so I redesigned the Makers website to create a calmer reading experience where everyone can take the time here to digest the weekly. Thank you for that and enjoy the new design!
+
+---
 
 ## TOOLS
 
@@ -42,6 +44,8 @@ But when two apples were placed on the table - the person will choose the freshe
 
 The reason for this is that distinction bias causes us to "over-examine and over-value the differences between things as we scrutinize them."
 
+---
+
 ## TEAM
 
 👫 You cannot mandate productivity; you must provide the tools to let people become their best. 
@@ -61,6 +65,8 @@ To achieve this on a grander scale to affect organizational change, there are
 In the book "[Bullshit Jobs: A Theory](https://www.goodreads.com/book/show/34466958-bullshit-jobs)", I highly recommend it, David Graeber points out that one of the worst of all possible tortures you can inflict on a person is to get them to do something they know to be utterly pointless. 
 
 *We are meaning making creatures...*
+
+---
 
 ## MARKET
 

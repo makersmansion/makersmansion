@@ -24,7 +24,7 @@ eleventyNavigation:
 <section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl mt-8 px-6 sm:px-0 grid lg:grid-cols-2 lg:gap-2">
     {% for week in collections.weekly | reverse %}
     <article>
-        <a href="{{ week.url }}" class="h-full py-8 lg:pt-10 lg:pb-12 flex flex-col justify-between rounded-lg group">
+        <a href="{{ week.url }}" class="h-full py-8 lg:pt-10 lg:pb-12 flex flex-col rounded-lg group">
             <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="block mb-2 lg:mb-8 px-6 lg:px-8 text-caption text-neutral-medium uppercase tracking-widest border-l border-neutral-weak">{{ week.data.date | readableDate('dd LLL yyyy') }}</time>
             <h2 class="px-6 lg:px-8 font-bold underline underline-offset-2 decoration-neutral-medium transition border-l border-transparent group-hover:decoration-primary">{{ week.data.title }}</h2>
         </a>

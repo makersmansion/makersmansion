@@ -4,11 +4,13 @@ date: 2022-08-23
 week: 34
 ---
 
-💬 **You're not competing with those who can do, but with those who do**
+**You're not competing with those who can do, but with those who do**
 
 A warm welcome to everyone new here 👋  I'm Raz, a Barcelona based designer, and this is the 'Makers Weekly' newsletter. Every week I post resources and notes for tech makers to build better products and services.
 
 Thanks for subscribing, let's dive in!
+
+---
 
 ## TOOLS
 
@@ -43,6 +45,8 @@ The ambiguity effect is a cognitive bias where decision-making is affected 
 
 When buying a house, many people choose a fixed rate mortgage, where the interest rate is set for a specific time frame (typically several years), over a variable rate mortgage, where the interest rate fluctuates with the market, possibly from one month to the next. This is the case even though a variable rate mortgage has statistically been shown to save money.
 
+---
+
 ## TEAM
 
 👫 Great engineering cultures are built on [social learning communities](https://stackoverflow.blog/2022/08/04/great-engineering-cultures-are-built-on-social-learning-communities) that enable autonomy without creating silos that prevent cross-team collaboration and learning. 
@@ -50,6 +54,8 @@ When buying a house, many people choose a fixed rate mortgage, where the intere
 To put it simply, people can share what they know, find what they don’t know, and discover what others know.
 
 🏅 You Got This is a [learning hub](https://yougotthis.io/library) focused on the core skills you need to improve your working life. Give it a spin, despite its childish design, I've found plenty of interesting content there.
+
+---
 
 ## MARKET
 
