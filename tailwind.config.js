@@ -62,17 +62,23 @@ module.exports = {
         'full': '100% auto',
       },
       boxShadow: {
-        'sm': '0 1px 0 rgb(0 0 0 / 6%)',
+        'sm': [
+          '0 1px 3px rgb(50 50 93 / 6%)',
+          '0 1px 0 rgb(30 30 32 / 6%)',
+        ],
         DEFAULT: [
           '0 2px 5px rgb(50 50 93 / 10%)',
-          '0 1px 1px rgb(0 0 0 / 7%)',
+          '0 1px 1px rgb(30 30 32 / 7%)',
         ],
       },
       dropShadow: {
-        'sm': '0 1px 0 rgb(0 0 0 / 6%)',
+        'sm': [
+          '0 1px 3px rgb(50 50 93 / 6%)',
+          '0 1px 0 rgb(30 30 32 / 6%)',
+        ],
         DEFAULT: [
           '0 2px 5px rgb(50 50 93 / 10%)',
-          '0 1px 1px rgb(0 0 0 / 7%)',
+          '0 1px 1px rgb(30 30 32 / 7%)',
         ],
       },
       typography: ({ theme }) => ({
