@@ -1,5 +1,5 @@
 ---
-title: "Success it’s work ethic, product dev before & after 2010, and inflation trend"
+title: "Success is work ethic, product dev before & after 2010, and inflation trend"
 date: 2022-12-18
 week: 50
 thumbnail: "/assets/images/resolutions.jpg"
