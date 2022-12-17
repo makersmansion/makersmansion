@@ -2,7 +2,10 @@
 title: "AI eating the world, the advertising bubble, and IQ tests"
 date: 2022-11-13
 week: 45
+thumbnail: "/assets/images/ai.jpg"
 ---
+
+![AI](/assets/images/ai.jpg)
 
 **It’s not a tech bubble, it’s an advertising bubble**
 
