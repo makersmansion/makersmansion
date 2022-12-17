@@ -64,7 +64,7 @@ module.exports = {
       boxShadow: {
         'sm': [
           '0 1px 3px rgb(50 50 93 / 6%)',
-          '0 1px 0 rgb(30 30 32 / 6%)',
+          '0 1px 0 rgb(30 30 32 / 8%)',
         ],
         DEFAULT: [
           '0 2px 5px rgb(50 50 93 / 10%)',
@@ -74,7 +74,7 @@ module.exports = {
       dropShadow: {
         'sm': [
           '0 1px 3px rgb(50 50 93 / 6%)',
-          '0 1px 0 rgb(30 30 32 / 6%)',
+          '0 1px 0 rgb(30 30 32 / 8%)',
         ],
         DEFAULT: [
           '0 2px 5px rgb(50 50 93 / 10%)',
