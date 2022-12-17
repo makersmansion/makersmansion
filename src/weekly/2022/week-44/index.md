@@ -1,5 +1,5 @@
 ---
-title: "The false dilemma, DALL-E API, and building high-trust and high-performing teams in a remote world"
+title: "The false dilemma, DALL-E API, and building teams in a remote world"
 date: 2022-11-06
 week: 44
 ---
