@@ -9,7 +9,7 @@ thumbnail: "/assets/images/resolutions.jpg"
 
 **Success is about HOW you work, not what you do**
 
-Whenever I start a new initiative, I begin with setting expectations for myself before diving into it. That's why I take no more than two days to do these three things:
+Whenever I start a new initiative, I begin with setting expectations for myself before diving into it. That's why I take two days to do these three things:
 
 1) **Dream**. I envision what my life will look like in six months—emotional
 2) **Plan**. I map out the major milestones—logical
