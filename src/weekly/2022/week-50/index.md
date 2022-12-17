@@ -35,32 +35,11 @@ I’ve learned that if I’m not doing this exercise, I’m less likely to fully
 
 ## TEAM
 
-🙈 [A humorous yet accurate thread](https://twitter.com/peteryared/status/1596641022796173314) about the differences in product development before and after 2010:
+👨‍💻 [Engineering in a Hybrid World report](https://www.datocms-assets.com/65181/1667327773-iconiq-analytics-insights-engineering-in-a-hybrid-world.pdf) looks at how the shift to remote work has impacted engineering organizations. Companies in 2022 had a greater percentage of full-stack engineers (median of 43%) compared to 2021 (median of 38%). Conversely, the number of back-end engineers declined from 41% to 36%.
 
-**Before 2010**
+Notably, in-office companies have built teams with 64% of engineers specializing in full-stack, compared to remote-first companies which tend to see a more even distribution.
 
-1. PM adds ticket to Kanban board “Add a date picker to the date fields”
-2. UI Engineer picks ticket, finds 3 suitable components, emails PM which do you like 
-3. Date picker implemented
-4. QA team make “pick a date” test plan & QAs
-5. Ships in next release
-
-**After 2010**
-
-1. New ticket in Jira “Add a date picker to the date fields” 
-2. Ticket triage with product managers and architects, architects select date component to use 
-3. UX team designs all possible interactions in Figma 
-4. Scrum meeting where tickets are selected
-5. Product manager writes detailed ticket with definition of done 
-6. Estimation where team estimates time to implement date picker 
-7. Junior UI Engineer assigned ticket
-8. Bugs in the date picker component -> emergency Slack -> ticket kicked out of sprint -> back to Step 2. 
-9. Date picker component can’t implement all the UX interactions in Figma -> emergency Slack -> ticket kicked out of sprint -> back to Step 2
-10. Sprint reconciliation where all of the above is discussed in excruciating detail and passive aggressive tensions allegedly resolved between product managers, architects, UX, engineer, with conclusion to have more meetings at each above step so this doesn't happen again
-11. Ticket delayed due to new priorities 
-12. Junior UI engineer complains to HR about terrible onboarding and mentoring processes 
-13. External scrum coach brought in to improve process and communication 
-14. Management: “How can it take so fucking long to add a date picker?!?!?”
+🫡 [6 magic phrases to inspire respect](https://www.inc.com/bill-murphy-jr/6-magic-phrases-to-inspire-respect-get-attention-grounded-in-emotional-intelligence.html?utm_source=makers-mansion) that people with high emotional intelligence use. Much of it comes down to this: people respect people who demonstrate self-respect.
 
 ---
 
