@@ -2,22 +2,20 @@
 layout: base
 ---
 
-<article class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-12 md:mt-20 px-6 sm:px-0">
+<article class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-8 md:mt-20 px-6 sm:px-0">
 
     <header>
         <h1 class="font-serif text-heading-lg">{{ title }}</h1>
-        <div class="mt-6 md:mt-10 flex flex-nowrap items-center gap-2 text-caption text-neutral-medium uppercase tracking-widest">
-            <time datetime="{{ date | dateToISO }}" pubdate="pubdate" class="flex-none">{{ date | readableDate('dd LLL yyyy') }}</time>
-            <span class="w-6 border-t border-dashed border-neutral-weak"></span>
+        <div class="mt-2 md:mt-3 flex flex-nowrap items-center gap-4 text-neutral-medium">
+            <time datetime="{{ date | dateToISO }}" pubdate="pubdate">{{ date | readableDate('dd LLL yyyy') }}</time>
             <address class="flex-none">
                 <a rel="author" href="https://helloraz.com" target="_blank" class="not-italic">Raz Tirboaca</a>
             </address>
-            <span class="w-full border-t border-dashed border-neutral-weak"></span>
         </div>
     </header>
 
     <div class="
-        mt-10 max-w-none 
+        mt-8 max-w-none 
         prose prose-neutral 
         prose-h2:text-heading-md 
         prose-p:text-body 
