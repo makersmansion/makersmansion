@@ -29,7 +29,7 @@ eleventyNavigation:
         </p>
     </div>
     <div class="mt-6 lg:mt-8 grid gap-12 md:grid-cols-2 md:gap-0">
-        {% for edition in collections.weekly | reverse %}
+        {% for edition in collections.newsletter | reverse %}
             {% if (loop.index <= 4) %}
             <article>
                 <a href="{{ edition.url }}" class="md:p-6 lg:px-8 lg:py-6 flex flex-col gap-3 group">

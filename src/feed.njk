@@ -23,7 +23,7 @@
     <subtitle>{{ metadata.subtitle }}</subtitle>
     <link href="{{ metadata.feedUrl }}" rel="self"/>
     <link href="{{ metadata.url }}"/>
-    <updated>{{ collections.weekly | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <updated>{{ collections.newsletter | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
     <id>{{ metadata.url }}</id>
     <author>
         <name>{{ metadata.author.name }}</name>
@@ -35,14 +35,14 @@
         <link>{{ metadata.url }}</link>
         <description>{{ metadata.subtitle }}</description>
     </image>
-    {%- for week in collections.weekly %}
-    {% set absolutePostUrl %}{{ week.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    {%- for edition in collections.newsletter %}
+    {% set absolutePostUrl %}{{ edition.url | url | absoluteUrl(metadata.url) }}{% endset %}
     <entry>
-        <title>{{ week.data.title }}</title>
+        <title>{{ edition.data.title }}</title>
         <link href="{{ absolutePostUrl }}"/>
-        <updated>{{ week.date | dateToRfc3339 }}</updated>
+        <updated>{{ edition.date | dateToRfc3339 }}</updated>
         <id>{{ absolutePostUrl }}</id>
-        <content type="html">{{ week.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+        <content type="html">{{ edition.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
     </entry>
     {%- endfor %}
 </feed>
