@@ -16,7 +16,7 @@
 
     <a href="#main" class="sr-only">skip to main content</a>
 
-    <header class="pt-3 pb-1 md:pb-3 shadow-sm dark:shadow-none">
+    <header class="pt-3 pb-1 md:pb-3 bg-neutral-weakest border-b border-transparent dark:bg-neutral dark:border-neutral-weakest">
         <div class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl px-6 sm:px-0">
             <div class="flex flex-col md:flex-row md:align-baseline">
                 <a href="{{ '/' | url }}" title="Makers Mansion" class="pb-1 md:pb-0 flex items-center gap-2">
@@ -32,7 +32,7 @@
                         <span class="text-[.928575em]">MAKERS MANSION</span>
                     </b>
                 </a>
-                <nav class="-mx-3 mt-1 md:ml-auto md:mt-0 flex items-center text-caption text-neutral-medium leading-none">
+                <nav class="-mx-3 md:ml-auto flex items-center text-caption text-neutral-medium leading-none">
                     {% set navPages = collections.all | eleventyNavigation %}
                     {% for entry in navPages %}
                         <a 
