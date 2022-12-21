@@ -2,7 +2,10 @@
 title: "The false dilemma, DALL-E API, and building teams in a remote world"
 date: 2022-11-06
 week: 44
+thumbnail: "/assets/images/pyramid.jpg"
 ---
+
+![pyramid of gyza](/assets/images/pyramid.jpg)
 
 **Reject the false dilemma** 
 
