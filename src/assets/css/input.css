@@ -45,19 +45,17 @@
 
     @media screen(md) {
         :root {
-            --text-caption-fs: .875rem;
-            --text-caption-lh: 1.5;
-            --text-body-fs: 1.125rem;
+            --text-body-fs: 1rem;
             --text-body-lh: 1.55;
-            --text-lead-fs: 1.406rem;
+            --text-lead-fs: 1.25rem;
             --text-lead-lh: 1.44;
-            --text-heading-fs: 1.406rem;
+            --text-heading-fs: 1.25rem;
             --text-heading-lh: 1.3;
-            --text-heading-md-fs: 1.758rem;
+            --text-heading-md-fs: 1.56rem;
             --text-heading-md-lh: 1.3;
-            --text-heading-lg-fs: 2.197rem;
+            --text-heading-lg-fs: 2.44rem;
             --text-heading-lg-lh: 1.2;
-            --text-display-fs: 3.433rem;
+            --text-display-fs: 3.05rem;
             --text-display-lh: 1.2;
         }
     }
