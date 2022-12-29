@@ -8,34 +8,33 @@ thumbnail: /assets/images/products/biases/thumbnail.png
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 <script>
 var end = Date.now() + (3 * 1000);
-
 var colors = ['#e21d48', '#f5a300'];
 
 (function frame() {
-  confetti({
-    particleCount: 2,
-    angle: 60,
-    spread: 55,
-    origin: { x: 0 },
-    colors: colors
-  });
-  confetti({
-    particleCount: 2,
-    angle: 120,
-    spread: 55,
-    origin: { x: 1 },
-    colors: colors
-  });
+    confetti({
+        particleCount: 2,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 },
+        colors: colors
+    });
+    confetti({
+        particleCount: 2,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 },
+        colors: colors
+    });
 
-  if (Date.now() < end) {
-    requestAnimationFrame(frame);
-  }
+    if (Date.now() < end) {
+        requestAnimationFrame(frame);
+    }
 }());
 </script>
 
 <section class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-8 md:mt-20 px-6 sm:px-0">
     <h1 class="font-serif text-heading-lg">Payment successful</h1>
-    <hr class="mt-6 md:mt-8 w-12">
+    <hr class="mt-6 md:mt-8 w-12 border-t-2 border-neutral-weak">
     <p class="mt-6 md:mt-8">Thank you for buying “The Product Engagement Blueprint” email course.</p>
     <figure class="mt-10 lg:mt-12">
         <div class="overflow-hidden flex justify-center border-b border-neutral-weakest">
