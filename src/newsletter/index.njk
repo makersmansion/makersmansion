@@ -1,8 +1,8 @@
 ---
 layout: base
 eleventyNavigation:
-    key: Home
-    order: 1
+    key: Newsletter
+    order: 20
 ---
 
 <section id="subscribe" class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl mt-8 md:mt-20 px-6 sm:px-0">
@@ -16,24 +16,12 @@ eleventyNavigation:
             </button>
         </form>
     </div>
-    <div class="mt-10 md:mt-12 pb-3 flex flex-nowrap justify-between items-baseline border-b border-neutral-weak">
-        <h2 class="text-caption font-bold uppercase tracking-widest">Latest Editions</h2>
-        <p>
-            <a href="{{ '/newsletter/' | url }}" class="flex items-center gap-1 text-caption font-medium text-neutral-medium transition hover:text-neutral-strong">
-                View all
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" fill="none" class="w-5 h-5">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
-                </svg>
-            </a>
-        </p>
-    </div>
-    <div class="mt-6 lg:mt-8 grid gap-12 md:grid-cols-2 md:gap-0">
+    <hr class="mt-8 mb-4 md:mt-12 md:mb-9 border-neutral-weak">
+    <div>
         {% for edition in collections.newsletter | reverse %}
-            {% if (loop.index <= 4) %}
             <article>
-                <a href="{{ edition.url }}" class="md:p-6 lg:px-8 lg:py-6 flex flex-col gap-3 group">
-                    <img src="{% if edition.data.thumbnail %}{{ edition.data.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" class="w-full aspect-video object-cover rounded dark:opacity-80">
+                <a href="{{ edition.url }}" class="py-4 md:p-6 flex gap-4 rounded group md:hover:bg-neutral-weakest">
+                    <img src="{% if edition.data.thumbnail %}{{ edition.data.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" class="w-32 aspect-video object-cover rounded-sm dark:opacity-80">
                     <header>
                         <h2 class="font-bold underline underline-offset-2 decoration-neutral-medium transition group-hover:decoration-primary">
                             {{ edition.data.title }}
@@ -44,7 +32,6 @@ eleventyNavigation:
                     </header>
                 </a>
             </article>
-            {% endif %}
         {% endfor %}
     </div>
 </section>
