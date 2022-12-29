@@ -20,7 +20,7 @@ eleventyNavigation:
     <div>
         {% for edition in collections.newsletter | reverse %}
             <article>
-                <a href="{{ edition.url }}" class="py-4 md:p-6 flex gap-4 rounded group md:hover:bg-neutral-weakest">
+                <a href="{{ edition.url }}" class="py-4 md:p-6 flex gap-4 items-start rounded group md:hover:bg-neutral-weakest">
                     <img src="{% if edition.data.thumbnail %}{{ edition.data.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" class="w-32 aspect-video object-cover rounded-sm dark:opacity-80">
                     <header>
                         <h2 class="font-bold underline underline-offset-2 decoration-neutral-medium transition group-hover:decoration-primary">
