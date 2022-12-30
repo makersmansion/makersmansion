@@ -28,11 +28,11 @@ eleventyNavigation:
             </a>
         </p>
     </div>
-    <div class="mt-6 lg:mt-8 grid gap-12 md:grid-cols-2 md:gap-0">
+    <div class="mt-6 lg:mt-8 grid gap-12 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
         {% for edition in collections.newsletter | reverse %}
-            {% if (loop.index <= 4) %}
+            {% if (loop.index <= 6) %}
             <article>
-                <a href="{{ edition.url }}" class="md:p-6 lg:px-8 lg:py-6 flex flex-col gap-3 group">
+                <a href="{{ edition.url }}" class="flex flex-col gap-3 group">
                     <img src="{% if edition.data.thumbnail %}{{ edition.data.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" class="w-full aspect-video object-cover rounded dark:opacity-80">
                     <header>
                         <h2 class="font-bold underline underline-offset-2 decoration-neutral-medium transition group-hover:decoration-primary">

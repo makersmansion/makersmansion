@@ -2,20 +2,19 @@
 layout: base
 ---
 
-<article class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-8 md:mt-20 px-6 sm:px-0">
+<article class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl mt-8 md:mt-20 px-6 sm:px-0">
 
-    <header>
+    <header class="lg:text-center">
         <h1 class="font-serif text-heading-lg">{{ title }}</h1>
-        <div class="mt-2 md:mt-3 flex flex-nowrap items-center gap-4 text-caption text-neutral-medium">
+        <div class="mt-5 text-caption text-neutral-medium">
             <time datetime="{{ date | dateToISO }}" pubdate="pubdate">{{ date | readableDate('dd LLL yyyy') }}</time>
-            <address class="flex-none">
-                <a rel="author" href="https://helloraz.com" target="_blank" class="not-italic">Raz Tirboaca</a>
-            </address>
+            <address class="inline ml-5"><a rel="author" href="https://helloraz.com" target="_blank" class="not-italic">Raz Tirboaca</a></address>
         </div>
+        <hr class="mt-6 md:mt-8 w-12 border-t-2 border-neutral-weak lg:mx-auto">
     </header>
 
     <div class="
-        mt-8 max-w-none 
+        mx-auto mt-8 lg:mt-12 max-w-2xl 
         prose prose-neutral 
         prose-h2:text-heading 
         prose-p:text-body 
@@ -29,13 +28,14 @@ layout: base
         ">
 
         {{content | safe }}
-
+        
+        <hr>
     </div>
 
 </article>
 
 <aside id="subscribe" class="mx-auto max-w-lg sm:max-w-xl md:max-w-2xl mt-20 md:mt-28 px-6 sm:px-0 text-center">
-    <h3 class="text-heading-md">Don’t miss the next edition</h3>
+    <h3 class="font-serif text-heading-md">Don’t miss the next edition</h3>
     <p class="mt-2 text-neutral-medium">Join our community of over 600 makers. Highly relevant for product managers, designers, writers, and engineers.</p>
     <form action="https://xyz.us11.list-manage.com/subscribe/post?u=6dc0c39e37a97ab5a03b51343&amp;id=5c2e4bb0d0" method="post" class="mt-4 md:mt-6 w-full max-w-lg inline-flex flex-nowrap gap-1">
         <input type="email" id="mce-EMAIL" name="EMAIL" placeholder="Type your email..." required class="flex-1 px-4 py-2 text-[16px] text-neutral-strong bg-neutral border border-neutral-weak focus:border-neutral-strong focus:outline-none focus:ring-0 rounded">
