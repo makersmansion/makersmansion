@@ -37,17 +37,17 @@ module.exports = {
       'heading': ['var(--text-heading-fs)', {
         lineHeight: 'var(--text-heading-lh)',
         letterSpacing: 'var(--text-heading-ls)',
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
       }],
       'heading-md': ['var(--text-heading-md-fs)', {
         lineHeight: 'var(--text-heading-md-lh)',
         letterSpacing: 'var(--text-heading-md-ls)',
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
       }],
       'heading-lg': ['var(--text-heading-lg-fs)', {
         lineHeight: 'var(--text-heading-lg-lh)',
         letterSpacing: 'var(--text-heading-lg-ls)',
-        fontWeight: 'bold',
+        //fontWeight: 'bold',
       }],
       'display': ['var(--text-display-fs)', {
         lineHeight: 'var(--text-display-lh)',
