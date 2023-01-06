@@ -51,7 +51,6 @@ Let’s dive in!
 
 🤝 [Shopify is eliminating all recurring meetings](https://fortune.com/2023/01/03/shopify-cutting-meetings-worker-productivity/) involving more than two people effective immediately. No meetings on Wednesdays and meetings involving more than 50 people will only be held on Thursdays between 11 am and 5 pm Eastern time. Big meetings are limited to one per week.
 
-😹 [There are pets that earn more than most people](https://thehustle.co/01032023-rich-pets/). Are you ready? They’re making cash from brand endorsements, appeareances, merch, and sponsored social media content. Taylor Swift’s cat is apparently worth $97M.
+😹 [There are pets that earn more than most people](https://thehustle.co/01032023-rich-pets/). Are you ready? They’re making cash from brand endorsements, appearances, merch, and sponsored social media content. Taylor Swift’s cat is apparently worth $97M.
 
-Thanks for reading! See you again next week 🫶
-
+Thanks for reading! See you next week 🫶
