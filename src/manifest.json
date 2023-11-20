@@ -1,41 +1,39 @@
 {
-    "lang": "en",
-    "dir": "ltr",
-    "name": "Makers Mansion",
-    "short_name": "Makers Mansion",
-    "description": "Get the latest resources and practical notes to maximize your efforts.",
-    "icons": [
-        {
-            "src": "/assets/images/favicon/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/images/favicon/favicon-192x192-maskable.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
-        {
-            "src": "/assets/images/favicon/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "display_override": [
-        "window-controls-overlay"
-    ],
-    "start_url": "/",
-    "display": "standalone",
-    "orientation": "natural",
-    "share_target": {
-        "action": "/share/",
-        "method": "GET",
-        "enctype": "application/x-www-form-urlencoded",
-        "params": {
-            "title": "Makers Mansion",
-            "text": "Get the latest resources and practical notes to maximize your efforts.",
-            "url": "https://makersmansion.xyz"
-        }
+  "lang": "en",
+  "dir": "ltr",
+  "name": "Makers Mansion",
+  "short_name": "Makers Mansion",
+  "description": "Get the latest resources and practical notes to maximize your efforts.",
+  "icons": [
+    {
+      "src": "/assets/images/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/favicon/favicon-192x192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/images/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
+  ],
+  "display_override": ["window-controls-overlay"],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "natural",
+  "share_target": {
+    "action": "/share/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "Makers Mansion",
+      "text": "Get the latest resources and practical notes to maximize your efforts.",
+      "url": "https://makersmansion.ai"
+    }
+  }
 }

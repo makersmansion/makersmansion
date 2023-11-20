@@ -1,4 +1,4 @@
-Sitemap: https://makersmansion.xyz/sitemap.xml
+Sitemap: https://makersmansion.ai/sitemap.xml
 
 User-Agent: *
 Allow: /
