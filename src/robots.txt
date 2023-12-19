@@ -1,5 +1,0 @@
-Sitemap: https://makersmansion.xyz/sitemap.xml
-
-User-Agent: *
-Allow: /
-

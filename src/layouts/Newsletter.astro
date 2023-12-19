@@ -1,0 +1,61 @@
+---
+import { format } from "date-fns"
+import Layout from "~/layouts/Base.astro"
+import { Image } from "astro:assets"
+import Icon from "astro-icon"
+import RazAvatar from "~/images/raz.jpg"
+
+const { frontmatter } = Astro.props
+const author = "Raz Tirboaca"
+---
+
+<Layout
+  title={frontmatter.title}
+  description="Join 600+ makers and get a weekly summary of the best resources to move things forward. Highly relevant for product managers, designers, and engineers.">
+  <article class="mx-auto max-w-3xl px-6 pb-12 pt-4 sm:px-8">
+    <header>
+      <div class="mb-12 flex items-center justify-between">
+        <a
+          href="/newsletter/"
+          class="inline-flex items-center gap-x-1 text-sm font-medium text-neutral-500 transition-colors hover:text-inherit"
+          ><Icon pack="ri" name="arrow-left-line" class="h-4 w-4" />Newsletter</a
+        >
+        <time
+          datetime={frontmatter.date.toISOString()}
+          class="text-sm font-medium text-neutral-500">
+          {format(frontmatter.date, "d MMM yyyy")}
+        </time>
+      </div>
+      <h1 class="text-2xl font-bold tracking-tight [text-wrap:pretty] md:text-3xl">
+        {frontmatter.title}
+      </h1>
+      <div class="mt-8 inline-flex items-center gap-x-2 text-sm font-medium">
+        <Image src={RazAvatar} class="aspect-square w-10 rounded-full" alt={author} />
+        <span class="inline-flex flex-col">
+          {author}
+          <a
+            href="https://twitter.com/razvantirboaca"
+            target="_blank"
+            class="text-xs text-neutral-500 transition-colors hover:text-inherit">@razvantirboaca</a
+          ></span
+        >
+      </div>
+    </header>
+    <figure
+      class="relative isolate my-10 overflow-hidden rounded-lg after:pointer-events-none after:absolute after:inset-0 after:bg-[url(/images/noise.svg)] after:opacity-75 after:brightness-100 after:contrast-150 after:saturate-200">
+      <Image
+        src={frontmatter.image.url}
+        alt={frontmatter.image.alt}
+        width="1024"
+        height="628"
+        class="aspect-[3/1] w-full object-cover dark:opacity-75"
+      />
+    </figure>
+    <div class="mt-8 md:mt-12">
+      <div
+        class="prose prose-neutral max-w-none text-base dark:prose-invert prose-a:font-medium prose-a:decoration-primary-600 prose-a:decoration-2 prose-a:underline-offset-2 prose-a:transition-colors hover:prose-a:decoration-neutral-200 prose-strong:font-bold prose-hr:w-10 prose-hr:border-t-8 prose-hr:border-dotted sm:text-lg">
+        <slot />
+      </div>
+    </div>
+  </article>
+</Layout>
