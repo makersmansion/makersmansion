@@ -1,0 +1,37 @@
+---
+import { ViewTransitions } from "astro:transitions"
+import BaseHead from "~/components/BaseHead.astro"
+import Header from "~/components/Header.astro"
+import Footer from "~/components/Footer.astro"
+
+const { title, description } = Astro.props
+---
+
+<!doctype html>
+<html
+  lang="en"
+  class="bg-white text-base font-normal text-neutral-800 antialiased dark:bg-neutral-900 dark:text-neutral-100">
+  <head>
+    <BaseHead title={title} description={description} />
+    <ViewTransitions />
+  </head>
+
+  <body class="min-h-screen">
+    <Header />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    <style>
+      :root {
+        font-feature-settings:
+          "ss03" 1,
+          "cv10" 1,
+          "case" 1,
+          "ccmp" 1,
+          "liga" 1,
+          "calt" 1;
+      }
+    </style>
+  </body>
+</html>

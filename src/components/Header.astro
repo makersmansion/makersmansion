@@ -1,0 +1,30 @@
+---
+import { Icon } from "astro-icon"
+import MakersLogo from "./MakersLogo.astro"
+
+const { class: className } = Astro.props
+---
+
+<header class:list={["mx-auto max-w-3xl px-3 pt-2 @container sm:px-5", className]}>
+  <nav aria-label="Primary" class="flex items-center gap-x-4">
+    <a
+      href="/"
+      rel="prefetch"
+      title="Makers Mansion"
+      class="group inline-flex items-center gap-x-1 px-3 py-2 text-sm">
+      <MakersLogo
+        size="w-10"
+        class="shrink-0 origin-center scale-75 transition duration-300 will-change-transform group-hover:scale-100"
+      />
+      <b class="font-bold">Makers Mansion</b>
+    </a>
+    <div class="ml-auto"></div>
+    <a
+      href="https://twitter.com/MakersMansionAI"
+      title="Makers Mansion on X"
+      target="_blank"
+      class="inline-flex items-center p-2 text-neutral-500 transition-colors hover:text-inherit">
+      <Icon name="x" class="h-5 w-5" /></a
+    >
+  </nav>
+</header>
