@@ -33,14 +33,14 @@ const siteInfo: SiteInfo = {
       href: "https://github.com/makersmansion/",
       me: "https://github.com/makersmansion/",
       text: "Go to our GitHub repo",
-      icon: "social/github",
+      icon: "github",
     },
     {
       platform: "twitter",
       href: "https://twitter.com/MakersMansionAI",
       me: "https://twitter.com/MakersMansionAI",
       text: "Follow us on X",
-      icon: "social/twitter",
+      icon: "x",
     },
   ],
 }
