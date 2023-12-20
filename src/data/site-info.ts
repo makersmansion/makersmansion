@@ -30,31 +30,17 @@ const siteInfo: SiteInfo = {
   socialLinks: [
     {
       platform: "github",
-      href: "https://github.com/withastro/astro",
-      me: "https://github.com/withastro/",
-      text: "Go to Astro's GitHub repo",
+      href: "https://github.com/makersmansion/",
+      me: "https://github.com/makersmansion/",
+      text: "Go to our GitHub repo",
       icon: "social/github",
     },
     {
-      platform: "discord",
-      href: "/chat",
-      text: "Join the Astro community on Discord",
-      icon: "social/discord",
-    },
-    {
       platform: "twitter",
-      href: "https://twitter.com/astrodotbuild",
-      me: "https://twitter.com/astrodotbuild",
-      text: "Follow Astro on Twitter",
+      href: "https://twitter.com/MakersMansionAI",
+      me: "https://twitter.com/MakersMansionAI",
+      text: "Follow us on X",
       icon: "social/twitter",
-    },
-    {
-      platform: "mastodon",
-      href: "https://m.webtoo.ls/@astro",
-      me: "https://m.webtoo.ls/@astro",
-      text: "Follow Astro on Mastodon",
-      footerOnly: true,
-      icon: "social/mastodon",
     },
   ],
 }
