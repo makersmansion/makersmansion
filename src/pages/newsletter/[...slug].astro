@@ -62,13 +62,11 @@ const author = "Raz Tirboaca"
     </header>
     <figure
       class="relative isolate my-10 overflow-hidden rounded-lg after:pointer-events-none after:absolute after:inset-0 after:bg-[url(/images/noise.svg)] after:opacity-75 after:brightness-100 after:contrast-150 after:saturate-200">
-      <img
-        src={coverImage.src}
+      <Image
+        src={coverImage}
         alt={data.title}
         width={coverImage.width}
         height={coverImage.height}
-        loading="lazy"
-        decoding="async"
         class="w-full dark:opacity-75"
       />
     </figure>
