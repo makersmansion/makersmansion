@@ -1,19 +1,76 @@
 ---
-import { getCollection } from 'astro:content'
-import Layout from '~/layouts/Newsletter.astro'
+import { type CollectionEntry, getCollection, getEntry } from "astro:content"
+import { format } from "date-fns"
+import { Image } from "astro:assets"
+import Icon from "astro-icon"
+import RazAvatar from "~/images/raz.jpg"
+import Layout from "~/layouts/Base.astro"
+
+export type Props = {
+  edition: CollectionEntry<"newsletter">
+}
 
 export async function getStaticPaths() {
-  const editions = await getCollection('newsletter')
-  return editions.map((entry) => ({
-    params: { slug: entry.slug },
-    props: { entry },
+  const newsletter = await getCollection("newsletter")
+  return newsletter.map((edition) => ({
+    params: { slug: edition.slug },
+    props: { edition },
   }))
 }
 
-const { entry } = Astro.props
-const { Content } = await entry.render()
+const { edition } = Astro.props
+
+const { data, render } = edition
+const { Content } = await render()
+
+const author = "Raz Tirboaca"
 ---
 
-<Layout frontmatter={entry.data}>
-  <Content />
+<Layout
+  title={data.title}
+  description="Join 600+ makers and get a weekly summary of the best resources to move things forward. Highly relevant for product managers, designers, and engineers.">
+  <article class="mx-auto max-w-3xl px-6 pb-12 pt-4 sm:px-8">
+    <header>
+      <div class="mb-12 flex items-center justify-between">
+        <a
+          href="/newsletter/"
+          class="inline-flex items-center gap-x-1 text-sm font-medium text-neutral-500 transition-colors hover:text-inherit"
+          ><Icon pack="ri" name="arrow-left-line" class="h-4 w-4" />Newsletter</a
+        >
+        <time datetime={data.date.toISOString()} class="text-sm font-medium text-neutral-500">
+          {format(data.date, "d MMM yyyy")}
+        </time>
+      </div>
+      <h1 class="text-2xl font-bold tracking-tight [text-wrap:pretty] md:text-3xl">
+        {data.title}
+      </h1>
+      <div class="mt-8 inline-flex items-center gap-x-2 text-sm font-medium">
+        <Image src={RazAvatar} class="aspect-square w-10 rounded-full" alt={author} />
+        <span class="inline-flex flex-col">
+          {author}
+          <a
+            href="https://twitter.com/razvantirboaca"
+            target="_blank"
+            class="text-xs text-neutral-500 transition-colors hover:text-inherit">@razvantirboaca</a
+          ></span
+        >
+      </div>
+    </header>
+    <figure
+      class="relative isolate my-10 overflow-hidden rounded-lg after:pointer-events-none after:absolute after:inset-0 after:bg-[url(/images/noise.svg)] after:opacity-75 after:brightness-100 after:contrast-150 after:saturate-200">
+      <Image
+        src={data.image.url}
+        alt={data.image.alt}
+        width="1024"
+        height="628"
+        class="w-full dark:opacity-75"
+      />
+    </figure>
+    <div class="mt-8 md:mt-12">
+      <div
+        class="prose prose-neutral max-w-none text-base dark:prose-invert prose-a:font-medium prose-a:decoration-neutral-800/25 prose-a:decoration-2 prose-a:underline-offset-2 prose-a:transition-colors hover:prose-a:decoration-primary-600 prose-strong:font-bold prose-hr:w-10 prose-hr:border-t-8 prose-hr:border-dotted dark:prose-a:decoration-neutral-100/30 dark:hover:prose-a:decoration-primary-500 sm:text-lg">
+        <Content />
+      </div>
+    </div>
+  </article>
 </Layout>
