@@ -2,8 +2,8 @@
 title: "Curiosity, opportunities, and who are the best managers"
 date: 2022-07-05
 week: 27
-image:
-  url: "/src/images/thumbnail.png"
+coverImage:
+  url: "/src/content/newsletter/_images/thumbnail.png"
   alt: "Makers Mansion"
 ---
 

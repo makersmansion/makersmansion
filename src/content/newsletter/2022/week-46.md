@@ -2,8 +2,8 @@
 title: "Doing your best, making a positive difference, and Mastodon’s vision"
 date: 2022-11-20
 week: 46
-image:
-  url: "/src/images/x-0.jpg"
+coverImage:
+  url: "/src/content/newsletter/_images/x-0.jpg"
   alt: "Game"
 ---
 

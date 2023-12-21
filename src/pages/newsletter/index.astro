@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content"
 import { format } from "date-fns"
 import Layout from "~/layouts/Base.astro"
-import NewsletterEdition from "~/components/NewsletterEdition.astro"
+import NewsletterEditionPreview from "~/components/NewsletterEditionPreview.astro"
 
 const title = "Newsletter"
 const description =
@@ -22,13 +22,13 @@ editions.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
       <div class="space-y-8">
         {
           editions.map((edition) => (
-            <NewsletterEdition
+            <NewsletterEditionPreview
               title={edition.data.title}
               date={format(edition.data.date, "d MMM yyyy")}
               datetime={edition.data.date.toISOString()}
               slug={`/newsletter/${edition.slug}/`}
-              image={edition.data.image.url}
-              alt={edition.data.image.alt}
+              image={edition.data.coverImage.url}
+              alt={edition.data.coverImage.alt}
             />
           ))
         }

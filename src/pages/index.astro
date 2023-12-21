@@ -9,11 +9,12 @@ import LinkButton from "~/components/LinkButton.astro"
 import EddaAvatar from "~/images/edda.png"
 import DripOGAvatar from "~/images/dripog.png"
 
-import NewsletterEdition from "~/components/NewsletterEdition.astro"
+import NewsletterEditionPreview from "~/components/NewsletterEditionPreview.astro"
 
 const title = "AI meets Design"
 const description =
   "We're a small team exploring AI assistants to refine everyday activities. Our core pursuit is understanding human-AI interactions, aiming to desing the next-gen user experiences."
+
 const newsletter = await getCollection("newsletter")
 const editions = newsletter
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
@@ -79,13 +80,13 @@ const editions = newsletter
     <div class="mt-6 grid gap-8 md:grid-cols-2">
       {
         editions.map((edition) => (
-          <NewsletterEdition
+          <NewsletterEditionPreview
             title={edition.data.title}
             date={format(edition.data.date, "d MMM yyyy")}
             datetime={edition.data.date.toISOString()}
             slug={`/newsletter/${edition.slug}/`}
-            image={edition.data.image.url}
-            alt={edition.data.image.alt}
+            image={edition.data.coverImage.url}
+            alt={edition.data.coverImage.alt}
           />
         ))
       }

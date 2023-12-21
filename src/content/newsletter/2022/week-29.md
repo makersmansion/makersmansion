@@ -2,8 +2,8 @@
 title: "Reframing trick, price increase communication, and resolving conflicts between designers and engineers"
 date: 2022-07-19
 week: 29
-image:
-  url: "/src/images/thumbnail.png"
+coverImage:
+  url: "/src/content/newsletter/_images/thumbnail.png"
   alt: "Makers Mansion"
 ---
 

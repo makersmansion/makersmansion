@@ -2,8 +2,8 @@
 title: "Creating value, finding product/market fit, and being a 2x person"
 date: 2022-06-28
 week: 26
-image:
-  url: "/src/images/thumbnail.png"
+coverImage:
+  url: "/src/content/newsletter/_images/thumbnail.png"
   alt: "Makers Mansion"
 ---
 

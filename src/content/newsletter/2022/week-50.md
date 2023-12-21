@@ -2,8 +2,8 @@
 title: "Success is work ethic, 6 phrases to inspire respect, and inflation trend"
 date: 2022-12-18
 week: 50
-image:
-  url: "/src/images/resolutions.jpg"
+coverImage:
+  url: "/src/content/newsletter/_images/resolutions.jpg"
   alt: "Resolutions"
 ---
 

@@ -2,8 +2,8 @@
 title: "AI eating the world, the advertising bubble, and IQ tests"
 date: 2022-11-13
 week: 45
-image:
-  url: "/src/images/ai.jpg"
+coverImage:
+  url: "/src/content/newsletter/_images/ai.jpg"
   alt: "AI"
 ---
 

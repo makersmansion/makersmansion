@@ -2,8 +2,8 @@
 title: "Salaries in 2023, size doesn’t matter, and going async"
 date: 2023-01-06
 week: 01
-image:
-  url: "/src/images/path.jpg"
+coverImage:
+  url: "/src/content/newsletter/_images/path.jpg"
   alt: "Path"
 ---
 

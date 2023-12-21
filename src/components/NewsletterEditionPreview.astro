@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { title, date, datetime, slug, image, alt } = Astro.props
-const images = import.meta.glob("/src/images/*.{jpeg,jpg,png,gif}")
+const images = import.meta.glob("/src/content/newsletter/_images/*.{jpeg,jpg,png,gif}")
 ---
 
 <article class="@container">
@@ -20,13 +20,7 @@ const images = import.meta.glob("/src/images/*.{jpeg,jpg,png,gif}")
     class="group flex h-full flex-col items-start gap-3 transition-colors @md:flex-row @md:items-center @md:gap-6">
     <figure
       class="relative isolate origin-center overflow-hidden rounded-lg transition-transform after:pointer-events-none after:absolute after:inset-0 after:bg-[url(/images/noise.svg)] after:opacity-75 after:brightness-100 after:contrast-150 after:saturate-200 group-hover:scale-95 @md:w-1/5">
-      <Image
-        src={images[image]()}
-        alt={alt}
-        width="1024"
-        height="628"
-        class="aspect-video object-cover"
-      />
+      <Image src={image} alt={alt} width="1024" height="628" class="aspect-video object-cover" />
     </figure>
     <div class="flex-1 px-2 @md:px-0">
       <h2 class="font-bold leading-tight [text-wrap:pretty] group-hover:text-primary-600">

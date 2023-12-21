@@ -2,8 +2,8 @@
 title: "Minimizing TTV, keeping a holistic view, and writing better error messages"
 date: 2022-10-30
 week: 43
-image:
-  url: "/src/images/thumbnail.png"
+coverImage:
+  url: "/src/content/newsletter/_images/thumbnail.png"
   alt: "Makers Mansion"
 ---
 
