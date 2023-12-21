@@ -3,6 +3,7 @@ import { type CollectionEntry, getCollection, getEntry } from "astro:content"
 import { format } from "date-fns"
 import { Image } from "astro:assets"
 import Icon from "astro-icon"
+import { resolveCoverImage, resolveSocialImage } from "~/content/newsletter/_resolveImage.js"
 import RazAvatar from "~/images/raz.jpg"
 import Layout from "~/layouts/Base.astro"
 
@@ -23,6 +24,7 @@ const { edition } = Astro.props
 const { data, render } = edition
 const { Content } = await render()
 
+const coverImage = await resolveCoverImage(edition)
 const author = "Raz Tirboaca"
 ---
 
@@ -37,15 +39,17 @@ const author = "Raz Tirboaca"
           class="inline-flex items-center gap-x-1 text-sm font-medium text-neutral-500 transition-colors hover:text-inherit"
           ><Icon pack="ri" name="arrow-left-line" class="h-4 w-4" />Newsletter</a
         >
-        <time datetime={data.date.toISOString()} class="text-sm font-medium text-neutral-500">
-          {format(data.date, "d MMM yyyy")}
+        <time
+          datetime={data.publishDate.toISOString()}
+          class="text-sm font-medium text-neutral-500">
+          {format(data.publishDate, "d MMM yyyy")}
         </time>
       </div>
       <h1 class="text-2xl font-bold tracking-tight [text-wrap:pretty] md:text-3xl">
         {data.title}
       </h1>
       <div class="mt-8 inline-flex items-center gap-x-2 text-sm font-medium">
-        <Image src={RazAvatar} class="aspect-square w-10 rounded-full" alt={author} />
+        <Image src={RazAvatar} class="size-10 rounded-full" alt={author} />
         <span class="inline-flex flex-col">
           {author}
           <a
@@ -58,11 +62,13 @@ const author = "Raz Tirboaca"
     </header>
     <figure
       class="relative isolate my-10 overflow-hidden rounded-lg after:pointer-events-none after:absolute after:inset-0 after:bg-[url(/images/noise.svg)] after:opacity-75 after:brightness-100 after:contrast-150 after:saturate-200">
-      <Image
-        src={data.coverImage.url}
-        alt={data.coverImage.alt}
-        width="1024"
-        height="628"
+      <img
+        src={coverImage.src}
+        alt={data.title}
+        width={coverImage.width}
+        height={coverImage.height}
+        loading="lazy"
+        decoding="async"
         class="w-full dark:opacity-75"
       />
     </figure>

@@ -1,10 +1,8 @@
 ---
 title: "Enjoying the journey, Musk’s hiring strategy, and the 1st important earnings period"
-date: 2022-07-27
+publishDate: 2022-07-27
 week: 30
-coverImage:
-  url: "/src/content/newsletter/_images/thumbnail.png"
-  alt: "Makers Mansion"
+coverImage: "/src/content/newsletter/_images/thumbnail.png"
 ---
 
 **Life... Is for Living**

@@ -1,10 +1,8 @@
 ---
 title: "Klarna's new products, privacy focused apps, and connecting folks to a deeper sense of purpose and meaning"
-date: 2022-10-21
+publishDate: 2022-10-21
 week: 42
-coverImage:
-  url: "/src/content/newsletter/_images/thumbnail.png"
-  alt: "Makers Mansion"
+coverImage: "/src/content/newsletter/_images/thumbnail.png"
 ---
 
 **It doesn't matter what you say, it matters what they hear**

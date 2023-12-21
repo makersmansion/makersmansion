@@ -1,14 +1,16 @@
 ---
 import { getCollection } from "astro:content"
-import { format } from "date-fns"
 import Layout from "~/layouts/Base.astro"
 import NewsletterEditionPreview from "~/components/NewsletterEditionPreview.astro"
 
 const title = "Newsletter"
 const description =
   "Join 600+ makers and get a weekly summary of the best resources to move things forward. Highly relevant for product managers, designers, and engineers."
-const editions = await getCollection("newsletter")
-editions.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+
+const newsletter = await getCollection("newsletter")
+const editions = newsletter.sort(
+  (a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime(),
+)
 ---
 
 <Layout title={title}>
@@ -20,18 +22,7 @@ editions.sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
     </p>
     <div class="mt-12 border-t border-neutral-800/10 pt-12 dark:border-neutral-100/10">
       <div class="space-y-8">
-        {
-          editions.map((edition) => (
-            <NewsletterEditionPreview
-              title={edition.data.title}
-              date={format(edition.data.date, "d MMM yyyy")}
-              datetime={edition.data.date.toISOString()}
-              slug={`/newsletter/${edition.slug}/`}
-              image={edition.data.coverImage.url}
-              alt={edition.data.coverImage.alt}
-            />
-          ))
-        }
+        {editions.map((edition) => <NewsletterEditionPreview edition={edition} />)}
       </div>
     </div>
   </section>

@@ -1,10 +1,8 @@
 ---
 title: "Writing better documentation, engineering culture, and the subscription economy"
-date: 2022-08-23
+publishDate: 2022-08-23
 week: 34
-coverImage:
-  url: "/src/content/newsletter/_images/thumbnail.png"
-  alt: "Makers Mansion"
+coverImage: "/src/content/newsletter/_images/thumbnail.png"
 ---
 
 **You're not competing with those who can do, but with those who do**

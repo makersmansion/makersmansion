@@ -1,10 +1,8 @@
 ---
 title: "Curiosity, opportunities, and who are the best managers"
-date: 2022-07-05
+publishDate: 2022-07-05
 week: 27
-coverImage:
-  url: "/src/content/newsletter/_images/thumbnail.png"
-  alt: "Makers Mansion"
+coverImage: "/src/content/newsletter/_images/thumbnail.png"
 ---
 
 **Curiosity has created more opportunities than hard work ever will**

@@ -5,11 +5,11 @@ const newsletterCollection = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string(),
-    date: z.date({ coerce: true }),
-    coverImage: z.object({
-      url: z.string(),
-      alt: z.string(),
-    }),
+    publishDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    coverImage: z.string(),
     socialImage: z.string().optional(),
   }),
 })

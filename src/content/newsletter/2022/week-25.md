@@ -1,10 +1,8 @@
 ---
 title: "Makers Mansion, new tools for frontend dev, and how to make money in a recession"
-date: 2022-06-21
+publishDate: 2022-06-21
 week: 25
-coverImage:
-  url: "/src/content/newsletter/_images/thumbnail.png"
-  alt: "Makers Mansion"
+coverImage: "/src/content/newsletter/_images/thumbnail.png"
 ---
 
 **Choose your tomorrow but start today**

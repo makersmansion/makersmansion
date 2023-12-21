@@ -1,10 +1,8 @@
 ---
 title: "Minimizing TTV, keeping a holistic view, and writing better error messages"
-date: 2022-10-30
+publishDate: 2022-10-30
 week: 43
-coverImage:
-  url: "/src/content/newsletter/_images/thumbnail.png"
-  alt: "Makers Mansion"
+coverImage: "/src/content/newsletter/_images/thumbnail.png"
 ---
 
 **What is it about Apple’s boxes that you don’t want to throw them away?**

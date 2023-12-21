@@ -1,10 +1,8 @@
 ---
 title: "Product principles, design market, and Apple losing the innovation game"
-date: 2022-07-12
+publishDate: 2022-07-12
 week: 28
-coverImage:
-  url: "/src/content/newsletter/_images/thumbnail.png"
-  alt: "Makers Mansion"
+coverImage: "/src/content/newsletter/_images/thumbnail.png"
 ---
 
 **Change your opinions, keep to your principles**

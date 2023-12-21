@@ -1,10 +1,8 @@
 ---
 title: "Creating value, finding product/market fit, and being a 2x person"
-date: 2022-06-28
+publishDate: 2022-06-28
 week: 26
-coverImage:
-  url: "/src/content/newsletter/_images/thumbnail.png"
-  alt: "Makers Mansion"
+coverImage: "/src/content/newsletter/_images/thumbnail.png"
 ---
 
 **Money doesn't follow money, money follows energy**

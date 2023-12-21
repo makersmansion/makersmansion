@@ -1,10 +1,8 @@
 ---
 title: "Doing your best, making a positive difference, and Mastodon’s vision"
-date: 2022-11-20
+publishDate: 2022-11-20
 week: 46
-coverImage:
-  url: "/src/content/newsletter/_images/x-0.jpg"
-  alt: "Game"
+coverImage: "/src/content/newsletter/_images/x-0.jpg"
 ---
 
 **How do you stay very grounded, and at the same time reach for the stars?**
