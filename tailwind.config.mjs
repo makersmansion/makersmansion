@@ -7,7 +7,6 @@ export default {
 	theme: {
 		fontFamily: {
 			sans: ["InterVariable", defaultTheme.fontFamily.sans],
-			serif: ["Sentient", defaultTheme.fontFamily.serif],
 		},
 		extend: {
 			screens: {
