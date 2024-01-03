@@ -2,7 +2,7 @@
 import { type CollectionEntry, getCollection, getEntry } from "astro:content"
 import { format } from "date-fns"
 import { Image } from "astro:assets"
-import Icon from "astro-icon"
+import { Icon } from "astro-icon/components"
 import { resolveCoverImage, resolveSocialImage } from "~/content/newsletter/_resolveImage.js"
 import RazAvatar from "~/images/raz.jpg"
 import Layout from "~/layouts/Base.astro"
@@ -38,7 +38,7 @@ const author = "Raz Tirboaca"
         <a
           href="/newsletter/"
           class="inline-flex items-center gap-x-1 text-sm font-medium text-neutral-500 transition-colors hover:text-inherit"
-          ><Icon pack="ri" name="arrow-left-line" class="h-4 w-4" />Newsletter</a
+          ><Icon name="ri:arrow-left-line" class="h-4 w-4" />Newsletter</a
         >
         <time
           datetime={data.publishDate.toISOString()}

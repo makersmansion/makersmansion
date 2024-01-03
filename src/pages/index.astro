@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content"
 import Layout from "~/layouts/Base.astro"
 import Link from "~/components/Link.astro"
-import { Icon } from "astro-icon"
+import { Icon } from "astro-icon/components"
 import { Image } from "astro:assets"
 import LinkButton from "~/components/LinkButton.astro"
 import EddaAvatar from "~/images/edda.png"
@@ -44,7 +44,7 @@ const editions = newsletter
             href="https://chat.openai.com/g/g-WWJVCQZgC-edda"
             variant="neutral"
             text="Open">
-            <Icon pack="simple-icons" name="openai" slot="icon-start" class="h-5" />
+            <Icon name="ri:openai-fill" slot="icon-start" class="size-5" />
           </LinkButton>
         </header>
         <p class="mt-3 max-w-xl text-neutral-500 [text-wrap:pretty]">
@@ -65,7 +65,7 @@ const editions = newsletter
             href="https://chat.openai.com/g/g-My90KcA8a-drip-og"
             variant="neutral"
             text="Open">
-            <Icon pack="simple-icons" name="openai" slot="icon-start" class="h-5" />
+            <Icon name="ri:openai-fill" slot="icon-start" class="size-5" />
           </LinkButton>
         </header>
         <p class="mt-3 max-w-xl text-neutral-500 [text-wrap:pretty]">
@@ -82,8 +82,7 @@ const editions = newsletter
     <p class="mt-8 text-center">
       <LinkButton href="/newsletter/" variant="secondary" text="View all">
         <Icon
-          pack="ri"
-          name="arrow-right-line"
+          name="ri:arrow-right-line"
           slot="icon-end"
           class="h-4 w-4 transition-transform will-change-transform group-hover:translate-x-0.5"
         />
