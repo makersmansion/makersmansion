@@ -5,16 +5,11 @@ import { Icon } from "astro-icon/components"
 import MakersLogo from "./MakersLogo.astro"
 import SocialLinks from "~/components/SocialLinks.astro"
 
-interface Props extends HTMLAttributes<"header"> {
-  class?: string
-}
-
 const socialLinks = siteInfo.socialLinks.filter((link) => !link.footerOnly)
-const { class: className, ...attrs } = Astro.props
 ---
 
-<header {...attrs} class:list={["mx-auto max-w-3xl px-3 pt-2 @container sm:px-5", className]}>
-  <nav aria-label="Primary" class="flex items-center gap-x-4">
+<header class="bg-primary-500 text-neutral-50 @container">
+  <nav aria-label="Primary" class="mx-auto flex max-w-3xl items-center gap-x-4 px-3 pt-2 sm:px-5">
     <a
       href="/"
       rel="prefetch"
@@ -30,4 +25,15 @@ const { class: className, ...attrs } = Astro.props
       <SocialLinks links={socialLinks} />
     </div>
   </nav>
+  <div class="overflow-hidden text-neutral-100 sm:max-h-10 dark:text-neutral-900">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      class="h-full w-full translate-y-0.5"
+      viewBox="0 0 1440 76">
+      <path
+        d="M0 1.188h180.8v20.187H360V0h180.8v12.969H720v16.625h180.8V7.125H1080v13.063h180.8v-9.344H1440V76H0V1.187Z"
+      ></path>
+    </svg>
+  </div>
 </header>

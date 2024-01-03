@@ -14,7 +14,7 @@ const { links } = Astro.props
     <a
       href={link.href}
       target="_blank"
-      class="inline-flex items-center p-3 text-neutral-500 transition-colors hover:text-inherit">
+      class="inline-flex items-center p-3 opacity-60 transition-opacity hover:opacity-100">
       <span class="sr-only">{link.text}</span>
       <Icon name={link.icon} class="size-5" aria-hidden="true" />
     </a>

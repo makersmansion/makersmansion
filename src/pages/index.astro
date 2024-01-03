@@ -22,16 +22,20 @@ const editions = newsletter
 
 <Layout title={title} description={description}>
   <section class="relative isolate mx-auto max-w-3xl px-6 py-20 sm:px-8">
-    <h1 class="text-2xl font-bold tracking-tight sm:text-4xl">Let AI do the heavy lifting</h1>
-    <p class="mt-1 text-lg font-medium text-neutral-500 [text-wrap:pretty] sm:mt-2 sm:text-xl">
-      We're a small team exploring AI assistants to refine everyday activities. Our core pursuit is
-      understanding human-AI interactions, aiming to desing the next-gen user experiences.
+    <h1 class="text-2xl font-bold tracking-tight sm:text-4xl">
+      AI <span class="text-primary-500">x</span> Design
+    </h1>
+    <p
+      class="mt-1 text-lg font-medium text-neutral-700 [text-wrap:pretty] sm:mt-2 sm:text-xl dark:text-neutral-400">
+      AI assistants to refine everyday activities. Our core pursuit is to desing the next-gen user
+      experiences.
     </p>
   </section>
   <section class="mx-auto max-w-3xl px-6 pb-20 sm:px-8">
     <h2 class="text-xl font-bold tracking-tight">AI assistants</h2>
-    <div class="mt-6 space-y-4">
-      <article class="rounded-2xl border border-neutral-800/10 p-6 dark:border-neutral-50/10">
+    <div class="mt-6 space-y-6">
+      <article
+        class="bg-white p-6 ring-4 ring-neutral-200 dark:bg-neutral-800 dark:ring-neutral-950">
         <header class="flex items-center justify-between">
           <div class="flex items-center gap-x-3">
             <figure
@@ -42,17 +46,19 @@ const editions = newsletter
           </div>
           <LinkButton
             href="https://chat.openai.com/g/g-WWJVCQZgC-edda"
-            variant="neutral"
+            variant="primary"
             text="Open">
             <Icon name="ri:openai-fill" slot="icon-start" class="size-5" />
           </LinkButton>
         </header>
-        <p class="mt-3 max-w-xl text-neutral-500 [text-wrap:pretty]">
+        <p
+          class="mt-3 max-w-xl leading-6 text-neutral-700 [text-wrap:pretty] dark:text-neutral-400">
           Create killer presentations 10x faster. Begin with an idea and end up with a slide deck
           that resonates.
         </p>
       </article>
-      <article class="rounded-2xl border border-neutral-800/10 p-6 dark:border-neutral-50/10">
+      <article
+        class="bg-white p-6 ring-4 ring-neutral-200 dark:bg-neutral-800 dark:ring-neutral-950">
         <header class="flex items-center justify-between">
           <div class="flex items-center gap-x-3">
             <figure
@@ -63,12 +69,13 @@ const editions = newsletter
           </div>
           <LinkButton
             href="https://chat.openai.com/g/g-My90KcA8a-drip-og"
-            variant="neutral"
+            variant="primary"
             text="Open">
             <Icon name="ri:openai-fill" slot="icon-start" class="size-5" />
           </LinkButton>
         </header>
-        <p class="mt-3 max-w-xl text-neutral-500 [text-wrap:pretty]">
+        <p
+          class="mt-3 max-w-xl leading-6 text-neutral-700 [text-wrap:pretty] dark:text-neutral-400">
           Upload selfies to check your outfit and get suggestions on style and colors.
         </p>
       </article>
@@ -76,7 +83,7 @@ const editions = newsletter
   </section>
   <section class="mx-auto max-w-3xl px-6 pb-20 sm:px-8">
     <h2 class="text-xl font-bold tracking-tight">Makers Newsletter</h2>
-    <div class="mt-6 grid gap-8 md:grid-cols-2">
+    <div class="mt-6 grid gap-8">
       {editions.map((edition) => <NewsletterEditionPreview edition={edition} />)}
     </div>
     <p class="mt-8 text-center">

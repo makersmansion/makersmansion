@@ -37,12 +37,12 @@ const author = "Raz Tirboaca"
       <div class="mb-12 flex items-center justify-between">
         <a
           href="/newsletter/"
-          class="inline-flex items-center gap-x-1 text-sm font-medium text-neutral-500 transition-colors hover:text-inherit"
+          class="inline-flex items-center gap-x-1 text-sm font-medium text-neutral-700 transition-colors hover:text-inherit dark:text-neutral-400"
           ><Icon name="ri:arrow-left-line" class="h-4 w-4" />Newsletter</a
         >
         <time
           datetime={data.publishDate.toISOString()}
-          class="text-sm font-medium text-neutral-500">
+          class="text-sm font-medium text-neutral-500 dark:text-neutral-700">
           {format(data.publishDate, "d MMM yyyy")}
         </time>
       </div>
@@ -56,24 +56,25 @@ const author = "Raz Tirboaca"
           <a
             href="https://twitter.com/razvantirboaca"
             target="_blank"
-            class="text-xs text-neutral-500 transition-colors hover:text-inherit">@razvantirboaca</a
+            class="text-xs text-neutral-700 transition-colors hover:text-inherit dark:text-neutral-400"
+            >@razvantirboaca</a
           ></span
         >
       </div>
     </header>
     <figure
-      class="relative isolate my-10 overflow-hidden rounded-lg after:pointer-events-none after:absolute after:inset-0 after:bg-[url(/images/noise.svg)] after:opacity-75 after:brightness-100 after:contrast-150 after:saturate-200">
+      class="relative isolate my-10 overflow-hidden ring-8 ring-neutral-200 dark:bg-black dark:ring-neutral-950">
       <Image
         src={coverImage}
         alt={data.title}
         width={coverImage.width}
         height={coverImage.height}
-        class="w-full dark:opacity-75"
+        class="w-full"
       />
     </figure>
     <div class="mt-8 md:mt-12">
       <div
-        class="prose prose-neutral max-w-none text-base dark:prose-invert prose-a:font-medium prose-a:decoration-neutral-800/25 prose-a:decoration-2 prose-a:underline-offset-2 prose-a:transition-colors hover:prose-a:decoration-primary-600 prose-strong:font-bold prose-hr:w-10 prose-hr:border-t-8 prose-hr:border-dotted dark:prose-a:decoration-neutral-100/30 dark:hover:prose-a:decoration-primary-500 sm:text-lg">
+        class="prose prose-neutral max-w-none text-base dark:prose-invert prose-a:font-medium prose-a:decoration-neutral-900/25 prose-a:decoration-2 prose-a:underline-offset-2 prose-a:transition-colors hover:prose-a:decoration-primary-500 prose-strong:font-bold prose-hr:mx-auto prose-hr:w-10 prose-hr:border-t-8 prose-hr:border-dotted sm:text-lg dark:prose-a:decoration-neutral-100/30 dark:hover:prose-a:decoration-primary-500">
         <Content />
       </div>
     </div>
