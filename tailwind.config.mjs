@@ -28,7 +28,7 @@ export default {
 				},
 				"neutral": {
 					'50': 'hsl(40, 14%, 98%)',
-					'100': 'hsl(48, 12%, 93%)',
+					'100': 'hsl(48, 12%, 92%)',
 					'200': 'hsl(69, 10%, 87%)',
 					'300': 'hsl(73, 7%, 81%)',
 					'400': 'hsl(81, 5%, 62%)',
@@ -42,7 +42,7 @@ export default {
 			},
 			fontSize: {
 				"base": ["1rem", "1.6"],
-				"lg": ["1.063rem", "1.6"],
+				"lg": ["1.125rem", "1.6"],
 				"xl": ["1.375rem", "1.2"],
 				"2xl": ["1.75rem", "1.2"],
 				"3xl": ["2.2rem", "1.15"],
@@ -59,8 +59,9 @@ export default {
 			},
 			boxShadow: {
 				"inner": "inset 0 1px 1px 0 rgba(0, 0, 0, 0.1)",
-				"sm": "0px 1px 1px -0.5px rgba(0, 0, 0, 0.1), 0px 3px 3px -1.5px rgba(0, 0, 0, 0.1), 0px 6px 6px -3px rgba(0, 0, 0, 0.1)",
-				"md": "0px 1px 1px -0.5px rgba(0, 0, 0, 0.1), 0px 3px 3px -1.5px rgba(0, 0, 0, 0.1), 0px 6px 6px -3px rgba(0, 0, 0, 0.1), 0px 12px 12px -6px rgba(0, 0, 0, 0.1), 0px 24px 24px -12px rgba(0, 0, 0, 0.1)",
+				"sm": "0 1px 1px hsla(111, 3%, 21%, 0.1), 0 2px 6px hsla(111, 3%, 21%, 0.08)",
+				"md": "0 4px 16px hsla(111, 3%, 21%, 0.04), 0 8px 24px hsla(111, 3%, 21%, 0.03), 0 16px 48px -16px hsla(111, 3%, 21%, 0.02)",
+				"lg": "0 10px 30px hsla(111, 3%, 21%, 0.04), 0 30px 80px hsla(111, 3%, 21%, 0.06), 0 50px 80px hsla(111, 3%, 21%, 0.04)",
 			},
 			typography: ({ theme }) => ({
 				neutral: {

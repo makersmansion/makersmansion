@@ -16,14 +16,13 @@ const editions = newsletter.sort(
 <Layout title={title}>
   <section class="mx-auto max-w-3xl px-6 py-20 sm:px-8">
     <h1 class="text-2xl font-bold tracking-tight sm:text-4xl">Makers Newsletter</h1>
-    <p class="mt-1 text-lg font-medium text-neutral-700 [text-wrap:pretty] sm:mt-2 sm:text-xl">
+    <p
+      class="mt-1 text-lg font-medium text-neutral-700 [text-wrap:pretty] sm:mt-2 sm:text-xl dark:text-neutral-400">
       Join 600+ makers and get a weekly summary of the best resources to move things forward. Highly
       relevant for product managers, designers, and engineers.
     </p>
-    <div class="mt-12 border-t border-neutral-900/10 pt-12 dark:border-neutral-100/10">
-      <div class="space-y-8">
-        {editions.map((edition) => <NewsletterEditionPreview edition={edition} />)}
-      </div>
+    <div class="divide-y divide-neutral-900/10 *:mt-8 *:pt-8 dark:divide-neutral-100/5">
+      {editions.map((edition) => <NewsletterEditionPreview edition={edition} />)}
     </div>
   </section>
 </Layout>

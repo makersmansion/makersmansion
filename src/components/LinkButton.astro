@@ -21,9 +21,9 @@ const {
 
 const variants = {
   primary:
-    "text-white bg-primary-500 hover:bg-primary-400 before:absolute before:inset-0 before:-z-10 before:rounded before:shadow-sm before:shadow-neutral-800/5 dark:before:content-none",
+    "text-neutral-50 bg-primary-500 hover:bg-primary-400 before:absolute before:inset-0 before:-z-10 before:rounded-full before:shadow-sm dark:before:content-none",
   neutral:
-    "bg-neutral-800/20 before:absolute before:inset-0 before:-z-10 before:rounded-sm before:bg-white before:shadow-sm before:shadow-neutral-800/5 before:hover:bg-neutral-50 dark:before:content-none dark:bg-neutral-100/20 dark:hover:bg-neutral-100/30",
+    "text-neutral-50 bg-neutral-900 hover:bg-neutral-800 before:absolute before:inset-0 before:-z-10 before:rounded-full before:shadow-sm   dark:before:content-none",
   secondary:
     "bg-neutral-900/10 hover:bg-neutral-900/15 dark:bg-neutral-100/5 dark:hover:bg-neutral-100/10",
 }
@@ -38,7 +38,7 @@ const sizes = {
   {...attrs}
   {href}
   class:list={[
-    "group relative isolate inline-flex items-center justify-center gap-1.5 rounded border border-transparent font-medium transition-colors focus:outline-none focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-inherit",
+    "group relative isolate inline-flex items-center justify-center gap-1.5 rounded-full font-semibold transition-colors focus:outline-none focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-inherit",
     variants[variant],
     sizes[size],
     className,

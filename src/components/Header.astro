@@ -8,31 +8,34 @@ import SocialLinks from "~/components/SocialLinks.astro"
 const socialLinks = siteInfo.socialLinks.filter((link) => !link.footerOnly)
 ---
 
-<header class="bg-primary-500 text-neutral-50 @container">
-  <nav aria-label="Primary" class="mx-auto flex max-w-3xl items-center gap-x-4 px-3 pt-2 sm:px-5">
+<header class="bg-neutral-100 @container dark:bg-neutral-900">
+  <nav
+    aria-label="Primary"
+    class="mx-auto flex max-w-3xl items-center gap-x-4 px-3 pb-1 pt-3 sm:px-5 sm:pb-2">
     <a
       href="/"
       rel="prefetch"
       title="Makers Mansion"
-      class="group inline-flex items-center gap-x-1 px-3 py-2 text-sm">
-      <MakersLogo
-        size="w-10"
-        class="shrink-0 origin-center scale-75 transition duration-300 will-change-transform group-hover:scale-100"
-      />
+      class="group flex items-center gap-x-3 px-3 py-2 text-sm">
+      <figure
+        class="inline-flex size-12 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-primary-400 via-primary-500 to-primary-500 text-neutral-50">
+        <MakersLogo size="w-1/2" />
+      </figure>
       <b class="font-bold">Makers Mansion</b>
     </a>
     <div class="ml-auto flex items-center">
       <SocialLinks links={socialLinks} />
     </div>
   </nav>
-  <div class="overflow-hidden text-neutral-100 sm:max-h-10 dark:text-neutral-900">
+  <div class="overflow-hidden text-neutral-200 dark:text-neutral-950">
     <svg
       xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
       fill="currentColor"
-      class="h-full w-full translate-y-0.5"
-      viewBox="0 0 1440 76">
+      class="h-4 w-full translate-y-0.5"
+      viewBox="0 0 1920 118">
       <path
-        d="M0 1.188h180.8v20.187H360V0h180.8v12.969H720v16.625h180.8V7.125H1080v13.063h180.8v-9.344H1440V76H0V1.187Z"
+        d="M0 118V26.895c88.036 27.933 176.072 55.867 296 63 119.928 7.133 271.749-6.533 393-25 121.251-18.466 211.933-41.733 312-54 100.07-12.267 209.52-13.533 323-7 113.48 6.534 230.99 20.867 331 26 100.01 5.134 182.5 1.067 265-3V118H0Z"
       ></path>
     </svg>
   </div>
