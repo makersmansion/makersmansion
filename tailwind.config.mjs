@@ -8,6 +8,13 @@ export default {
 		fontFamily: {
 			sans: ["InterVariable", defaultTheme.fontFamily.sans],
 		},
+		borderRadius: {
+			'none': '0',
+			'sm': '0.188rem',
+			'md': '0.75rem',
+			'lg': '1.25rem',
+			'full': '9999px',
+		},
 		extend: {
 			screens: {
 				"2xl": "1400px",
@@ -42,9 +49,9 @@ export default {
 			},
 			fontSize: {
 				"base": ["1rem", "1.6"],
-				"lg": ["1.125rem", "1.6"],
-				"xl": ["1.375rem", "1.2"],
-				"2xl": ["1.75rem", "1.2"],
+				"lg": ["1.25rem", "1.6"],
+				"xl": ["1.625rem", "1.2"],
+				"2xl": ["1.875rem", "1.2"],
 				"3xl": ["2.2rem", "1.15"],
 				"4xl": ["2.5rem", "1.1"],
 			},
@@ -59,8 +66,8 @@ export default {
 			},
 			boxShadow: {
 				"inner": "inset 0 1px 1px 0 rgba(0, 0, 0, 0.1)",
-				"sm": "0 1px 1px hsla(111, 3%, 21%, 0.1), 0 2px 6px hsla(111, 3%, 21%, 0.08)",
-				"md": "0 4px 16px hsla(111, 3%, 21%, 0.04), 0 8px 24px hsla(111, 3%, 21%, 0.03), 0 16px 48px -16px hsla(111, 3%, 21%, 0.02)",
+				"sm": "0 1px 1px hsla(111, 3%, 21%, 0.1), 0 2px 6px hsla(111, 3%, 21%, 0.05)",
+				"md": "0 2px 4px hsla(111, 3%, 21%, 0.05), 0 4px 16px hsla(111, 3%, 21%, 0.04), 0 8px 24px hsla(111, 3%, 21%, 0.03), 0 16px 48px -16px hsla(111, 3%, 21%, 0.02)",
 				"lg": "0 10px 30px hsla(111, 3%, 21%, 0.04), 0 30px 80px hsla(111, 3%, 21%, 0.06), 0 50px 80px hsla(111, 3%, 21%, 0.04)",
 			},
 			typography: ({ theme }) => ({

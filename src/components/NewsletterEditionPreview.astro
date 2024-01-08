@@ -23,7 +23,7 @@ const image = await resolveCoverImage(edition)
     href={`/newsletter/${edition.slug}/`}
     data-astro-prefetch
     class="group flex h-full flex-col items-start gap-3 transition-colors @md:flex-row @md:gap-6">
-    <figure class="overflow-hidden rounded-xl @md:w-1/5 @md:rounded-md">
+    <figure class="overflow-hidden rounded-sm @md:w-1/5">
       <Image
         src={image}
         alt={edition.data.title}

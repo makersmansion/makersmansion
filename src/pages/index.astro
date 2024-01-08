@@ -23,59 +23,61 @@ const editions = newsletter
 <Layout title={title} description={description}>
   <section class="relative isolate mx-auto max-w-3xl px-6 py-20 sm:px-8">
     <h1 class="text-2xl font-bold tracking-tight [text-wrap:pretty] sm:text-4xl">
-      AI meets Design.
-      <span class="block text-neutral-500 dark:text-neutral-600">
-        We make <Icon name="ri:sparkling-2-fill" class="inline text-primary-500" /> assistants for your
-        everyday activities.
-      </span>
+      AI meets Design
     </h1>
+    <p class="mt-1 text-xl text-neutral-700 sm:text-2xl dark:text-neutral-400">
+      We make <Icon name="ri:sparkling-2-fill" class="inline text-primary-500" /> assistants for your
+      everyday activities.
+    </p>
   </section>
   <section class="mx-auto max-w-3xl px-6 py-20 sm:px-8">
     <h2 class="text-xl font-bold tracking-tight">GPT assistants</h2>
-    <div class="-mt-8 divide-y divide-neutral-900/10 *:mt-8 *:pt-8 dark:divide-neutral-100/5">
+    <div class="mt-8 grid gap-4 md:grid-cols-2">
       <article class="@container">
-        <div class="flex items-center gap-x-6">
-          <div class="flex items-start gap-x-6">
-            <figure
-              class="relative isolate size-16 shrink-0 overflow-hidden rounded-lg bg-neutral-700 shadow-sm after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:border after:border-black/10 after:mix-blend-multiply dark:after:border-white/10">
-              <Image src={EddaAvatar} alt="Edda" />
-            </figure>
-            <div class="flex-1">
-              <h3 class="text-lg font-bold">Edda</h3>
-              <p class="leading-6 text-neutral-700 [text-wrap:pretty] dark:text-neutral-400">
-                Create killer presentations 10x faster. Begin with an idea and end up with a slide
-                deck that resonates.
-              </p>
-            </div>
+        <div
+          class="flex flex-col items-center gap-6 rounded-lg bg-neutral-50/50 p-8 text-center shadow-md @lg:flex-row @lg:items-start @lg:text-left">
+          <figure
+            class="relative isolate size-20 shrink-0 overflow-hidden rounded-md bg-neutral-700 shadow-sm after:pointer-events-none after:absolute after:inset-0 after:rounded-md after:border after:border-black/10 after:mix-blend-multiply dark:after:border-white/10">
+            <Image src={EddaAvatar} alt="Edda" />
+          </figure>
+          <div class="flex-1">
+            <h3 class="text-lg font-bold">Edda</h3>
+            <p class="mt-1 leading-6 text-neutral-700 [text-wrap:pretty] dark:text-neutral-400">
+              Create killer presentations 10x faster. Begin with an idea and end up with a slide
+              deck that resonates.
+            </p>
           </div>
-          <LinkButton
-            href="https://chat.openai.com/g/g-WWJVCQZgC-edda"
-            variant="neutral"
-            text="Open">
-            <Icon name="ri:openai-fill" slot="icon-start" class="size-5" />
-          </LinkButton>
+          <div class="mt-2">
+            <LinkButton
+              href="https://chat.openai.com/g/g-WWJVCQZgC-edda"
+              variant="neutral"
+              text="Open">
+              <Icon name="ri:openai-fill" slot="icon-start" class="size-5" />
+            </LinkButton>
+          </div>
         </div>
       </article>
       <article class="@container">
-        <div class="flex items-center gap-x-6">
-          <div class="flex items-start gap-x-6">
-            <figure
-              class="relative isolate size-16 shrink-0 overflow-hidden rounded-lg bg-neutral-700 shadow-sm after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:border after:border-black/10 after:mix-blend-multiply dark:after:border-white/10">
-              <Image src={DripOGAvatar} alt="Drip OG" />
-            </figure>
-            <div class="flex-1">
-              <h3 class="text-lg font-bold">Drip OG ❖</h3>
-              <p class="leading-6 text-neutral-700 [text-wrap:pretty] dark:text-neutral-400">
-                Upload selfies to check your outfit and get suggestions on style and colors.
-              </p>
-            </div>
+        <div
+          class="flex flex-col items-center gap-6 rounded-lg bg-neutral-50/50 p-8 text-center shadow-md @lg:flex-row @lg:items-start @lg:text-left">
+          <figure
+            class="relative isolate size-20 shrink-0 overflow-hidden rounded-md bg-neutral-700 shadow-sm after:pointer-events-none after:absolute after:inset-0 after:rounded-md after:border after:border-black/10 after:mix-blend-multiply dark:after:border-white/10">
+            <Image src={DripOGAvatar} alt="Drip OG" />
+          </figure>
+          <div class="flex-1">
+            <h3 class="text-lg font-bold">Drip OG ❖</h3>
+            <p class="mt-1 leading-6 text-neutral-700 [text-wrap:pretty] dark:text-neutral-400">
+              Upload selfies to check your outfit and get suggestions on style and colors.
+            </p>
           </div>
-          <LinkButton
-            href="https://chat.openai.com/g/g-My90KcA8a-drip-og"
-            variant="neutral"
-            text="Open">
-            <Icon name="ri:openai-fill" slot="icon-start" class="size-5" />
-          </LinkButton>
+          <div class="mt-2">
+            <LinkButton
+              href="https://chat.openai.com/g/g-My90KcA8a-drip-og"
+              variant="neutral"
+              text="Open">
+              <Icon name="ri:openai-fill" slot="icon-start" class="size-5" />
+            </LinkButton>
+          </div>
         </div>
       </article>
     </div>
