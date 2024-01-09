@@ -3,7 +3,7 @@ import type { HTMLAttributes } from "astro/types"
 
 interface Props extends HTMLAttributes<"a"> {
   variant?: "primary" | "neutral" | "secondary"
-  size?: "base" | "lg"
+  size?: "base"
   text: string
   ariaLabel?: string
   class?: string
@@ -29,8 +29,7 @@ const variants = {
 }
 
 const sizes = {
-  base: "px-4 py-2 text-sm",
-  lg: "px-6 py-3 leading-6",
+  base: "px-5 py-2.5 leading-5",
 }
 ---
 

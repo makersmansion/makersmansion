@@ -29,10 +29,7 @@ const editions = newsletter
       We make <Icon name="ri:sparkling-2-fill" class="inline text-primary-500" /> assistants for your
       everyday activities.
     </p>
-  </section>
-  <section class="mx-auto max-w-3xl px-6 py-20 sm:px-8">
-    <h2 class="text-lg/tight font-bold tracking-tight sm:text-xl">GPT assistants</h2>
-    <div class="mt-8 grid gap-4 md:grid-cols-2">
+    <div class="mt-16 grid gap-4 md:grid-cols-2">
       <article class="@container">
         <div
           class="flex flex-col items-center gap-6 rounded-lg bg-neutral-50/50 p-8 text-center shadow-md @lg:flex-row @lg:items-start @lg:text-left dark:bg-neutral-800/15 dark:ring-1 dark:ring-neutral-50/5">
@@ -93,7 +90,7 @@ const editions = newsletter
       {editions.map((edition) => <NewsletterEditionPreview edition={edition} />)}
     </div>
     <p class="mt-4 text-center">
-      <LinkButton variant="secondary" href="/newsletter/" size="lg" text="View all">
+      <LinkButton variant="secondary" href="/newsletter/" text="View all">
         <Icon
           name="ri:arrow-right-s-line"
           class="size-5 transition-transform will-change-transform group-hover:translate-x-1"
