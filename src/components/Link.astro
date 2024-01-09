@@ -9,6 +9,6 @@ const { href, ...attrs } = Astro.props
 <a
   {...attrs}
   href={href}
-  class="font-medium text-inherit underline decoration-neutral-800/25 decoration-2 underline-offset-2 transition-colors hover:decoration-primary-600">
+  class="inline-flex items-center gap-x-1 text-inherit underline decoration-neutral-800/25 decoration-2 underline-offset-2 transition-colors hover:decoration-primary-600">
   <slot />
 </a>

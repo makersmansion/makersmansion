@@ -31,7 +31,7 @@ const editions = newsletter
     </p>
   </section>
   <section class="mx-auto max-w-3xl px-6 py-20 sm:px-8">
-    <h2 class="text-xl font-bold tracking-tight">GPT assistants</h2>
+    <h2 class="text-lg/tight font-bold tracking-tight sm:text-xl">GPT assistants</h2>
     <div class="mt-8 grid gap-4 md:grid-cols-2">
       <article class="@container">
         <div
@@ -83,19 +83,19 @@ const editions = newsletter
     </div>
   </section>
   <section class="mx-auto max-w-3xl px-6 py-20 sm:px-8">
-    <div class="flex items-center justify-between">
-      <h2 class="text-xl font-bold tracking-tight">Makers Newsletter</h2>
-
-      <a
-        href="/newsletter/"
-        class="inline-flex items-center gap-x-1.5 text-sm font-semibold text-neutral-700 transition-colors hover:text-inherit dark:text-neutral-400">
-        View all
-        <Icon name="ri:arrow-right-line" class="size-5" />
-      </a>
+    <div>
+      <h2 class="text-2xl font-bold tracking-tight sm:text-3xl">Makers Newsletter</h2>
+      <p class="mt-2 text-lg/tight text-neutral-700 [text-wrap:pretty] dark:text-neutral-400">
+        Join 600+ makers and get a weekly summary of the best resources to move things forward.
+      </p>
     </div>
-    <div class="-mt-8 divide-y divide-neutral-900/10 *:mt-8 *:pt-8 dark:divide-neutral-100/5">
+    <div class="mt-8 space-y-2">
       {editions.map((edition) => <NewsletterEditionPreview edition={edition} />)}
     </div>
-    <p class="mt-8 text-center"></p>
+    <p class="mt-4 text-center">
+      <LinkButton variant="secondary" href="/newsletter/" text="View all">
+        <Icon name="ri:arrow-right-line" class="size-5" slot="icon-end" />
+      </LinkButton>
+    </p>
   </section>
 </Layout>

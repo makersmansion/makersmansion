@@ -2,6 +2,7 @@
 import { Image } from "astro:assets"
 import { resolveCoverImage } from "~/content/newsletter/_resolveImage.js"
 import { format } from "date-fns"
+import { Icon } from "astro-icon/components"
 
 export type Props = {
   edition: {
@@ -22,25 +23,27 @@ const image = await resolveCoverImage(edition)
   <a
     href={`/newsletter/${edition.slug}/`}
     data-astro-prefetch
-    class="group flex h-full flex-col items-start gap-3 transition-colors @md:flex-row @md:gap-6">
-    <figure class="overflow-hidden rounded-sm @md:w-1/5">
+    class="group flex h-full flex-col items-center gap-4 rounded-sm bg-neutral-900/5 px-6 py-4 transition-colors @md:flex-row dark:bg-neutral-800/15">
+    <div class="flex-1">
+      <h3 class="font-bold leading-6 [text-wrap:pretty] group-hover:text-primary-500">
+        {edition.data.title}
+      </h3>
+      <p
+        class="mt-2 flex items-center gap-x-1.5 text-sm font-semibold text-neutral-600 dark:text-neutral-700">
+        <Icon name="ri:calendar-event-line" class="size-4" />
+        <time datetime={edition.data.publishDate.toISOString()}>
+          {format(edition.data.publishDate, "d MMM yyyy")}
+        </time>
+      </p>
+    </div>
+    <figure class="overflow-hidden rounded-sm @md:w-1/6">
       <Image
         src={image}
         alt={edition.data.title}
         width={image.width}
         height={image.height}
-        class="aspect-video object-cover"
+        class="aspect-[4/3] object-cover"
       />
     </figure>
-    <div class="flex-1 px-2 @md:px-0">
-      <h3 class="text-lg/snug font-bold [text-wrap:pretty] group-hover:text-primary-500">
-        {edition.data.title}
-      </h3>
-      <p class="mt-1 leading-6 text-neutral-700 [text-wrap:pretty] dark:text-neutral-400">
-        <time datetime={edition.data.publishDate.toISOString()}
-          >{format(edition.data.publishDate, "d MMM yyyy")}</time
-        >
-      </p>
-    </div>
   </a>
 </article>

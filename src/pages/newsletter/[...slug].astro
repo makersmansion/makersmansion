@@ -41,13 +41,13 @@ const author = "Raz Tirboaca"
       >
     </div>
     <header>
-      <h1 class="text-2xl font-bold tracking-tight [text-wrap:pretty] md:text-3xl">
+      <h1 class="text-2xl font-bold tracking-tight [text-wrap:pretty] md:text-4xl">
         {data.title}
       </h1>
       <div class="mt-4 flex items-center gap-6 sm:mt-6">
         <div
-          class="inline-flex items-center gap-x-1.5 text-sm text-neutral-700 dark:text-neutral-400">
-          <Icon name="ri:calendar-event-line" class="size-5" />
+          class="inline-flex items-center gap-x-1.5 text-sm font-semibold text-neutral-600 dark:text-neutral-700">
+          <Icon name="ri:calendar-event-line" class="size-4" />
           <time datetime={data.publishDate.toISOString()}>
             {format(data.publishDate, "d MMM yyyy")}
           </time>
@@ -55,8 +55,8 @@ const author = "Raz Tirboaca"
         <a
           href="https://twitter.com/razvantirboaca"
           target="_blank"
-          class="inline-flex items-center gap-x-1.5 text-sm text-neutral-700 transition-colors hover:text-inherit dark:text-neutral-400">
-          <Image src={RazAvatar} class="size-6 rounded-full" alt={author} />{author}
+          class="inline-flex items-center gap-x-1.5 text-sm font-semibold text-neutral-600 transition-colors hover:text-inherit dark:text-neutral-700">
+          <Image src={RazAvatar} class="size-5 rounded-full" alt={author} />{author}
         </a>
       </div>
     </header>
