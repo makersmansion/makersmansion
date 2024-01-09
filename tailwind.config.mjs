@@ -10,7 +10,7 @@ export default {
 		},
 		borderRadius: {
 			'none': '0',
-			'sm': '0.188rem',
+			'sm': '0.25rem',
 			'md': '0.75rem',
 			'lg': '1.25rem',
 			'full': '9999px',
@@ -56,9 +56,9 @@ export default {
 				"4xl": ["2.5rem", "1.1"],
 			},
 			fontWeight: {
-				"normal": "440",
+				"normal": "420",
 				"medium": "520",
-				"semibold": "630",
+				"semibold": "620",
 				"bold": "720",
 			},
 			letterSpacing: {

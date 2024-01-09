@@ -93,8 +93,12 @@ const editions = newsletter
       {editions.map((edition) => <NewsletterEditionPreview edition={edition} />)}
     </div>
     <p class="mt-4 text-center">
-      <LinkButton variant="secondary" href="/newsletter/" text="View all">
-        <Icon name="ri:arrow-right-line" class="size-5" slot="icon-end" />
+      <LinkButton variant="secondary" href="/newsletter/" size="lg" text="View all">
+        <Icon
+          name="ri:arrow-right-s-line"
+          class="size-5 transition-transform will-change-transform group-hover:translate-x-1"
+          slot="icon-end"
+        />
       </LinkButton>
     </p>
   </section>
