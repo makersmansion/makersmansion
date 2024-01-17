@@ -7,7 +7,7 @@ coverImage: "/src/content/newsletter/_images/thumbnail.png"
 
 **It doesn't matter what you say, it matters what they hear**
 
-Hello, hello!
+Hello everyone! 
 
 I'm coming with great news and a fresh approach to moving forward with the Makers newsletter. I will stop publishing it on LinkedIn – based on your feedback, I learned that LinkedIn works better for short-form content, so I redesigned the Makers website to create a calmer reading experience where everyone can take the time here to digest the weekly. Thank you for that and enjoy the new design!
 
