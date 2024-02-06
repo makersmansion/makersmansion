@@ -3,7 +3,7 @@
   "bracketSameLine": true,
   "trailingComma": "all",
   "semi": false,
-  "printWidth": 100,
+  "printWidth": 130,
   "plugins": ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
   "pluginSearchDirs": false,
   "overrides": [
